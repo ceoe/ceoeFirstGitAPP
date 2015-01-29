@@ -39,6 +39,8 @@
             this.dataSet13 = new System.Data.DataSet();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.lbKindofTools = new System.Windows.Forms.Label();
+            this.lbTotalNumofHole = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGR1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet13)).BeginInit();
@@ -148,11 +150,31 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // lbKindofTools
+            // 
+            this.lbKindofTools.AutoSize = true;
+            this.lbKindofTools.Location = new System.Drawing.Point(561, 22);
+            this.lbKindofTools.Name = "lbKindofTools";
+            this.lbKindofTools.Size = new System.Drawing.Size(89, 12);
+            this.lbKindofTools.TabIndex = 11;
+            this.lbKindofTools.Text = "Kind of Tools:";
+            // 
+            // lbTotalNumofHole
+            // 
+            this.lbTotalNumofHole.AutoSize = true;
+            this.lbTotalNumofHole.Location = new System.Drawing.Point(729, 22);
+            this.lbTotalNumofHole.Name = "lbTotalNumofHole";
+            this.lbTotalNumofHole.Size = new System.Drawing.Size(77, 12);
+            this.lbTotalNumofHole.TabIndex = 12;
+            this.lbTotalNumofHole.Text = "Total Holes:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1164, 706);
+            this.Controls.Add(this.lbTotalNumofHole);
+            this.Controls.Add(this.lbKindofTools);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGR1);
@@ -186,6 +208,8 @@
         private System.Data.DataSet dataSet13;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lbKindofTools;
+        private System.Windows.Forms.Label lbTotalNumofHole;
     }
 }
 

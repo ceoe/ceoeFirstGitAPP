@@ -37,7 +37,7 @@ namespace DrilTapeTest1
         {
             try
             {
-                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1 - 副本.drl");
+                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
 
                 m_Data = m_SW.ReadToEnd();
                 this.tb_MiscOP.Text = m_Data;
@@ -69,7 +69,7 @@ namespace DrilTapeTest1
 
             try
             {
-                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1 - 副本.drl");
+                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
 
                 do
                 {
@@ -326,8 +326,10 @@ namespace DrilTapeTest1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DrillTAPE drill1 = new DrillTAPE(@"E:\aoi4-p\02a0450186b1\02a0450186b1 - 副本.drl");
-         }
+            DrillTAPE drill1 = new DrillTAPE(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
+            lbTotalNumofHole.Text += drill1.TotalNumofhole;
+            lbKindofTools.Text += drill1.KindofTools;
+        }
 
  
     }

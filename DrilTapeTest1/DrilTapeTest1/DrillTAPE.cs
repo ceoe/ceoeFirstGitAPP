@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -11,238 +12,43 @@ using System.Windows.Forms;
 
 namespace DrilTapeTest1
 {
-    enum DrlUnit
+    public enum DrlUnit
     {
         Metric,Inch
     }
 
-    enum ZeroCompress
+    public enum ZeroCompress
     {
         Leading,Trail,None
     }
 
-   internal class DrillTAPE
+   public class DrillTAPE
     {
-        private DrlUnit unit;
+        private DrlUnit drlUnit;
         private ZeroCompress zeroCompress;
         private short integerField;
         private short decimalDiatal;
 
-        private float[] Toolslist;
+        private float[] _toolslist;
+        private int _totalNumofhole;
 
         List<HoleShape>  HoleList=new List<HoleShape>();
-        List<SlotShape> SlotList=new List<SlotShape>();
-        
+        List<SlotShape>  SlotList=new List<SlotShape>();
+        List<CircleShape> CircleList = new List<CircleShape>();
 
         private HoleShape[] holeshape;
         private SlotShape[] slotshape;
+        private CircleShape[] circleShapes;
+
 
         public DrillTAPE(string readTapepath)
         {
 
-           getFileFormate(readTapepath);
-           getCoordinate(readTapepath);
-
+           GetFileFormateAndToolOrder(readTapepath);
+           GetCoordinateAndShape(readTapepath);
+           totalhit();
         }
-
-
-        public void getFileFormate(string readTapepath)
-        {
-          
-            Regex rgUnit = new Regex(@"METRIC|INCH");
-            Regex rgZeroCompress = new Regex(@"TZ|LZ|NONE");
-            Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})C(?<Diameter>\d{1,2}\.\d*)", RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
-            List<float> tOrderList=new List<float>();
-            string tempstr1;
-
-
-            try
-            {
-                StreamReader m_SW = new StreamReader(readTapepath);
-
-                do
-                {
-                    tempstr1 = m_SW.ReadLine();
-                    if (tempstr1 != null)
-                    {
-                        if (tempstr1.Contains("%"))
-                        {
-                            break;
-                        }
-                        Match unitmatchs = rgUnit.Match(tempstr1);
-                        if (unitmatchs.Success)
-                        {
-                            if (unitmatchs.Value.ToUpper().Equals("METRIC"))
-                            {
-                                this.unit = DrlUnit.Metric; 
-                            }
-                            if (unitmatchs.Value.ToUpper().Equals("INCH"))
-                            {
-                                this.unit = DrlUnit.Inch;
-                            }
-                            
-                        }
-                        Match zeroMatch= rgZeroCompress.Match(tempstr1);
-                        if (zeroMatch.Success)
-                        {
-
-                            if (zeroMatch.Value.ToUpper().Equals("LT"))
-                            {
-                                this.zeroCompress = ZeroCompress.Leading;
-                            }
-                            if (zeroMatch.Value.ToUpper().Equals("INCH"))
-                            {
-                                this.zeroCompress = ZeroCompress.Trail;
-                            }
-                            if (zeroMatch.Value.ToUpper().Equals("NONE"))
-                            {
-                                this.zeroCompress = ZeroCompress.Leading;
-                            }
-                
-                        }
-                        Match tOrdermatches = rgTorderstr.Match(tempstr1);
-                        if (tOrdermatches.Length > 0)
-                        {
-                            tOrderList.Add(Convert.ToSingle(tOrdermatches.Result("${Diameter}")));
-                            //Toolslist[Convert.ToInt32(tOrdermatches.Result("${Torder}"))] = Convert.ToSingle(tOrdermatches.Result("${Diameter}"));
-                        }
-                    }
-                }while (tempstr1 != null);
-            }
-            catch (IOException ex)
-            {
-
-                MessageBox.Show("This is a IO Exception :" + ex.Message);
-            }
-            if (tOrderList.Count>0)
-            {
-                Toolslist=new float[tOrderList.Count];
-                for (int i = 0; i < tOrderList.Count; i++)
-                {
-                    Toolslist[i] = tOrderList[i];
-                }
-            }
-
-        }
-
-        public void getCoordinate(string readTapepath)
-
-        {
-            
-            Regex rgx = new Regex(@"[X](\d{3}\.\d{3})", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-            Regex rgy = new Regex(@"[Y](\d{3}\.\d{3})", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-
-            List<Single> xFloats = new List<Single>();
-            List<Single> yFloats = new List<Single>();
-
-
-            Regex rg = new Regex(@"([xyXY]\d+)");
-            Regex rg2 = new Regex(@"([xyXY]\d{6})0*");
-            Regex rg3 = new Regex(@"([xyXY]\d{3})(\d{3})");
-            Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})",RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
-
-            string tempstr1, tempstr2;
-
-
-            try
-            {
-                StreamReader m_SW = new StreamReader(readTapepath);
-
-                do
-                {
-                    tempstr1 = m_SW.ReadLine();
-                    if (tempstr1.Contains("%"))
-                    {
-                        break;
-                    }
-
-                } while (tempstr1 != null);
-
-                float size=0;
-                int tOrder=0;
-                List<PointF>  pointFArray=new List<PointF>();
-                PointF[] temPointFs;
-                do
-                {
-                    tempstr1 = m_SW.ReadLine();
-                    if (tempstr1.Contains("M30"))
-                    {
-                      if (pointFArray.Count > 0)
-                        {
-                            temPointFs = pointFArray.ToArray();
-                            CoordinateGroup tempCoordgp = new CoordinateGroup(temPointFs);
-                            HoleShape hs = new HoleShape(size, tOrder - 1, tempCoordgp);
-                            HoleList.Add(hs);
-                            pointFArray.Clear();
-                        }
-                      break;
-                    }
-
-                    Match toolsOrdermatchs = rgTorderstr.Match(tempstr1);
-                    if (toolsOrdermatchs.Success)
-                    {
-                        if (tOrder==0)
-                        {
-                            tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
-                            size = Toolslist[tOrder - 1];
-                        }
-                        else
-                        {
-                            if (pointFArray.Count > 0)
-                            {
-                                temPointFs = pointFArray.ToArray();
-                                CoordinateGroup tempCoordgp = new CoordinateGroup(temPointFs);
-                                HoleShape hs = new HoleShape(size, tOrder - 1, tempCoordgp);
-                                HoleList.Add(hs);
-                                pointFArray.Clear();
-                                tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
-                                size = Toolslist[tOrder - 1];
-                            }
-
-                        }
-                       
-                       
-                       
-                        continue;
-                    }
-
-                    if (rg.IsMatch(tempstr1))
-                    {
-
-
-                        tempstr2 = rg.Replace(tempstr1, @"${1}00000");
-                        tempstr2 = rg2.Replace(tempstr2, @"${1}");
-                        tempstr2 = rg3.Replace(tempstr2, @"${1}.${2}");
-
-                        Match mmMatch = rgx.Match(tempstr2);
-                        if (mmMatch.Success)
-                        {
-
-                            xFloats.Add(Convert.ToSingle(mmMatch.Groups[1].ToString()));
-                        }
-
-                        mmMatch = rgy.Match(tempstr2);
-                        if (mmMatch.Success)
-                        {
-                            yFloats.Add(Convert.ToSingle(mmMatch.Groups[1].ToString()));
-                        }
-                        PointF temPointF = new PointF(xFloats[xFloats.Count - 1], yFloats[yFloats.Count - 1]);
-                        pointFArray.Add(temPointF);
-
-                    }
-                }while (tempstr1 != null);
-
-            }
-            catch (IOException ex)
-            {
-
-                MessageBox.Show("This is a IO Exception :" + ex.Message);
-            }
-
-        }
-
-
-        public  class CoordinateGroup
+       public  class CoordinateGroup
         {
             private PointF[] pointfs;
 
@@ -252,12 +58,7 @@ namespace DrilTapeTest1
                 set { pointfs = value; }
             }
 
-            public PointF this[int index]
-            {
-                get { return Pointfs[index]; }
-                set { Pointfs[index] = value; }
-            }
-
+          
             public CoordinateGroup(PointF[] pointf)
             {
                 this.pointfs = pointf;
@@ -266,6 +67,82 @@ namespace DrilTapeTest1
             public int GetCoordinateCount()
             {
                 return this.pointfs.Count();
+            }
+        }
+
+       public int TotalNumofhole
+       {
+           get { return _totalNumofhole; }
+       }
+
+       public int KindofTools
+       {
+           get { return _toolslist.Length; }
+       }
+
+       public DrlUnit DrlUnit
+       {
+           get { return drlUnit; }
+       }
+
+       public ZeroCompress ZeroCompress
+       {
+           get { return zeroCompress; }
+       }
+
+       public void totalhit()
+       {
+           int _totalhit=0;
+           foreach (HoleShape holeShape in HoleList)
+           {
+              _totalhit+= holeShape.Count;
+           }
+           foreach (var circleShape in CircleList)
+           {
+               _totalhit += circleShape.Count;
+           }
+           foreach (var slotShape in SlotList)
+           {
+               _totalhit += slotShape.Count;
+           }
+           this._totalNumofhole = _totalhit;
+       }
+
+       public class CircleCoordinateGroup
+        {
+            private PointF[] _pointfs;
+
+            private float[] _drlcircleDia;
+
+            private int count;
+
+            public PointF[] Pointfs
+            {
+                get { return _pointfs; }
+              
+            }
+
+            public float[] CircleDia
+            {
+                get { return _drlcircleDia; }
+            }
+
+           public int Count
+           {
+               get { return count; }
+           }
+
+
+           public CircleCoordinateGroup(PointF[] pointf,float[] circleDia)
+            {
+                this._pointfs = pointf;
+                this._drlcircleDia = circleDia;
+               this.count = _pointfs.Count();
+            }
+
+            public int GetCoordinateCount()
+            {
+                return this.Pointfs.Count();
             }
         }
 
@@ -318,28 +195,38 @@ namespace DrilTapeTest1
 
        public class SlotShape
         {
-            private float slotWidth;
+            private float _driBitDia;
 
-            private int tOrder;
+            private int _tOrder;
 
-            private CoordinateGroup xyCoordinateGroup;
+            private CoordinateGroup _startCoordinateGroup;
+
+            private CoordinateGroup _endCoordinateGroup;
+
+           public SlotShape(float Dia,int Torder,CoordinateGroup startpointGP,CoordinateGroup endpointGP)
+           {
+               this._driBitDia = Dia;
+               this._tOrder = Torder;
+               this._startCoordinateGroup = startpointGP;
+               this._endCoordinateGroup = endpointGP;
+           }
 
             public int TOrder
             {
-                get { return tOrder; }
-                set { tOrder = value; }
+                get { return _tOrder; }
+                set { _tOrder = value; }
             }
 
-            public float SlotWidth
+            public float DriBitDia
             {
-                get { return slotWidth; }
-                set { slotWidth = value; }
+                get { return _driBitDia; }
+                set { _driBitDia = value; }
             }
 
-            public CoordinateGroup XYCoordinateGroup
+            public CoordinateGroup StartCoordinateGroup
             {
-                get { return xyCoordinateGroup; }
-                set { xyCoordinateGroup = value; }
+                get { return _startCoordinateGroup; }
+                set { _startCoordinateGroup = value; }
             }
 
             private int count;
@@ -348,11 +235,363 @@ namespace DrilTapeTest1
             {
                 get
                 {
-                    count = xyCoordinateGroup.GetCoordinateCount();
+                    count = _startCoordinateGroup.GetCoordinateCount();
                     return count;
                 }
             }
+
+           public CoordinateGroup EndCoordinateGroup
+           {
+               get { return _endCoordinateGroup; }
+               set { _endCoordinateGroup = value; }
+           }
         }
+
+
+       public class CircleShape
+       {
+           private float _driBitDia;
+
+           private int tOrder;
+
+           private int count;
+
+           private CircleCoordinateGroup _circleCoordinateGroup;
+
+           public CircleShape(float Dia,int Torder,CircleCoordinateGroup circleCooodgp)
+           {
+               this._driBitDia = Dia;
+               this.tOrder = Torder;
+               this._circleCoordinateGroup = circleCooodgp;
+               this.count = _circleCoordinateGroup.Count;
+           }
+
+           public int TOrder
+           {
+               get { return tOrder; }
+               set { tOrder = value; }
+           }
+
+           public int Count
+           {
+               get { return this.count; }
+           }
+
+           public float DriBitDia
+           {
+               get { return _driBitDia; }
+               set { _driBitDia = value; }
+           }
+
+           public CircleCoordinateGroup CircleCoordinateGroup
+           {
+               get { return _circleCoordinateGroup; }
+               set { _circleCoordinateGroup = value; }
+           }
+
+           }
+
+       public void GetFileFormateAndToolOrder(string readTapepath)
+       {
+
+          List<float> tOrderList = new List<float>();
+           string tempstr1;
+
+           try
+           {
+               StreamReader m_SW = new StreamReader(readTapepath);
+
+               do
+               {
+                   tempstr1 = m_SW.ReadLine();
+                   if (tempstr1 != null)
+                   {
+                       if (tempstr1.Contains("%"))
+                       {
+                           break;
+                       }
+                       Regex rgUnit = new Regex(@"METRIC|INCH");
+                       Regex rgZeroCompress = new Regex(@"TZ|LZ|NONE");
+                       Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})C(?<Diameter>\d{1,2}\.\d*)", RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
+                      
+                       Match unitmatchs = rgUnit.Match(tempstr1);
+                       if (unitmatchs.Success)
+                       {
+                           if (unitmatchs.Value.ToUpper().Equals("METRIC"))
+                           {
+                               this.drlUnit = DrlUnit.Metric;
+                           }
+                           if (unitmatchs.Value.ToUpper().Equals("INCH"))
+                           {
+                               this.drlUnit = DrlUnit.Inch;
+                           }
+                       }
+                       Match zeroMatch = rgZeroCompress.Match(tempstr1);
+                       if (zeroMatch.Success)
+                       {
+
+                           if (zeroMatch.Value.ToUpper().Equals("LT"))
+                           {
+                               this.zeroCompress = ZeroCompress.Leading;
+                           }
+                           if (zeroMatch.Value.ToUpper().Equals("INCH"))
+                           {
+                               this.zeroCompress = ZeroCompress.Trail;
+                           }
+                           if (zeroMatch.Value.ToUpper().Equals("NONE"))
+                           {
+                               this.zeroCompress = ZeroCompress.Leading;
+                           }
+
+                       }
+                       Match tOrdermatches = rgTorderstr.Match(tempstr1);
+                       if (tOrdermatches.Length > 0)
+                       {
+                           tOrderList.Add(Convert.ToSingle(tOrdermatches.Result("${Diameter}")));
+                           //Toolslist[Convert.ToInt32(tOrdermatches.Result("${Torder}"))] = Convert.ToSingle(tOrdermatches.Result("${Diameter}"));
+                       }
+                   }
+               } while (tempstr1 != null);
+           }
+           catch (IOException ex)
+           {
+
+               MessageBox.Show("This is a IO Exception :" + ex.Message);
+           }
+           if (tOrderList.Count > 0)
+           {
+               _toolslist = new float[tOrderList.Count];
+               for (int i = 0; i < tOrderList.Count; i++)
+               {
+                   _toolslist[i] = tOrderList[i];
+               }
+           }
+
+       }
+
+       public void GetCoordinateAndShape(string readTapepath)
+       {
+
+           Regex rgx = new Regex(@"[X](\d{3}\.\d{3})", RegexOptions.IgnoreCase | RegexOptions.Singleline);
+           Regex rgy = new Regex(@"[Y](\d{3}\.\d{3})", RegexOptions.IgnoreCase | RegexOptions.Singleline);
+
+           List<Single> xFloats = new List<Single>();
+           List<Single> yFloats = new List<Single>();
+           string tempstr1;
+
+           try
+           {
+               StreamReader m_SW = new StreamReader(readTapepath);
+
+               
+               do
+               {
+                   tempstr1 = m_SW.ReadLine();
+                   if (tempstr1.Contains("%"))
+                   {
+                       break;
+                   }
+
+               } while (tempstr1 != null);
+
+
+               Stack<PointF>  coordinateStack=new Stack<PointF>();
+
+               Stack<PointF> startPointStack = new Stack<PointF>();
+               Stack<PointF> endPointStack = new Stack<PointF>();
+
+               Stack<PointF> circleCoordStack = new Stack<PointF>();
+               Stack<float>  circleDiaStack=new Stack<float>();
+
+
+               float size = 0;
+               int tOrder = 0;
+               var pointFArray = new List<PointF>();
+
+               PointF[] slotstartPoint;
+               PointF[] slotEndPoint;
+
+              //格式化T序串 用于识别T序
+               Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})", RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
+
+               do
+               {
+                   tempstr1 = m_SW.ReadLine();
+                   Match toolsOrdermatchs = rgTorderstr.Match(tempstr1);
+
+                 //若是T序字串匹配成功 
+                   if (toolsOrdermatchs.Success)
+                   {
+                       //若是还是处于刚开始的T序，则只是简单赋值给  Torder和Size
+                       if (tOrder == 0)
+                         {
+                           tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
+                           size = _toolslist[tOrder - 1];
+                         }
+                       else  //否则则需要先将前面T序中的形状和坐标保存 
+                       {
+                           if (pointFArray.Count > 0)
+                           {
+                               GeneratorHoleGroup(size, tOrder, pointFArray);
+                           }
+
+                           if (circleCoordStack.Count > 0)
+                           {
+
+                               GeneratorCircleHoleGroup(size, tOrder, circleCoordStack, circleDiaStack);
+                           }
+                           if (startPointStack.Count > 0)
+                           {
+                               GeneratorSlotHoleGroup(size, tOrder, startPointStack, endPointStack);
+                           }
+                           // 再将当前新T序值和T直径改写。
+                           tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
+                           size = _toolslist[tOrder - 1];
+                       }
+                  }
+                   //T序字串匹配不成功，则进行XY坐标格式匹配
+                   Regex rg = new Regex(@"([xyXY]\d+)");
+                   if (rg.IsMatch(tempstr1))
+                   {
+
+                       //格式化坐标串
+                       Regex rg2 = new Regex(@"([xyXY]\d{6})0*");
+                       Regex rg3 = new Regex(@"([xyXY]\d{3})(\d{3})");
+
+                       string tempstr2 = FormattiongModleXYCoordinateToMetric3d3(tempstr1);
+                       if (tempstr2.Contains("G84")||tempstr2.Contains("G85"))
+                       {
+                           if (tempstr2.Contains("G84"))
+                           {
+                               //G84 Circle Shape 坐标及 Circle Diameter 识别。
+                               Regex rgG84Code =
+                                   new Regex(@"X(?<xCoord>\d{3}.\d{3})Y(?<yCoord>\d{3}.\d{3})G84X(?<Diameter>\d{3}.\d{3})",
+                                       RegexOptions.IgnoreCase | RegexOptions.Singleline |
+                                       RegexOptions.IgnorePatternWhitespace);
+
+                               Match G84Match = rgG84Code.Match(tempstr2);
+                               if (G84Match.Success)
+                               {
+                                   PointF temPointF = new PointF(Convert.ToSingle(G84Match.Groups[1].ToString()),
+                                       Convert.ToSingle(G84Match.Groups[2].ToString()));
+                                   circleCoordStack.Push(temPointF);
+                                   circleDiaStack.Push(Convert.ToSingle(G84Match.Groups[3].ToString()));
+                               }
+                           }
+
+                           if (tempstr2.Contains("G85"))
+                           {
+                               //G85 SLOT Shape Start End  坐标识别。
+                               Regex rgG85Code =
+                                   new Regex(@"X(?<stxCoord>\d{3}.\d{3})Y(?<styCoord>\d{3}.\d{3})G85X(?<endxCoord>\d{3}.\d{3})Y(?<endyCoord>\d{3}.\d{3})",
+                                       RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
+
+                               Match G85Match = rgG85Code.Match(tempstr2);
+                               if (G85Match.Success)
+                               {
+                                   var stPointF = new PointF(Convert.ToSingle(G85Match.Groups[1].ToString()), Convert.ToSingle(G85Match.Groups[2].ToString()));
+                                   var endPointF = new PointF(Convert.ToSingle(G85Match.Groups[3].ToString()), Convert.ToSingle(G85Match.Groups[4].ToString()));
+                                   startPointStack.Push(stPointF);
+                                   endPointStack.Push(endPointF);
+                               }
+                           }
+                       }else
+                       {
+                           Match mmMatch = rgx.Match(tempstr2);
+                           if (mmMatch.Success)
+                           {
+
+                               xFloats.Add(Convert.ToSingle(mmMatch.Groups[1].ToString()));
+                           }
+
+                           mmMatch = rgy.Match(tempstr2);
+                           if (mmMatch.Success)
+                           {
+                               yFloats.Add(Convert.ToSingle(mmMatch.Groups[1].ToString()));
+                           }
+                           PointF temPointF = new PointF(xFloats[xFloats.Count - 1], yFloats[yFloats.Count - 1]);
+                           //coordinateStack.Push(temPointF); //入坐标栈·
+                           pointFArray.Add(temPointF);
+                       }
+
+                   }
+               } while (!tempstr1.Equals("M30"));
+
+               if (pointFArray.Count > 0)
+               {
+                   GeneratorHoleGroup(size, tOrder, pointFArray);
+               }
+
+               if (circleCoordStack.Count > 0)
+               {
+
+                   GeneratorCircleHoleGroup(size, tOrder, circleCoordStack, circleDiaStack);
+               }
+               if (startPointStack.Count>0)
+               {
+                   GeneratorSlotHoleGroup(size,tOrder,startPointStack,endPointStack);
+               }
+           }
+           catch (IOException ex)
+           {
+
+               MessageBox.Show("This is a IO Exception :" + ex.Message);
+           }
+
+       }
+
+       protected void GeneratorSlotHoleGroup(float size, int tOrder, Stack<PointF> startPointFs,Stack<PointF> endPointFs)
+       {
+           var startP = new PointF[startPointFs.Count];
+           var endP = new PointF[endPointFs.Count];
+           int k = startPointFs.Count;
+           for (int i = 0; i < k; i++)
+           {
+               startP[i] = startPointFs.Pop();
+               endP[i] = endPointFs.Pop();
+           }
+
+           var SlotShape = new SlotShape(size, tOrder, new CoordinateGroup(startP), new CoordinateGroup(endP));
+           SlotList.Add(SlotShape);
+       }
+
+       protected void GeneratorHoleGroup(float size,int tOrder,List<PointF> pointFArray)
+       {
+           PointF [] temPointFs = pointFArray.ToArray();
+           CoordinateGroup xyCoordgp = new CoordinateGroup(temPointFs);
+           HoleShape hs = new HoleShape(size, tOrder - 1, xyCoordgp);
+           HoleList.Add(hs);
+           pointFArray.Clear();
+       }
+
+       protected void GeneratorCircleHoleGroup(float size, int tOrder, Stack<PointF> circleCoordStack, Stack<float> circleDiaStack)
+       {
+                           var temp = new PointF[circleCoordStack.Count];
+                           var tempCircleDia = new float[circleCoordStack.Count];
+                            int k = circleCoordStack.Count;
+                           for (int i = 0; i < k; i++)
+                           {
+                               temp[i] = circleCoordStack.Pop();
+                               tempCircleDia[i] = circleDiaStack.Pop();
+                           }
+
+                          var circleShape=new CircleShape(size,tOrder-1,new CircleCoordinateGroup(temp,tempCircleDia));
+                          CircleList.Add(circleShape);
+       }
+
+       protected string FormattiongModleXYCoordinateToMetric3d3(string str1)
+       {
+           //格式化坐标串
+           Regex rg = new Regex(@"([xyXY]\d+)");
+           Regex rg2 = new Regex(@"([xyXY]\d{6})0*");
+           Regex rg3 = new Regex(@"([xyXY]\d{3})(\d{3})");
+
+           string tempstr2 = rg.Replace(str1, @"${1}00000");
+           tempstr2 = rg2.Replace(tempstr2, @"${1}");
+           tempstr2 = rg3.Replace(tempstr2, @"${1}.${2}");
+
+           return tempstr2;
+       }
     }
 }
 
