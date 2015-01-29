@@ -1,0 +1,9 @@
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\bin\Debug\testaboutImageBitmapSize.exe.config
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\bin\Debug\testaboutImageBitmapSize.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\bin\Debug\testaboutImageBitmapSize.pdb
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.Form1.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.Properties.Resources.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.csproj.GenerateResource.Cache
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.pdb
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\testaboutImageBitmapSize\testaboutImageBitmapSize\obj\Debug\testaboutImageBitmapSize.csprojResolveAssemblyReference.cache

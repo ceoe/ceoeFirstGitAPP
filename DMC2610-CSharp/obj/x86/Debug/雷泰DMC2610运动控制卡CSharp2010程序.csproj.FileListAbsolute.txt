@@ -1,0 +1,45 @@
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+G:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+G:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csprojResolveAssemblyReference.cache
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+F:\WorkPlan\boblee\Image_System\Montion_Controller\LeadShine\DMC2610运动控制卡\leitai\雷泰DMC2610运动控制卡CSharp2010程序\雷泰DMC2610运动控制卡CSharp2010程序\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\bin\Debug\RadomBallMoveDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\bin\Debug\RadomBallMoveDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\bin\Debug\RadomBallMoveDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadomBallMoveDemo\RadomBallMoveDemo\obj\Debug\RadomBallMoveDemo.pdb

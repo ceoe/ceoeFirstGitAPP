@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\bin\Debug\GenericTStackDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\bin\Debug\GenericTStackDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\bin\Debug\GenericTStackDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\obj\Debug\GenericTStackDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\obj\Debug\GenericTStackDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\GenericTStackDemo1\GenericTStackDemo1\obj\Debug\GenericTStackDemo1.pdb

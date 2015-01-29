@@ -1,0 +1,8 @@
+bin\Debug\TetrisApp.exe
+bin\Debug\TetrisApp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TetrisApp.Properties.Resources.resources
+obj\Debug\youxi.csproj.GenerateResource.Cache
+obj\Debug\TetrisApp.exe
+obj\Debug\TetrisApp.pdb
+obj\Debug\youxiApp.Form1.resources

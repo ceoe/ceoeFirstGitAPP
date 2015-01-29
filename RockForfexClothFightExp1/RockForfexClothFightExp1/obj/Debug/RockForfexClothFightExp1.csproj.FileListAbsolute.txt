@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\bin\Debug\RockForfexClothFightExp1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.Main_Form.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\bin\Debug\RockForfexClothFightExp1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\bin\Debug\RockForfexClothFightExp1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RockForfexClothFightExp1\RockForfexClothFightExp1\obj\Debug\RockForfexClothFightExp1.pdb

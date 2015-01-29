@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\bin\Debug\ParametersDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\bin\Debug\ParametersDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\bin\Debug\ParametersDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\obj\Debug\ParametersDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\obj\Debug\ParametersDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ParametersDemo\ParametersDemo\obj\Debug\ParametersDemo.pdb

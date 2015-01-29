@@ -1,0 +1,11 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\bin\Debug\PicSeeNav.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\bin\Debug\PicSeeNav.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\bin\Debug\PicSeeNav.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.FrmCreatFolder.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.FrmLoadPic.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\obj\Debug\PicSeeNav.csprojResolveAssemblyReference.cache

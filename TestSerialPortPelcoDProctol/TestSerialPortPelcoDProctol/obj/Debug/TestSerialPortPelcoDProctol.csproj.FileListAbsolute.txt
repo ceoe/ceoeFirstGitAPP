@@ -1,0 +1,9 @@
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\bin\Debug\TestSerialPortPelcoDProctol.exe.config
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\bin\Debug\TestSerialPortPelcoDProctol.exe
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\bin\Debug\TestSerialPortPelcoDProctol.pdb
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.csprojResolveAssemblyReference.cache
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.Form1.resources
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.Properties.Resources.resources
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.csproj.GenerateResource.Cache
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.exe
+c:\users\boblee\Documents\Visual Studio 2012\Settings\VisualStudio2008\Projects\TestSerialPortPelcoDProctol\TestSerialPortPelcoDProctol\obj\Debug\TestSerialPortPelcoDProctol.pdb

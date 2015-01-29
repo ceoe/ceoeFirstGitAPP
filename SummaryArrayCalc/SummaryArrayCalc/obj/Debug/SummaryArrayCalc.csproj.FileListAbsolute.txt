@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\bin\Debug\SummaryArrayCalc.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\bin\Debug\SummaryArrayCalc.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\bin\Debug\SummaryArrayCalc.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\SummaryArrayCalc\SummaryArrayCalc\obj\Debug\SummaryArrayCalc.pdb

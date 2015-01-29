@@ -1,0 +1,7 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\obj\Debug\dmc2610_demo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\obj\Debug\dmc2610_demo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\bin\Debug\dmc2610_demo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\bin\Debug\dmc2610_demo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\obj\Debug\dmc2610_demo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\obj\Debug\dmc2610_demo.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demo\dmc2610_demo\obj\Debug\dmc2610_demo.csproj.GenerateResource.Cache

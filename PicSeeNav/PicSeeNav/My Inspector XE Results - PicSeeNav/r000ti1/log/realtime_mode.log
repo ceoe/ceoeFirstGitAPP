@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\My Inspector XE Results - PicSeeNav\r000ti1\r000ti1.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process e:\documents and settings\bob\visual studio 2012\projects\picseenav\picseenav\bin\debug\picseenav.exe (PID = 7952). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: e:\documents and settings\bob\visual studio 2012\projects\picseenav\picseenav\bin\debug\picseenav.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\apphelp.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\mscoree.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\cryptbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sspicli.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\advapi32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msctf.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\imm32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\usp10.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\lpk.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sechost.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\user32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shlwapi.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\microsoft.net\framework\v4.0.30319\clr.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcr110_clr0400.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ole32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\version.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\uxtheme.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\programdata\tencent\tsvulfw\tsvulfw.dat. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ws2_32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\nsi.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\psapi.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shell32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\oleaut32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\ati technologies\hydravision\hydradmh.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcr110.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\winsxs\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853\gdiplus.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_ec80f00e8593ece5\comctl32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\microsoft.net\framework\v4.0.30319\nlssorting.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\cryptsp.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rsaenh.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\dwmapi.dll. </message>
+ <nop/>
+ <message severity="info">Application exit code: 1 </message>
+ <nop/>
+ <message severity="info">Result file: E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\My Inspector XE Results - PicSeeNav\r000ti1\r000ti1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis canceled by user</message>
+ <nop/>
+</feedback>

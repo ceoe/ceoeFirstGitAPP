@@ -1,0 +1,35 @@
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\bin\Debug\PicoloVideo.exe
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\bin\Debug\PicoloVideo.pdb
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\obj\Debug\ResolveAssemblyReference.cache
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\obj\Debug\PicoloVideo.MainForm.resources
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\obj\Debug\PicoloVideo90.csproj.GenerateResource.Cache
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\obj\Debug\PicoloVideo.exe
+D:\ExposureSystem\图像采集卡\Samples\MsCs\PicoloVideo\obj\Debug\PicoloVideo.pdb
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\PicoloVideo.exe
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\PicoloVideo.pdb
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\bin\Debug\PicoloVideo.exe
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\bin\Debug\PicoloVideo.pdb
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\ResolveAssemblyReference.cache
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\PicoloVideo.MainForm.resources
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\PicoloVideo90.csproj.GenerateResource.Cache
+D:\ExposureSystem\图像采集卡\PicoloTetraVideo\obj\Debug\PicoloVideo.CameraGrabResource.resources
+E:\★A●O●I★\∮Projects\∮★对位_平行曝光机\← ← ★Plan of Semi-Auto Collimated UV Exposure System（半自动平行曝光机）\图像采集\PicoloTetraVideo\obj\Debug\PicoloVideo.exe
+E:\★A●O●I★\∮Projects\∮★对位_平行曝光机\← ← ★Plan of Semi-Auto Collimated UV Exposure System（半自动平行曝光机）\图像采集\PicoloTetraVideo\obj\Debug\PicoloVideo.pdb
+K:\移交工作(林陶)\曝光机\硬件资料\图像采集卡(Picolo Tetra)资料\资料\PicoloTetraVideo例程\obj\Debug\PicoloVideo.exe
+K:\移交工作(林陶)\曝光机\硬件资料\图像采集卡(Picolo Tetra)资料\资料\PicoloTetraVideo例程\obj\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\bin\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\bin\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo90.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo.CameraGrabResource.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideo例程\obj\Debug\PicoloVideo90.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\bin\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\bin\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo90.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo.CameraGrabResource.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\Demo1\obj\Debug\PicoloVideo90.csproj.GenerateResource.Cache

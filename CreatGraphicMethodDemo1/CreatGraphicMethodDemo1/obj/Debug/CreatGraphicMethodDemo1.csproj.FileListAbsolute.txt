@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\bin\Debug\CreatGraphicMethodDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\bin\Debug\CreatGraphicMethodDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\bin\Debug\CreatGraphicMethodDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CreatGraphicMethodDemo1\CreatGraphicMethodDemo1\obj\Debug\CreatGraphicMethodDemo1.pdb

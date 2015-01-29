@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\bin\Debug\Aboutpathfilename.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\obj\Debug\Aboutpathfilename.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\bin\Debug\Aboutpathfilename.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\bin\Debug\Aboutpathfilename.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\obj\Debug\Aboutpathfilename.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Aboutpathfilename\Aboutpathfilename\obj\Debug\Aboutpathfilename.pdb

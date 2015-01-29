@@ -1,0 +1,11 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\bin\Debug\Cards.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\bin\Debug\Cards.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Game.baml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Game.g.cs
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\App.g.cs
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards_MarkupCompile.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards.g.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Cards Using Arrays\Cards\obj\Debug\Cards.pdb

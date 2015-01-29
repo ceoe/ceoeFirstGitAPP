@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\bin\Debug\InteraceUsageDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\obj\Debug\InteraceUsageDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\bin\Debug\InteraceUsageDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\bin\Debug\InteraceUsageDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\obj\Debug\InteraceUsageDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\InteraceUsageDemo1\InteraceUsageDemo1\obj\Debug\InteraceUsageDemo1.pdb

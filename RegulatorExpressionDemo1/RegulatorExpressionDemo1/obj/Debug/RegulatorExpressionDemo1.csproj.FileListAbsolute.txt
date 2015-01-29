@@ -1,0 +1,6 @@
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\bin\Debug\RegulatorExpressionDemo1.exe.config
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\bin\Debug\RegulatorExpressionDemo1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\bin\Debug\RegulatorExpressionDemo1.pdb
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\obj\Debug\RegulatorExpressionDemo1.csprojResolveAssemblyReference.cache
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\obj\Debug\RegulatorExpressionDemo1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegulatorExpressionDemo1\RegulatorExpressionDemo1\obj\Debug\RegulatorExpressionDemo1.pdb

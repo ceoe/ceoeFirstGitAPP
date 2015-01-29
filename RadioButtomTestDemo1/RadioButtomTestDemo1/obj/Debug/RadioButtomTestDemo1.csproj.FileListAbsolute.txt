@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\bin\Debug\RadioButtomTestDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\bin\Debug\RadioButtomTestDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\bin\Debug\RadioButtomTestDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RadioButtomTestDemo1\RadioButtomTestDemo1\obj\Debug\RadioButtomTestDemo1.pdb

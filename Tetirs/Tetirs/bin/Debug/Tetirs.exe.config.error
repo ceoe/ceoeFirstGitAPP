@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BlockSet>
+  <Type>
+    <ID>0000011111000000000000111</ID>
+    <Color>-65533</Color>
+  </Type>
+  <Type>
+    <ID>0000011111000001110000000</ID>
+    <Color>-16711936</Color>
+  </Type>
+  <Type>
+    <ID>1100011111000000000000010</ID>
+    <Color>-8232073</Color>
+  </Type>
+  <Type>
+    <ID>0000011111000000000001000</ID>
+    <Color>-16776961</Color>
+  </Type>
+  <Type>
+    <ID>0000011111000000000011000</ID>
+    <Color>-32704</Color>
+  </Type>
+  <Type>
+    <ID>0000011111000000011100000</ID>
+    <Color>-32513</Color>
+  </Type>
+  <Type>
+    <ID>0000011111011110000000000</ID>
+    <Color>-8372160</Color>
+  </Type>
+  <Key>
+    <DownKey>83</DownKey>
+    <DropDownKey>88</DropDownKey>
+    <MoveLeftKey>65</MoveLeftKey>
+    <MoveRightKey>68</MoveRightKey>
+    <RotCWKey>74</RotCWKey>
+    <RotCCWKey>75</RotCCWKey>
+    <CoorWidth>25</CoorWidth>
+    <CoorHeight>25</CoorHeight>
+    <RectPix>20</RectPix>
+    <BackColor>-16777216</BackColor>
+  </Key>
+  <Surface />
+</BlockSet>

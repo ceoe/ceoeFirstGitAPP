@@ -1,0 +1,1 @@
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\RegExTestdemo1\RegExTestdemo1\bin\Debug\RegExTestdemo1.exe.config

@@ -1,0 +1,11 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\bin\Debug\startFormModelessFormsDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\bin\Debug\startFormModelessFormsDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\bin\Debug\startFormModelessFormsDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.FrmLogin.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.FrmAdvert.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\startFormModelessFormsDemo\startFormModelessFormsDemo\obj\Debug\startFormModelessFormsDemo.pdb

@@ -1,0 +1,322 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Euresys.MultiCam;
+
+
+namespace MyPicoloDemo
+{
+    public partial class MainForm : Form
+    {
+
+        #region  //建立2个代理事件用于异步调用绘图功能  
+
+        //建立绘图功能代理
+        public delegate void PaintDelegate(Graphics g);
+        //建立更新状态条代理
+        public delegate void UpdateStatusBarDelegate(string text);
+        #endregion
+        
+        //建立bitmap对象
+        private Bitmap image = null;
+
+        //建立调色板
+        private ColorPalette imgpal = null;
+
+        //建立互斥类实例 在处理图像时用
+        private static  Mutex  imageMutex=new Mutex();
+
+        //建立 MulitCam对象用于控制取得图像
+        UInt32 channel;
+
+
+        // MulitCam对象 包含采集缓存区
+        private UInt32 currentSurface;
+
+        private MC.CALLBACK mulitCamCallback;
+
+        private System.Windows.Forms.MainMenu mainMenu;
+        private System.Windows.Forms.StatusBar statusBar;
+        private System.Windows.Forms.StatusBarPanel statusBarPanel1;
+        private System.Windows.Forms.MenuItem Go;
+        private System.Windows.Forms.MenuItem Stop;
+
+        /// <summary>
+        /// 此处放入需要设计的变量
+        /// </summary>
+
+
+        private System.ComponentModel.Container compents = null;
+
+
+        
+        public MainForm()
+        {
+           
+            
+            InitializeComponent();
+
+            MessageBox.Show(@"该实例提供一个如何运用multiCam 类进行采集，单帧等动作！ 开始使用前请确认已经连接好相机！","示例程序描述" ,MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+
+        }
+
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //示例程序开始 用try 来进行初始化
+
+            try
+            {
+                //打开MultiDriver 
+                MC.OpenDriver();
+
+                //允许错误记录
+                MC.SetParam(MC.CONFIGURATION,"Errorlog","error.log");
+
+                //建立采集通道并使用第一个采集卡的第一个连接头
+                MC.Create("CHANNEL",out channel);
+                MC.SetParam(channel,"DriverIndex",0);
+                MC.SetParam(channel,"Connector","X");
+
+                //选择视频标准
+                MC.SetParam(channel,"CamFile","PAL");
+
+                //设置曝光时间 ? pal可以设置吗?
+                MC.SetParam(channel, "Exposure_us", 20000);
+
+                //设置像素颜色显示格式
+                MC.SetParam(channel, "ColorFomat", "Y8");
+
+
+                //设置第一次采集的方式是触发的
+                MC.SetParam(channel, "TrigMode", "IMMEDIATE");
+
+                //设置后续采集的方式
+                MC.SetParam(channel, "NextTrigMode","REPEAT");
+
+                //设置采集的帧数
+                MC.SetParam(channel, "SeqLength_Fr", MC.INDETERMINATE);
+
+                //注册回调函数
+                mulitCamCallback = new MC.CALLBACK(mulitCamCallback);
+               MC.RegisterCallback(channel,mulitCamCallback,channel);
+
+
+                //允许信号适配于回调函数
+                MC.SetParam(channel,MC.SignalEnable+MC.SIG_SURFACE_PROCESSING,"ON");
+                MC.SetParam(channel, MC.SignalEnable + MC.SIG_ACQUISITION_FAILURE, "ON");
+
+                //在启动时延迟,为通道状态良好执行最小化采集序列
+
+                MC.SetParam(channel,"ChnnelState","READY");
+
+            }
+            catch (Euresys.MultiCamException exc)
+            {
+                    //当在try catch 代码段中出现异常, 检索它们的描述情况,并显示在一个信息框中
+                MessageBox.Show(exc.Message, "MultiCam Exception!");
+                Close();
+
+            }
+
+        }
+
+        private void MultiCamCallBack(ref MC.SIGNALINFO signalInfo)
+
+        {
+            UInt32 currentChannel = (UInt32) signalInfo.Context;
+            statusBar.Text = "Processing";
+            currentSurface = signalInfo.SignalInfo;
+
+            try
+            {
+
+                Int32 width, height, bufferpitch;
+                IntPtr bufferAddress;
+                MC.GetParam(currentChannel, "ImageSizeX", out width);
+                MC.GetParam(currentChannel, "ImageSizeY", out height);
+                MC.GetParam(currentChannel, "BufferPitch", out bufferpitch);
+                MC.GetParam(currentChannel, "SurfaceAddr", out bufferAddress);
+
+                try
+                {
+                    imageMutex.WaitOne();
+                    image = new Bitmap(width, height, bufferpitch, PixelFormat.Format8bppIndexed, bufferAddress);
+                    imgpal = image.Palette;
+
+                    //建立一个8位色的调色板
+                    for (uint i = 0; i < 256; i++)
+                    {
+                        //调色板里面的256 要赋初值?
+                        imgpal.Entries[i] = Color.FromArgb((byte) 0xff, (byte) i, (byte) i, (byte) i);
+                    }
+
+                    image.Palette = imgpal;
+
+                    /*这里可以插入图像分析代码*/
+
+
+                }
+
+                finally
+                {
+                    imageMutex.ReleaseMutex();
+
+                }
+
+                //检索查询帧率
+                Double frameRate_Hz;
+                MC.GetParam(channel, "PerSecond_Fr", out frameRate_Hz);
+
+                //检索查询信道状态
+                string channelState;
+                MC.GetParam(channel, "ChannelState", out channelState);
+
+                //显示帧率和信道状态
+                statusBar.Text = string.Format("现在的帧率为:{0:f2},信道状态为:{1}", frameRate_Hz, channelState);
+
+                //显示新的图像
+                this.BeginInvoke(new PaintDelegate(Redraw), new object[1] {CreateGraphics()});
+
+            }
+            catch(Euresys.MultiCamException exc)
+            {
+
+                MessageBox.Show(exc.Message,"MultiCam Exception!");
+            }
+            
+            catch (System.Exception exc)
+            {
+
+                MessageBox.Show(exc.Message, "System Exception!");
+            }
+
+        }
+
+        private void AcqFailureCallback(MC.SIGNALINFO signalInfo)
+        {
+            UInt32 currentChannel = (UInt32) signalInfo.Context;
+
+
+            try
+            {
+                //显示失败状态下的帧率及状态提示
+                statusBar.Text = string.Format("图像获取失败!!! 信道状态为 IDLE!");
+
+                //显示新的图像
+                this.BeginInvoke(new PaintDelegate(Redraw), new object[1] { CreateGraphics() });
+            }
+            catch (System.Exception exc)
+            {
+
+                MessageBox.Show(exc.Message, "System Exception!");
+            }
+
+        }
+
+        private void UpdateStatusBar(string text)
+        {
+            statusBarPanel1.Text = text;
+
+        }
+
+        private void Redraw(Graphics g)
+        {
+            try
+            {
+                imageMutex.WaitOne();
+                if (image != null)
+                {
+                    g.DrawImage(image, 0, 0);
+
+                }
+
+                UpdateStatusBar(statusBar.Text);
+            }
+            catch (System.Exception exc)
+            {
+
+                MessageBox.Show(exc.Message, "System Exception!");
+            }
+            finally
+            {
+                imageMutex.ReleaseMutex();
+                
+            }
+        }
+
+        private void MainForm_Paint(object sender,PaintEventArgs e)
+        {
+            Redraw(e.Graphics);
+        }
+
+        private void MainForm_Closing(object sender,CancelEventArgs e)
+        {
+            try
+            {
+                stopToolStripMenuItem_Click(sender, e);
+                //删除信道的使用
+                if (channel!=null)
+                {
+                    MC.Delete(channel);
+                    channel = 0;
+                }
+            }
+            catch (Euresys.MultiCamException exc)
+            {
+
+                MessageBox.Show(exc.Message, "MultiCam Exception!");
+            }
+            
+        }
+
+
+        private void Go_toolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //开始采集, 由激活的信道进行序列获取
+            string channelState;
+            MC.GetParam(channel,"ChangelState",out channelState);
+            if (channelState!="ACTIVE")
+            {
+                MC.SetParam(channel,"ChangelSates","ACTIVE");
+            }
+            Refresh();
+        }
+
+        private void stopToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //将取消的信道停止采集序列
+            if (channel!=0)
+            {
+                MC.SetParam(channel, "ChangelSates", "IDLE");
+            }
+                UpdateStatusBar(string.Format("现在的帧率为:{0:f2},信道状态为: IDEL", 0));
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            try
+            {
+                //释放MultiCam 资源
+                MC.CloseDriver();
+            }
+            catch (Euresys.MultiCamException exc)
+            {
+
+                MessageBox.Show(exc.Message, "MultiCam Exception!");
+            }
+            
+        }
+
+    }
+}

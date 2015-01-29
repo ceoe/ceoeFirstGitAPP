@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.pdb

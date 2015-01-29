@@ -1,0 +1,21 @@
+-r
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\My Inspector XE Results - PicSeeNav\r000ti1
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--no-check-datarace
+--no-terminate-on-deadlock
+--resolution=standard
+--no-check-stack-access
+--stack-depth=1
+--sampling-budget=5
+--1cell-mode=last-write
+--tool=tclcore
+--no-save-stack-on-first-access
+--no-save-stack-on-allocation
+--no-check-cross-thread-stack-access
+--no-close-console
+--mrte-mode=managed
+--heartbeat=1
+--
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicSeeNav\PicSeeNav\bin\Debug\PicSeeNav.exe

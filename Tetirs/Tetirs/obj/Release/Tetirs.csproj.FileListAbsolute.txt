@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\bin\Release\Tetirs.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\bin\Release\Tetirs.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.FrmConfig.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.FrmTetirs.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Tetirs\Tetirs\obj\Release\Tetirs.pdb

@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\bin\Debug\BitwiseDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\bin\Debug\BitwiseDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\bin\Debug\BitwiseDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\BitwiseDemo1\BitwiseDemo1\obj\Debug\BitwiseDemo1.pdb

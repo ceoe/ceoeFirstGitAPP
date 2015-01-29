@@ -1,0 +1,7 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\bin\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\bin\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x64\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb

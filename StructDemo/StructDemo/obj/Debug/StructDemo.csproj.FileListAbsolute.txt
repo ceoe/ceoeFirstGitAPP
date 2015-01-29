@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\bin\Debug\StructDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\bin\Debug\StructDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\bin\Debug\StructDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\obj\Debug\StructDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\obj\Debug\StructDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\StructDemo\StructDemo\obj\Debug\StructDemo.csprojResolveAssemblyReference.cache

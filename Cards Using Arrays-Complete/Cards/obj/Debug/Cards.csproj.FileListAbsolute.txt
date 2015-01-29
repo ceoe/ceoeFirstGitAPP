@@ -1,0 +1,13 @@
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\bin\Debug\Cards.exe
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\bin\Debug\Cards.pdb
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\ResolveAssemblyReference.cache
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Game.baml
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Game.g.cs
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\App.g.cs
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Cards_MarkupCompile.cache
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Cards.g.resources
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Cards.Properties.Resources.resources
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\GenerateResource.read.1.tlog
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\GenerateResource.write.1.tlog
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Cards.exe
+E:\stepbystep\Chapter10\Cards Using Arrays\Cards\obj\Debug\Cards.pdb

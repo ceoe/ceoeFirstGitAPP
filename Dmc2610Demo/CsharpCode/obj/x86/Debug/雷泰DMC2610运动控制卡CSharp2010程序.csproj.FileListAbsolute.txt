@@ -1,0 +1,3 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\CsharpCode\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\CsharpCode\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\CsharpCode\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache

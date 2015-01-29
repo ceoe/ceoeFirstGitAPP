@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\TetrisApp.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\TetrisApp.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\bin\Debug\TetrisApp.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\bin\Debug\TetrisApp.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\youxi.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\youxiApp.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\TetrisApp.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TetrisGame\TetrisApp\obj\Debug\youxi.csproj.GenerateResource.Cache

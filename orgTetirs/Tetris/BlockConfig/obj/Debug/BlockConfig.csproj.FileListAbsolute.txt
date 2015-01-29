@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\bin\Debug\BlockConfig.exe
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\bin\Debug\BlockConfig.pdb
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.MainForm.resources
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.Properties.Resources.resources
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.exe
+D:\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.pdb
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.exe
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.pdb
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\bin\Debug\BlockConfig.exe
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\bin\Debug\BlockConfig.pdb
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.MainForm.resources
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.Properties.Resources.resources
+C:\Users\Mario\Documents\Visual Studio 2008\Projects\Tetris\BlockConfig\obj\Debug\BlockConfig.csproj.GenerateResource.Cache

@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@16 @17 Type=Folder Member=(Name=CreatThumbnail OverloadingParameters=[@18,@18]))" Category="CodeSchema_Method" Bounds="101.236666666667,335.02,127.506666666667,25.8366666666666" CodeSchemaProperty_IsPublic="True" CommonLabel="CreatThumbnail" FunctionTypeFlags="方法" Label="CreatThumbnail" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/Folder.cs&quot; StartLineNumber=121 StartCharacterOffset=0 EndLineNumber=121 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@7 @29 Type=ThreadHelper Member=ThreadStart)" Category="CodeSchema_Method" Bounds="583.461666666667,111.673333333333,103.056666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CommonLabel="ThreadStart" FunctionTypeFlags="方法" Label="ThreadStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="235.921666666667,167.51,80.1366666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="OnClick" FunctionTypeFlags="方法 虚拟" Label="OnClick" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="425.921666666667,335.02,80.1366666666667,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="OnClick" FunctionTypeFlags="方法" IsOverloaded="True" Label="OnClick" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="544.68,558.366666666666,58.62,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Run" FunctionTypeFlags="方法" Label="Run" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="413.546666666667,502.529999999999,104.886666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ShowDialog" FunctionTypeFlags="方法" Label="ShowDialog" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="221.536666666667,55.8366666666666,108.906666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="OnMouseUp" FunctionTypeFlags="方法" IsOverloaded="True" Label="OnMouseUp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="391.536666666667,55.8366666666666,108.906666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="OnMouseUp" FunctionTypeFlags="方法" IsOverloaded="True" Label="OnMouseUp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="0,279.183333333333,329.98,25.8366666666666" CodeSchemaProperty_IsPublic="True" CommonLabel="GeneratThumbToSaveAndLoadtoBmpsFromaName" FunctionTypeFlags="方法" Label="GeneratThumbToSaveAndLoadtoBmpsFromaName" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/Folder.cs&quot; StartLineNumber=109 StartCharacterOffset=0 EndLineNumber=109 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="391.563333333333,949.223333333332,88.8533333333334,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="WndProc" FunctionTypeFlags="方法" IsOverloaded="True" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_Method" Bounds="391.563333333333,1005.06,88.8533333333334,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="WndProc" FunctionTypeFlags="方法" IsOverloaded="True" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="316.563333333333,1060.89666666667,88.8533333333334,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="WndProc" FunctionTypeFlags="方法 虚拟" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="510.563333333333,1005.06,88.8533333333334,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="WndProc" FunctionTypeFlags="方法" IsOverloaded="True" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="510.563333333333,949.223333333332,88.8533333333334,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="WndProc" FunctionTypeFlags="方法" IsOverloaded="True" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="223.898333333333,223.346666666666,104.183333333333,25.8366666666666" CodeSchemaProperty_IsPrivate="True" CommonLabel="btnOk_Click" FunctionTypeFlags="方法" Label="btnOk_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/FrmLoadPic.cs&quot; StartLineNumber=122 StartCharacterOffset=0 EndLineNumber=122 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_Method" Bounds="395.108333333333,446.693333333333,141.763333333333,25.8366666666666" CodeSchemaProperty_IsPrivate="True" CommonLabel="tsBarLoadPic_Click" FunctionTypeFlags="方法" Label="tsBarLoadPic_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/MainForm.cs&quot; StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_Method" Bounds="567.495,446.693333333333,134.99,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ExecuteAssembly" FunctionTypeFlags="方法" Label="ExecuteAssembly" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="605.68,167.51,58.62,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Run" FunctionTypeFlags="方法" Label="Run" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_Method" Bounds="605.68,223.346666666666,58.62,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Run" FunctionTypeFlags="方法" Label="Run" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_Method" Bounds="583.678333333333,279.183333333333,102.623333333333,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsStatic="True" CommonLabel="RunInternal" FunctionTypeFlags="方法" Label="RunInternal" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_Method" Bounds="548.518333333333,502.529999999999,64.9433333333333,25.8366666666667" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" FunctionTypeFlags="方法" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/Program.cs&quot; StartLineNumber=18 StartCharacterOffset=0 EndLineNumber=18 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="414.015,279.183333333333,103.95,25.8366666666666" CodeSchemaProperty_IsExternal="True" Label="HandleClick">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="399.63,223.346666666666,132.72,25.8366666666666" CodeSchemaProperty_IsExternal="True" Label="HandleMouseUp">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@38" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="417.946666666667,558.366666666666,96.0866666666666,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="RunDialog">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="503.023333333333,893.386666666665,103.933333333333,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="OnMessage">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="562.545,390.856666666666,144.89,25.8366666666666" CodeSchemaProperty_IsExternal="True" Label="RunUsersAssembly">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@40" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="510.563333333333,837.549999999999,88.8533333333334,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="WndProc">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="558.33,335.02,153.32,25.8366666666666" CodeSchemaProperty_IsExternal="True" Label="ThreadStart_Context">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="485.76,614.203333333332,138.46,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="RunMessageLoop">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="470.906666666667,670.039999999999,168.166666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="RunMessageLoopInner">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@46" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="417.193333333333,390.856666666666,97.5933333333334,25.8366666666666" CodeSchemaProperty_IsExternal="True" Label="RaiseEvent">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@47" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="401.725,111.673333333333,88.53,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="FireEvent">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="391.621666666667,167.51,148.736666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="FireEventInteractive">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@49" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="303.396666666667,0,115.186666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="WmMouseUp">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@51" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="480.043333333333,725.876666666666,149.893333333333,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="FPushMessageLoop">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="477.713333333333,781.713333333332,154.553333333333,25.8366666666667" CodeSchemaProperty_IsExternal="True" Label="DebuggableCallback">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="235.921666666667,111.673333333333,80.1366666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="OnClick" FunctionTypeFlags="方法" IsOverloaded="True" Label="OnClick" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="(@7 @29 Type=ThreadHelper Member=ThreadStart)" Target="@31" Category="CallStackDirectCall" Bounds="634.989990234375,137.509994506836,0,21" />
+    <Link Source="@10" Target="@26" Category="CallStackDirectCall" Bounds="275.989990234375,193.346664428711,0,21" />
+    <Link Source="@11" Target="@46" Category="CallStackDirectCall" Bounds="465.989990234375,360.856658935547,0,21" />
+    <Link Source="@12" Target="@44" Category="CallStackDirectCall" Bounds="562.285095214844,584.203308105469,7.30908203125,21.4797973632813" />
+    <Link Source="@13" Target="@38" Category="CallStackDirectCall" Bounds="465.989990234375,528.366638183594,0,21" />
+    <Link Source="@14" Target="@9" Category="CallStackDirectCall" Bounds="275.989990234375,81.6733322143555,0,21" />
+    <Link Source="@15" Target="@47" Category="CallStackDirectCall" Bounds="445.989990234375,81.6733322143555,0,21" />
+    <Link Source="@19" Target="(@16 @17 Type=Folder Member=(Name=CreatThumbnail OverloadingParameters=[@18,@18]))" Category="CallStackDirectCall" Bounds="164.990005493164,305.019989013672,0,21" />
+    <Link Source="@21" Target="@22" Category="CallStackDirectCall" Bounds="435.989990234375,975.059997558594,0,21" />
+    <Link Source="@22" Target="@23" Category="CallStackDirectCall" Bounds="385.561004638672,1030.89660644531,33.0770568847656,24.6256103515625" />
+    <Link Source="@23" Target="@49" Category="CallStackDirectCall" Bounds="360.989990234375,34.8366661071777,0,1026.05994033813" />
+    <Link Source="@24" Target="@23" Category="CallStackDirectCall" Bounds="412.742370605469,1030.38427734375,99.1441345214844,28.5355224609375" />
+    <Link Source="@25" Target="@24" Category="CallStackDirectCall" Bounds="554.989990234375,975.059997558594,0,21" />
+    <Link Source="@26" Target="@19" Category="CallStackDirectCall" Bounds="198.710952758789,249.183334350586,51.5981597900391,25.9555816650391" />
+    <Link Source="@27" Target="@13" Category="CallStackDirectCall" Bounds="465.989990234375,472.529998779297,0,21" />
+    <Link Source="@28" Target="@34" Category="CallStackIndirectCall" Bounds="599.740051269531,472.529998779297,22.7565307617188,23.530517578125" />
+    <Link Source="@31" Target="@32" Category="CallStackDirectCall" Bounds="634.989990234375,193.346664428711,0,21" />
+    <Link Source="@32" Target="@33" Category="CallStackDirectCall" Bounds="634.989990234375,249.183334350586,0,20.9999847412109" />
+    <Link Source="@33" Target="@42" Category="CallStackDirectCall" Bounds="634.989990234375,305.019989013672,0,21" />
+    <Link Source="@34" Target="@12" Category="CallStackDirectCall" Bounds="576.729064941406,528.366638183594,2.64141845703125,21.0699462890625" />
+    <Link Source="@36" Target="@11" Category="CallStackDirectCall" Bounds="465.989990234375,305.019989013672,0,21" />
+    <Link Source="@37" Target="@36" Category="CallStackDirectCall" Bounds="465.989990234375,249.183334350586,0,20.9999847412109" />
+    <Link Source="@38" Target="@44" Category="CallStackDirectCall" Bounds="486.580993652344,584.203308105469,40.1942138671875,25.2169799804688" />
+    <Link Source="@39" Target="@21" Category="CallStackDirectCall" Bounds="471.66943359375,919.223327636719,55.788818359375,26.177001953125" />
+    <Link Source="@39" Target="@25" Category="CallStackDirectCall" Bounds="554.989990234375,919.223327636719,0,21" />
+    <Link Source="@4" Target="@28" Category="CallStackDirectCall" Bounds="634.989990234375,416.693328857422,0,21" />
+    <Link Source="@40" Target="@39" Category="CallStackDirectCall" Bounds="554.989990234375,863.386657714844,0,21" />
+    <Link Source="@42" Target="@4" Category="CallStackDirectCall" Bounds="634.989990234375,360.856658935547,0,21" />
+    <Link Source="@44" Target="@45" Category="CallStackDirectCall" Bounds="554.989990234375,640.039978027344,0,21" />
+    <Link Source="@45" Target="@51" Category="CallStackDirectCall" Bounds="554.989990234375,695.876647949219,0,21" />
+    <Link Source="@46" Target="@27" Category="CallStackDirectCall" Bounds="465.989990234375,416.693328857422,0,21" />
+    <Link Source="@47" Target="@48" Category="CallStackDirectCall" Bounds="450.6171875,137.509994506836,7.71075439453125,21.5271301269531" />
+    <Link Source="@48" Target="@37" Category="CallStackDirectCall" Bounds="465.989990234375,193.346664428711,0,21" />
+    <Link Source="@49" Target="@14" Category="CallStackDirectCall" Bounds="303.177734375,25.8366661071777,38.146728515625,25.058666229248" />
+    <Link Source="@49" Target="@15" Category="CallStackDirectCall" Bounds="380.655548095703,25.8366661071777,38.146728515625,25.058666229248" />
+    <Link Source="@51" Target="@52" Category="CallStackIndirectCall" Bounds="554.989990234375,751.713317871094,0,21" />
+    <Link Source="@52" Target="@40" Category="CallStackDirectCall" Bounds="554.989990234375,807.549987792969,0,21" />
+    <Link Source="@9" Target="@10" Category="CallStackDirectCall" Bounds="275.989990234375,137.509994506836,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CallStackIndirectCall" Label="调用堆栈间接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈间接调用" OutgoingActionLabel="调用堆栈间接调用" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="外部调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部调用堆栈入口" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="是外部的" Description="一个标志，用于指示此节点是否被认为是外部的" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="是私有的" Description="一个标志，用于指示该范围是“私有”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="是受保护的" Description="一个标志，用于指示该范围是“受保护”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="是公共的" Description="一个标志，用于指示该范围是“公共”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="是静态的" Description="一个标志，用于指示该成员是静态成员" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="是虚拟的" Description="一个标志，用于指示可以重写该方法" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="数组秩" ValueType="System.String" />
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="是无法解析的" ValueType="System.String" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParamKind" Label="参数种类" ValueType="Microsoft.VisualStudio.GraphModel.CodeSchema.ParamKind" />
+    <Name Id="ParentType" Label="父类型" ValueType="System.Object" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=Microsoft.VisualStudio.HostingProcess.Utilities.dll" />
+    <Alias n="2" Id="Type=void" />
+    <Alias n="3" Id="IsUnresolved=True" />
+    <Alias n="4" Id="(Name=Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly @1 @2 @3)" />
+    <Alias n="5" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Windows.Forms.dll" />
+    <Alias n="6" Id="Namespace=System.Windows.Forms" />
+    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="8" Id="Namespace=System" />
+    <Alias n="9" Id="(@5 @6 Type=Button Member=(Name=OnClick OverloadingParameters=[(@7 @8 Type=EventArgs)]))" />
+    <Alias n="10" Id="(@5 @6 Type=Control Member=(Name=OnClick OverloadingParameters=[(@7 @8 Type=EventArgs)]))" />
+    <Alias n="11" Id="(@5 @6 Type=ToolStripButton Member=(Name=OnClick OverloadingParameters=[(@7 @8 Type=EventArgs)]))" />
+    <Alias n="12" Id="(@5 @6 Type=Application Member=(Name=Run OverloadingParameters=[(@5 @6 Type=Form)]))" />
+    <Alias n="13" Id="(@5 @6 Type=Form Member=(Name=ShowDialog OverloadingParameters=[(@5 @6 Type=IWin32Window)]))" />
+    <Alias n="14" Id="(@5 @6 Type=Button Member=(Name=OnMouseUp OverloadingParameters=[(@5 @6 Type=MouseEventArgs)]))" />
+    <Alias n="15" Id="(@5 @6 Type=ToolStrip Member=(Name=OnMouseUp OverloadingParameters=[(@5 @6 Type=MouseEventArgs)]))" />
+    <Alias n="16" Uri="Assembly=$(62012fc3-9082-47e6-b758-65a014e8ffb0.OutputPathUri)" />
+    <Alias n="17" Id="Namespace=PicSeeNav" />
+    <Alias n="18" Id="(@7 @8 Type=String)" />
+    <Alias n="19" Id="(@16 @17 Type=Folder Member=(Name=GeneratThumbToSaveAndLoadtoBmpsFromaName OverloadingParameters=[@18]))" />
+    <Alias n="20" Id="Member=(Name=WndProc OverloadingParameters=[(@5 @6 Type=Message ParamKind=Ref)])" />
+    <Alias n="21" Id="(@5 @6 Type=Button @20)" />
+    <Alias n="22" Id="(@5 @6 Type=ButtonBase @20)" />
+    <Alias n="23" Id="(@5 @6 Type=Control @20)" />
+    <Alias n="24" Id="(@5 @6 Type=ScrollableControl @20)" />
+    <Alias n="25" Id="(@5 @6 Type=ToolStrip @20)" />
+    <Alias n="26" Id="(@16 @17 Type=FrmLoadPic Member=(Name=btnOk_Click OverloadingParameters=[(@7 @8 Type=Object),(@7 @8 Type=EventArgs)]))" />
+    <Alias n="27" Id="(@16 @17 Type=MainForm Member=(Name=tsBarLoadPic_Click OverloadingParameters=[(@7 @8 Type=Object),(@7 @8 Type=EventArgs)]))" />
+    <Alias n="28" Id="(@7 @8 Type=AppDomain Member=(Name=ExecuteAssembly OverloadingParameters=[@18,(@7 Namespace=System.Security.Policy Type=Evidence),(@7 @8 Type=(Name=String ArrayRank=1 ParentType=String))]))" />
+    <Alias n="29" Id="Namespace=System.Threading" />
+    <Alias n="30" Id="Type=ExecutionContext" />
+    <Alias n="31" Id="(@7 @29 @30 Member=(Name=Run OverloadingParameters=[(@7 @29 @30),(@7 @29 Type=ContextCallback),(@7 @8 Type=Object)]))" />
+    <Alias n="32" Id="(@7 @29 @30 Member=(Name=Run OverloadingParameters=[(@7 @29 @30),(@7 @29 Type=ContextCallback),(@7 @8 Type=Object),(@7 @8 Type=Boolean)]))" />
+    <Alias n="33" Id="(@7 @29 @30 Member=(Name=RunInternal OverloadingParameters=[(@7 @29 @30),(@7 @29 Type=ContextCallback),(@7 @8 Type=Object),(@7 @8 Type=Boolean)]))" />
+    <Alias n="34" Id="(@16 @17 Type=Program Member=Main)" />
+    <Alias n="35" Uri="Assembly=System.Windows.Forms.dll" />
+    <Alias n="36" Id="(Name=System.Windows.Forms.ToolStripItem.HandleClick @35 @2 OverloadingParameters=[(Type=System.EventArgs Name=e)] @3)" />
+    <Alias n="37" Id="(Name=System.Windows.Forms.ToolStripItem.HandleMouseUp @35 @2 OverloadingParameters=[(Type=System.Windows.Forms.MouseEventArgs Name=e)] @3)" />
+    <Alias n="38" Id="(Name=System.Windows.Forms.Application.RunDialog @35 @2 OverloadingParameters=[(Type=System.Windows.Forms.Form Name=form)] @3)" />
+    <Alias n="39" Id="(Name=System.Windows.Forms.Control.ControlNativeWindow.OnMessage @35 @2 OverloadingParameters=[(Type=&quot;ref System.Windows.Forms.Message&quot; Name=m)] @3)" />
+    <Alias n="40" Id="(Name=System.Windows.Forms.Control.ControlNativeWindow.WndProc @35 @2 OverloadingParameters=[(Type=&quot;ref System.Windows.Forms.Message&quot; Name=m)] @3)" />
+    <Alias n="41" Uri="Assembly=mscorlib.dll" />
+    <Alias n="42" Id="(Name=System.Threading.ThreadHelper.ThreadStart_Context @41 @2 OverloadingParameters=[(Type=object Name=state)] @3)" />
+    <Alias n="43" Id="Type=int" />
+    <Alias n="44" Id="(Name=System.Windows.Forms.Application.ThreadContext.RunMessageLoop @35 @2 OverloadingParameters=[(@43 Name=reason),(Type=System.Windows.Forms.ApplicationContext Name=context)] @3)" />
+    <Alias n="45" Id="(Name=System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner @35 @2 OverloadingParameters=[(@43 Name=reason),(Type=System.Windows.Forms.ApplicationContext Name=context)] @3)" />
+    <Alias n="46" Id="(Name=System.Windows.Forms.ToolStripItem.RaiseEvent @35 @2 OverloadingParameters=[(Type=object Name=key),(Type=System.EventArgs Name=e)] @3)" />
+    <Alias n="47" Id="(Name=System.Windows.Forms.ToolStripItem.FireEvent @35 @2 OverloadingParameters=[(Type=System.EventArgs Name=e),(Type=System.Windows.Forms.ToolStripItemEventType Name=met)] @3)" />
+    <Alias n="48" Id="(Name=System.Windows.Forms.ToolStripItem.FireEventInteractive @35 @2 OverloadingParameters=[(Type=System.EventArgs Name=e),(Type=System.Windows.Forms.ToolStripItemEventType Name=met)] @3)" />
+    <Alias n="49" Id="(Name=System.Windows.Forms.Control.WmMouseUp @35 @2 OverloadingParameters=[(Type=&quot;ref System.Windows.Forms.Message&quot; Name=m),(Type=System.Windows.Forms.MouseButtons Name=button),(@43 Name=clicks)] @3)" />
+    <Alias n="50" Id="Type=System.IntPtr" />
+    <Alias n="51" Id="(Name=System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop @35 Type=bool OverloadingParameters=[(@50 Name=dwComponentID),(@43 Name=reason),(@43 Name=pvLoopData)] @3)" />
+    <Alias n="52" Id="(Name=System.Windows.Forms.NativeWindow.DebuggableCallback @35 @50 OverloadingParameters=[(@50 Name=hWnd),(@43 Name=msg),(@50 Name=wparam),(@50 Name=lparam)] @3)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈节点" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈入口" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="62012fc3-9082-47e6-b758-65a014e8ffb0.OutputPathUri" Value="file:///E:/Documents and Settings/bob/Visual Studio 2012/Projects/PicSeeNav/PicSeeNav/bin/Debug/PicSeeNav.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

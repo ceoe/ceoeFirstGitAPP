@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\dmc2610_demo.Properties.Resources.resources
+obj\Debug\dmc2610_demo.csproj.GenerateResource.Cache
+bin\Debug\dmc2610_demo.exe
+bin\Debug\dmc2610_demo.pdb
+obj\Debug\dmc2610_demo.exe
+obj\Debug\dmc2610_demo.pdb

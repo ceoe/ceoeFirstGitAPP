@@ -1,0 +1,9 @@
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\bin\Debug\DrilTapeTest1.exe.config
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\bin\Debug\DrilTapeTest1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\bin\Debug\DrilTapeTest1.pdb
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.Form1.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.Properties.Resources.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.csproj.GenerateResource.Cache
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.pdb
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\Debug\DrilTapeTest1.csprojResolveAssemblyReference.cache

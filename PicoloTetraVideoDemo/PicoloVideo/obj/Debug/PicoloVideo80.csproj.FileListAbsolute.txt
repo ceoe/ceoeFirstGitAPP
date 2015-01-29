@@ -1,0 +1,7 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\obj\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\obj\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\bin\Debug\PicoloVideo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\bin\Debug\PicoloVideo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\obj\Debug\PicoloVideo80.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\obj\Debug\PicoloVideo.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PicoloTetraVideoDemo\PicoloVideo\obj\Debug\PicoloVideo80.csproj.GenerateResource.Cache

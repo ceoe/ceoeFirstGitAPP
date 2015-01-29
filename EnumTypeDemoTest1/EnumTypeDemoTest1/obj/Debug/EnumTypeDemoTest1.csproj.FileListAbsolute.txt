@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\bin\Debug\EnumTypeDemoTest1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\obj\Debug\EnumTypeDemoTest1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\bin\Debug\EnumTypeDemoTest1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\bin\Debug\EnumTypeDemoTest1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\obj\Debug\EnumTypeDemoTest1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EnumTypeDemoTest1\EnumTypeDemoTest1\obj\Debug\EnumTypeDemoTest1.pdb

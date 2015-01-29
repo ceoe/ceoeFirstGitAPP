@@ -1,0 +1,9 @@
+E:\Tetris\Tetris\bin\Release\Tetris.exe
+E:\Tetris\Tetris\bin\Release\Tetris.pdb
+E:\Tetris\Tetris\obj\Release\ResolveAssemblyReference.cache
+E:\Tetris\Tetris\obj\Release\Tetris.FrmConfig.resources
+E:\Tetris\Tetris\obj\Release\Tetris.MainForm.resources
+E:\Tetris\Tetris\obj\Release\Tetris.Properties.Resources.resources
+E:\Tetris\Tetris\obj\Release\Tetris.csproj.GenerateResource.Cache
+E:\Tetris\Tetris\obj\Release\Tetris.exe
+E:\Tetris\Tetris\obj\Release\Tetris.pdb

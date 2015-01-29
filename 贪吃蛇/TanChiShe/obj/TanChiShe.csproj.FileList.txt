@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TanChiShe.Speed.resources
+obj\Debug\TanChiShe.Star.resources
+obj\Debug\TanChiShe.Properties.Resources.resources
+obj\Debug\TanChiShe.csproj.GenerateResource.Cache
+bin\Debug\TanChiShe.exe
+bin\Debug\TanChiShe.pdb
+obj\Debug\TanChiShe.exe
+obj\Debug\TanChiShe.pdb

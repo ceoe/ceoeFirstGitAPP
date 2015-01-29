@@ -1,0 +1,12 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\MyPicoloDemo\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\bin\Debug\AboutMutexDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\AboutMutexDemo\AboutMutexDemo\obj\Debug\AboutMutexDemo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\bin\Debug\YieldUsageDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\obj\Debug\YieldUsageDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\bin\Debug\YieldUsageDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\bin\Debug\YieldUsageDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\obj\Debug\YieldUsageDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\YieldUsageDemo1\YieldUsageDemo1\obj\Debug\YieldUsageDemo1.pdb

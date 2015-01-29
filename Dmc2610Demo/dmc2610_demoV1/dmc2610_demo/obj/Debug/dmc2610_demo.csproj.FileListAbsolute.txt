@@ -1,0 +1,2 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demoV1\dmc2610_demo\obj\Debug\dmc2610_demo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\Dmc2610Demo\dmc2610_demoV1\dmc2610_demo\obj\Debug\dmc2610_demo.pdb

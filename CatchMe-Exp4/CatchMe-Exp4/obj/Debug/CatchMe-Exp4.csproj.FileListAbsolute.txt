@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\bin\Debug\CatchMe-Exp4.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\bin\Debug\CatchMe-Exp4.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\bin\Debug\CatchMe-Exp4.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe-Exp4.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe_Exp4.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe_Exp4.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe-Exp4.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe-Exp4.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CatchMe-Exp4\CatchMe-Exp4\obj\Debug\CatchMe-Exp4.pdb

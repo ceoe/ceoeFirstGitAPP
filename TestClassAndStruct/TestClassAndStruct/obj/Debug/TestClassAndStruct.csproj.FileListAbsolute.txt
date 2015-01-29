@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\bin\Debug\TestClassAndStruct.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\bin\Debug\TestClassAndStruct.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\bin\Debug\TestClassAndStruct.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\obj\Debug\TestClassAndStruct.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\obj\Debug\TestClassAndStruct.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\TestClassAndStruct\TestClassAndStruct\obj\Debug\TestClassAndStruct.pdb

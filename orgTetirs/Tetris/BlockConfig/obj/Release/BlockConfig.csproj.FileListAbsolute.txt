@@ -1,0 +1,8 @@
+E:\Tetris\BlockConfig\bin\Release\BlockConfig.exe
+E:\Tetris\BlockConfig\bin\Release\BlockConfig.pdb
+E:\Tetris\BlockConfig\obj\Release\ResolveAssemblyReference.cache
+E:\Tetris\BlockConfig\obj\Release\BlockConfig.MainForm.resources
+E:\Tetris\BlockConfig\obj\Release\BlockConfig.Properties.Resources.resources
+E:\Tetris\BlockConfig\obj\Release\BlockConfig.csproj.GenerateResource.Cache
+E:\Tetris\BlockConfig\obj\Release\BlockConfig.exe
+E:\Tetris\BlockConfig\obj\Release\BlockConfig.pdb

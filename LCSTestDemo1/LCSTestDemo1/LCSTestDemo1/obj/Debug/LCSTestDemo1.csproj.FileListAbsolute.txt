@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\bin\Debug\LCSTestDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\bin\Debug\LCSTestDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\bin\Debug\LCSTestDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LCSTestDemo1\LCSTestDemo1\LCSTestDemo1\obj\Debug\LCSTestDemo1.pdb

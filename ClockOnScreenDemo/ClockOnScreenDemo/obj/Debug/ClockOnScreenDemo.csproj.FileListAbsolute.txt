@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\bin\Debug\ClockOnScreenDemo.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\bin\Debug\ClockOnScreenDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\bin\Debug\ClockOnScreenDemo.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ClockOnScreenDemo\ClockOnScreenDemo\obj\Debug\ClockOnScreenDemo.pdb

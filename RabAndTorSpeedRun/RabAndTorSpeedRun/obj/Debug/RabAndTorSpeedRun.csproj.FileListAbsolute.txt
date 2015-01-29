@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\bin\Debug\RabAndTorSpeedRun.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\bin\Debug\RabAndTorSpeedRun.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\bin\Debug\RabAndTorSpeedRun.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\RabAndTorSpeedRun\RabAndTorSpeedRun\obj\Debug\RabAndTorSpeedRun.pdb

@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\bin\Debug\ArryDemoTest1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\bin\Debug\ArryDemoTest1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\bin\Debug\ArryDemoTest1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\obj\Debug\ArryDemoTest1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\obj\Debug\ArryDemoTest1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\ArryDemoTest1\ArryDemoTest1\obj\Debug\ArryDemoTest1.pdb

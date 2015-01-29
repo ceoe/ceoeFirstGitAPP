@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\bin\Debug\PuzzlePictureGameDemo1.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\bin\Debug\PuzzlePictureGameDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\bin\Debug\PuzzlePictureGameDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\PuzzlePictureGameDemo1\PuzzlePictureGameDemo1\obj\Debug\PuzzlePictureGameDemo1.Main_Form.resources

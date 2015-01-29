@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\bin\Debug\LinktoArduinoControllerDEMO.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\bin\Debug\LinktoArduinoControllerDEMO.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\bin\Debug\LinktoArduinoControllerDEMO.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\LinktoArduinoControllerDEMO\LinktoArduinoControllerDEMO\obj\Debug\LinktoArduinoControllerDEMO.csprojResolveAssemblyReference.cache

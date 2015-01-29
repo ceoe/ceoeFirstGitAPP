@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\bin\Debug\TanChiShe.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\bin\Debug\TanChiShe.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.Speed.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.Star.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\贪吃蛇\TanChiShe\obj\Debug\TanChiShe.csproj.GenerateResource.Cache
