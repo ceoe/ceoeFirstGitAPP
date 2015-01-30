@@ -37,13 +37,16 @@
             this.btnFillDataGR1 = new System.Windows.Forms.Button();
             this.dataGR1 = new System.Windows.Forms.DataGridView();
             this.dataSet13 = new System.Data.DataSet();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.lbKindofTools = new System.Windows.Forms.Label();
             this.lbTotalNumofHole = new System.Windows.Forms.Label();
+            this.lbMinCoordXY = new System.Windows.Forms.Label();
+            this.lbMaxCoordXY = new System.Windows.Forms.Label();
+            this.numUDbox = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGR1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUDbox)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_CoordinateXY
@@ -82,9 +85,10 @@
             this.picBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.picBox1.Location = new System.Drawing.Point(348, 41);
             this.picBox1.Name = "picBox1";
-            this.picBox1.Size = new System.Drawing.Size(804, 641);
+            this.picBox1.Size = new System.Drawing.Size(808, 749);
             this.picBox1.TabIndex = 3;
             this.picBox1.TabStop = false;
+            this.picBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.picBox1_MouseDoubleClick);
             // 
             // btnDrawDrl
             // 
@@ -130,19 +134,9 @@
             // 
             this.dataSet13.DataSetName = "NewDataSet";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(376, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(468, 13);
+            this.button2.Location = new System.Drawing.Point(367, 11);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
@@ -153,7 +147,7 @@
             // lbKindofTools
             // 
             this.lbKindofTools.AutoSize = true;
-            this.lbKindofTools.Location = new System.Drawing.Point(561, 22);
+            this.lbKindofTools.Location = new System.Drawing.Point(563, 22);
             this.lbKindofTools.Name = "lbKindofTools";
             this.lbKindofTools.Size = new System.Drawing.Size(89, 12);
             this.lbKindofTools.TabIndex = 11;
@@ -162,21 +156,70 @@
             // lbTotalNumofHole
             // 
             this.lbTotalNumofHole.AutoSize = true;
-            this.lbTotalNumofHole.Location = new System.Drawing.Point(729, 22);
+            this.lbTotalNumofHole.Location = new System.Drawing.Point(699, 22);
             this.lbTotalNumofHole.Name = "lbTotalNumofHole";
             this.lbTotalNumofHole.Size = new System.Drawing.Size(77, 12);
             this.lbTotalNumofHole.TabIndex = 12;
             this.lbTotalNumofHole.Text = "Total Holes:";
             // 
+            // lbMinCoordXY
+            // 
+            this.lbMinCoordXY.AutoSize = true;
+            this.lbMinCoordXY.Location = new System.Drawing.Point(867, 24);
+            this.lbMinCoordXY.Name = "lbMinCoordXY";
+            this.lbMinCoordXY.Size = new System.Drawing.Size(29, 12);
+            this.lbMinCoordXY.TabIndex = 13;
+            this.lbMinCoordXY.Text = "Min:";
+            // 
+            // lbMaxCoordXY
+            // 
+            this.lbMaxCoordXY.AutoSize = true;
+            this.lbMaxCoordXY.Location = new System.Drawing.Point(992, 23);
+            this.lbMaxCoordXY.Name = "lbMaxCoordXY";
+            this.lbMaxCoordXY.Size = new System.Drawing.Size(29, 12);
+            this.lbMaxCoordXY.TabIndex = 14;
+            this.lbMaxCoordXY.Text = "Max:";
+            // 
+            // numUDbox
+            // 
+            this.numUDbox.DecimalPlaces = 2;
+            this.numUDbox.Increment = new decimal(new int[] {
+            25,
+            0,
+            0,
+            131072});
+            this.numUDbox.Location = new System.Drawing.Point(482, 12);
+            this.numUDbox.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.numUDbox.Minimum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            131072});
+            this.numUDbox.Name = "numUDbox";
+            this.numUDbox.Size = new System.Drawing.Size(58, 21);
+            this.numUDbox.TabIndex = 15;
+            this.numUDbox.Value = new decimal(new int[] {
+            15,
+            0,
+            0,
+            65536});
+            this.numUDbox.ValueChanged += new System.EventHandler(this.numUDbox_ValueChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1164, 706);
+            this.ClientSize = new System.Drawing.Size(1168, 802);
+            this.Controls.Add(this.numUDbox);
+            this.Controls.Add(this.lbMaxCoordXY);
+            this.Controls.Add(this.lbMinCoordXY);
             this.Controls.Add(this.lbTotalNumofHole);
             this.Controls.Add(this.lbKindofTools);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGR1);
             this.Controls.Add(this.btnFillDataGR1);
             this.Controls.Add(this.btnFindMinMax);
@@ -190,6 +233,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGR1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUDbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,10 +250,12 @@
         private System.Windows.Forms.Button btnFillDataGR1;
         private System.Windows.Forms.DataGridView dataGR1;
         private System.Data.DataSet dataSet13;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lbKindofTools;
         private System.Windows.Forms.Label lbTotalNumofHole;
+        private System.Windows.Forms.Label lbMinCoordXY;
+        private System.Windows.Forms.Label lbMaxCoordXY;
+        private System.Windows.Forms.NumericUpDown numUDbox;
     }
 }
 

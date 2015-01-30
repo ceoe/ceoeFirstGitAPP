@@ -32,21 +32,27 @@ namespace DrilTapeTest1
         private float[] _toolslist;
         private int _totalNumofhole;
 
-        List<HoleShape>  HoleList=new List<HoleShape>();
-        List<SlotShape>  SlotList=new List<SlotShape>();
-        List<CircleShape> CircleList = new List<CircleShape>();
+       private PointF minPointF;
+       private PointF maxPointF;
 
-        private HoleShape[] holeshape;
-        private SlotShape[] slotshape;
-        private CircleShape[] circleShapes;
+
+       public List<HoleShape>  HoleList=new List<HoleShape>();
+       public List<SlotShape>  SlotList=new List<SlotShape>();
+       public List<CircleShape> CircleList = new List<CircleShape>();
+
+        public HoleShape[] holeshape;
+        public SlotShape[] slotshape;
+        public CircleShape[] circleShapes;
+
 
 
         public DrillTAPE(string readTapepath)
         {
 
-           GetFileFormateAndToolOrder(readTapepath);
-           GetCoordinateAndShape(readTapepath);
-           totalhit();
+            GetFileFormateAndToolOrder(readTapepath);
+            GetCoordinateAndShape(readTapepath);
+            totalhit();
+            GetMinMaxPointF();
         }
        public  class CoordinateGroup
         {
@@ -58,8 +64,61 @@ namespace DrilTapeTest1
                 set { pointfs = value; }
             }
 
-          
-            public CoordinateGroup(PointF[] pointf)
+           public PointF MinCoordPointF
+           {
+               get
+               {
+                   float minX=0, minY=0;
+                   if (pointfs.Length>0)
+                   {
+                       minX = pointfs[0].X;
+                       minY = pointfs[0].Y;
+
+                       for (int i = 0; i < pointfs.Length; i++)
+                       {
+                           if (pointfs[i].X < minX)
+                           {
+                               minX = pointfs[i].X;
+                           }
+                           if (pointfs[i].Y < minY)
+                           {
+                               minY = pointfs[i].Y;
+                           }
+                       }
+                   }
+                   
+                   return new PointF(minX,minY);
+               }
+           }
+
+           public PointF MaxCoordPointF
+           {
+               get
+               {
+                   float maxX = 0, maxY = 0;
+                   if (pointfs.Length > 0)
+                   {
+                       maxX = pointfs[0].X;
+                       maxY = pointfs[0].Y;
+
+                       for (int i = 0; i < pointfs.Length; i++)
+                       {
+                           if (pointfs[i].X > maxX)
+                           {
+                               maxX = pointfs[i].X;
+                           }
+                           if (pointfs[i].Y > maxY)
+                           {
+                               maxY = pointfs[i].Y;
+                           }
+                       }
+                   }
+                   return new PointF(maxX, maxY);
+               }
+           }
+
+
+           public CoordinateGroup(PointF[] pointf)
             {
                 this.pointfs = pointf;
             }
@@ -77,7 +136,7 @@ namespace DrilTapeTest1
 
        public int KindofTools
        {
-           get { return _toolslist.Length; }
+           get { return _toolslist.Length-1; }
        }
 
        public DrlUnit DrlUnit
@@ -88,6 +147,16 @@ namespace DrilTapeTest1
        public ZeroCompress ZeroCompress
        {
            get { return zeroCompress; }
+       }
+
+       public PointF MinPointF
+       {
+           get { return minPointF; }
+       }
+
+       public PointF MaxPointF
+       {
+           get { return maxPointF; }
        }
 
        public void totalhit()
@@ -108,6 +177,76 @@ namespace DrilTapeTest1
            this._totalNumofhole = _totalhit;
        }
 
+       public void GetMinMaxPointF()
+       {
+           if (HoleList[0].Count>0)
+           {
+               minPointF = HoleList[0].XYCoordinateGroup.Pointfs[0];
+               maxPointF = HoleList[0].XYCoordinateGroup.Pointfs[0];
+           }
+           foreach (HoleShape holeShape in HoleList)
+           {
+               if (maxPointF.X<holeShape.XYCoordinateGroup.MaxCoordPointF.X)
+               {
+                   maxPointF.X = holeShape.XYCoordinateGroup.MaxCoordPointF.X;
+               }
+               if (maxPointF.Y < holeShape.XYCoordinateGroup.MaxCoordPointF.Y)
+               {
+                   maxPointF.Y = holeShape.XYCoordinateGroup.MaxCoordPointF.Y;
+               }
+
+               if (minPointF.X > holeShape.XYCoordinateGroup.MinCoordPointF.X)
+               {
+                   minPointF.X = holeShape.XYCoordinateGroup.MinCoordPointF.X;
+               }
+               if (minPointF.Y > holeShape.XYCoordinateGroup.MinCoordPointF.Y)
+               {
+                   minPointF.Y = holeShape.XYCoordinateGroup.MinCoordPointF.Y;
+               }
+           }
+           foreach (var circleShape in CircleList)
+           {
+               if (maxPointF.X < circleShape.CircleCoordinateGroup.MaxCoordPointF.X)
+               {
+                   maxPointF.X = circleShape.CircleCoordinateGroup.MaxCoordPointF.X;
+               }
+               if (maxPointF.Y < circleShape.CircleCoordinateGroup.MaxCoordPointF.Y)
+               {
+                   maxPointF.Y = circleShape.CircleCoordinateGroup.MaxCoordPointF.Y;
+               }
+
+               if (minPointF.X > circleShape.CircleCoordinateGroup.MinCoordPointF.X)
+               {
+                   minPointF.X = circleShape.CircleCoordinateGroup.MinCoordPointF.X;
+               }
+               if (minPointF.Y > circleShape.CircleCoordinateGroup.MinCoordPointF.Y)
+               {
+                   minPointF.Y = circleShape.CircleCoordinateGroup.MinCoordPointF.Y;
+               }
+           }
+           foreach (var slotShape in SlotList)
+           {
+               if (maxPointF.X < slotShape.StartCoordinateGroup.MaxCoordPointF.X)
+               {
+                   maxPointF.X = slotShape.StartCoordinateGroup.MaxCoordPointF.X;
+               }
+               if (maxPointF.Y < slotShape.StartCoordinateGroup.MaxCoordPointF.Y)
+               {
+                   maxPointF.Y = slotShape.StartCoordinateGroup.MaxCoordPointF.Y;
+               }
+
+               if (minPointF.X > slotShape.StartCoordinateGroup.MinCoordPointF.X)
+               {
+                   minPointF.X = slotShape.StartCoordinateGroup.MinCoordPointF.X;
+               }
+               if (minPointF.Y > slotShape.StartCoordinateGroup.MinCoordPointF.Y)
+               {
+                   minPointF.Y = slotShape.StartCoordinateGroup.MinCoordPointF.Y;
+               }
+           }
+          
+       }
+
        public class CircleCoordinateGroup
         {
             private PointF[] _pointfs;
@@ -115,6 +254,7 @@ namespace DrilTapeTest1
             private float[] _drlcircleDia;
 
             private int count;
+
 
             public PointF[] Pointfs
             {
@@ -143,6 +283,56 @@ namespace DrilTapeTest1
             public int GetCoordinateCount()
             {
                 return this.Pointfs.Count();
+            }
+
+            public PointF MinCoordPointF
+            {
+                get
+                {
+                    float minX = 0, minY = 0;
+                    if (_pointfs.Length > 0)
+                    {
+                        minX = _pointfs[0].X;
+                        minY = _pointfs[0].X;
+                        for (int i = 0; i < _pointfs.Length; i++)
+                        {
+                            if (_pointfs[i].X < minX)
+                            {
+                                minX = _pointfs[i].X;
+                            }
+                            if (_pointfs[i].Y < minY)
+                            {
+                                minY = _pointfs[i].Y;
+                            }
+                        }
+                    }
+                    return new PointF(minX, minY);
+                }
+            }
+
+            public PointF MaxCoordPointF
+            {
+                get
+                {
+                    float maxX = 0, maxY = 0;
+                    if (_pointfs.Length > 0)
+                    {
+                        maxX = _pointfs[0].X;
+                        maxY = _pointfs[0].X;
+                        for (int i = 0; i < _pointfs.Length; i++)
+                        {
+                            if (_pointfs[i].X > maxX)
+                            {
+                                maxX = _pointfs[i].X;
+                            }
+                            if (_pointfs[i].Y > maxY)
+                            {
+                                maxY = _pointfs[i].Y;
+                            }
+                        }
+                    }
+                    return new PointF(maxX, maxY);
+                }
             }
         }
 
@@ -294,7 +484,9 @@ namespace DrilTapeTest1
        public void GetFileFormateAndToolOrder(string readTapepath)
        {
 
-          List<float> tOrderList = new List<float>();
+           float [] tOrderList=new float[256];
+           Stack<float> tDiaStack=new Stack<float>();
+           Stack<int> tordStack=new Stack<int>();
            string tempstr1;
 
            try
@@ -312,8 +504,6 @@ namespace DrilTapeTest1
                        }
                        Regex rgUnit = new Regex(@"METRIC|INCH");
                        Regex rgZeroCompress = new Regex(@"TZ|LZ|NONE");
-                       Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})C(?<Diameter>\d{1,2}\.\d*)", RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
-                      
                        Match unitmatchs = rgUnit.Match(tempstr1);
                        if (unitmatchs.Success)
                        {
@@ -344,10 +534,12 @@ namespace DrilTapeTest1
                            }
 
                        }
+                       Regex rgTorderstr = new Regex(@"T(?<Torder>\d{1,2})C(?<Diameter>\d{1,2}\.\d*)", RegexOptions.IgnoreCase | RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace);
                        Match tOrdermatches = rgTorderstr.Match(tempstr1);
                        if (tOrdermatches.Length > 0)
                        {
-                           tOrderList.Add(Convert.ToSingle(tOrdermatches.Result("${Diameter}")));
+                          
+                           tOrderList[(Convert.ToInt32(tOrdermatches.Result("${Torder}")))] = (Convert.ToSingle(tOrdermatches.Result("${Diameter}")));
                            //Toolslist[Convert.ToInt32(tOrdermatches.Result("${Torder}"))] = Convert.ToSingle(tOrdermatches.Result("${Diameter}"));
                        }
                    }
@@ -358,10 +550,21 @@ namespace DrilTapeTest1
 
                MessageBox.Show("This is a IO Exception :" + ex.Message);
            }
-           if (tOrderList.Count > 0)
+           if (tOrderList.Count() > 0)
            {
-               _toolslist = new float[tOrderList.Count];
-               for (int i = 0; i < tOrderList.Count; i++)
+               int listcount = 0;
+               for (int i = tOrderList.Count()-1; i > 0; i--)
+               {
+                   if (tOrderList[i].CompareTo(0)!=0)
+                   {
+                       listcount = i+1;
+                       break;
+                   }
+               }
+               
+               _toolslist = new float[listcount];
+
+               for (int i = 0; i < listcount; i++)
                {
                    _toolslist[i] = tOrderList[i];
                }
@@ -426,7 +629,7 @@ namespace DrilTapeTest1
                        if (tOrder == 0)
                          {
                            tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
-                           size = _toolslist[tOrder - 1];
+                           size = _toolslist[tOrder];
                          }
                        else  //否则则需要先将前面T序中的形状和坐标保存 
                        {
@@ -446,7 +649,7 @@ namespace DrilTapeTest1
                            }
                            // 再将当前新T序值和T直径改写。
                            tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
-                           size = _toolslist[tOrder - 1];
+                           size = _toolslist[tOrder];
                        }
                   }
                    //T序字串匹配不成功，则进行XY坐标格式匹配
@@ -559,7 +762,7 @@ namespace DrilTapeTest1
        {
            PointF [] temPointFs = pointFArray.ToArray();
            CoordinateGroup xyCoordgp = new CoordinateGroup(temPointFs);
-           HoleShape hs = new HoleShape(size, tOrder - 1, xyCoordgp);
+           HoleShape hs = new HoleShape(size, tOrder, xyCoordgp);
            HoleList.Add(hs);
            pointFArray.Clear();
        }
@@ -575,7 +778,7 @@ namespace DrilTapeTest1
                                tempCircleDia[i] = circleDiaStack.Pop();
                            }
 
-                          var circleShape=new CircleShape(size,tOrder-1,new CircleCoordinateGroup(temp,tempCircleDia));
+                          var circleShape=new CircleShape(size,tOrder,new CircleCoordinateGroup(temp,tempCircleDia));
                           CircleList.Add(circleShape);
        }
 

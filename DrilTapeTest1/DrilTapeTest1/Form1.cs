@@ -25,13 +25,25 @@ namespace DrilTapeTest1
         private PointF[] minMaxPoint = new PointF[2];
 
         private PointF[] XYCoordinate;
+        public  DrillTAPE drill1;
+
+        private Color[] colorList=new Color[32];
+
+
 
         public Form1()
         {
             InitializeComponent();
-
+            GeneratorColorList();
         }
 
+        private void GeneratorColorList()
+        {
+            for (int i = 0; i < colorList.Length; i++)
+            {
+                colorList[i] = GetRandomColor();
+            }
+        }
 
         private void filltxtBx()
         {
@@ -205,78 +217,72 @@ namespace DrilTapeTest1
 
         private void btnDrawDrl_Click(object sender, EventArgs e)
         {
+            float DriltapeWidth =  drill1.MaxPointF.X - drill1.MinPointF.X;
+            float DriltapeHeight = drill1.MaxPointF.Y - drill1.MinPointF.Y;
 
-            Point pointXY = new Point(50, 100);
-            Bitmap bmap = new Bitmap(this.picBox1.Width, this.picBox1.Height, PixelFormat.Format24bppRgb);
+            float xscale = (picBox1.Width - 20) / DriltapeWidth;
+            numUDbox.Text=xscale.ToString();
 
-            Graphics g2 = Graphics.FromImage(bmap);
+            RectangleF  drilltapeRectangleF=new RectangleF(0,0,DriltapeWidth,DriltapeHeight);
 
-            Pen p = new Pen(Color.Gold, 3);
-
-            Regex rg = new Regex(@"([XY](\d{3}\.\d{3}))?", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-
-            Regex rg2 = new Regex(@"([X](\d{3}\.\d{3}))", RegexOptions.IgnoreCase);
-            Regex rg3 = new Regex(@"([Y](\d{3}\.\d{3}))", RegexOptions.IgnoreCase);
-
-            for (int i = 0; i < str3.Count - 1; i++)
-            {
-                string temp = str3[i];
-
-                if (rg2.IsMatch(temp))
-                {
-                    pointXY.X = Convert.ToInt32(temp.Substring(1, 3));
-                }
-                else
-                {
-                    if (rg3.IsMatch(temp))
-                    {
-                        if (temp.Length > 8)
-                        {
-                            pointXY.Y = Convert.ToInt32(temp.Substring(8, 3));
-                        }
-                        else
-                        {
-                            pointXY.Y = Convert.ToInt32(temp.Substring(1, 3));
-                        }
+            float DrilTapeDiagonalSize =
+                Convert.ToSingle(Math.Sqrt(Convert.ToDouble(DriltapeWidth*DriltapeWidth + DriltapeHeight*DriltapeHeight)));
 
 
-                    }
-                }
-                g2.DrawEllipse(p, pointXY.X, pointXY.Y, 1, 1);
-
-            }
-
-
-            this.picBox1.Image = bmap;
+            this.picBox1.Image = DrawDrillBitmap(xscale);
 
         }
 
-        private Bitmap drawReImage()
+        private Bitmap DrawDrillBitmap(float xscale)
         {
-            int _width  = Convert.ToInt32(Math.Abs((minMaxPoint[1].X - minMaxPoint[0].X)*1000));
-            int _height = Convert.ToInt32(Math.Abs((minMaxPoint[1].Y - minMaxPoint[0].Y)*1000));
-
-            //Bitmap bmap = new Bitmap(this.picBox1.Width, this.picBox1.Height, PixelFormat.Format24bppRgb);
-
-
-            Bitmap bmap1 = new Bitmap(_width/10,_height/10, PixelFormat.Format1bppIndexed);
-
-
-          //Bitmap bmap=new Bitmap();
+            Bitmap bmap = new Bitmap(this.picBox1.Width, this.picBox1.Height, PixelFormat.Format16bppRgb555);
+            Graphics g2 = Graphics.FromImage(bmap);
             
-            //var bmap = new Bitmap(width, height, PixelFormat.Format24bppRgb);
+            Pen p = new Pen(Color.Gold, 1);
+            
+            Brush brushpen;
 
-            Graphics g2 = Graphics.FromImage(bmap1);
-            Pen p = new Pen(Color.White, 3);
-
-            foreach (PointF pf in XYCoordinate)
+            int colorindex = 0;
+            foreach (DrillTAPE.HoleShape holeShape in drill1.HoleList)
             {
-                g2.DrawEllipse(p,pf.X,pf.Y,1,1);
+                
+                float xPositionafterScale, yPositionafterScale,
+                DiameterafterScale;
+                float EllipseWidth, EllipseHeight;
+
+                DiameterafterScale = holeShape.HoleSize * xscale;
+
+                EllipseWidth = DiameterafterScale;
+                EllipseHeight = DiameterafterScale;
+
+                //Random rand1 = new Random(32);
+                //Color Colorset = GetRandomColor();
+               // p = new Pen(Colorset, 1);
+                brushpen = new SolidBrush(colorList[colorindex++]);
+                for (int i = 0; i < holeShape.XYCoordinateGroup.GetCoordinateCount(); i++)
+                {
+                    
+                    xPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].X * xscale;
+                    yPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].Y * xscale;
+
+                    // g2.DrawEllipse(p, xPositionafterScale, yPositionafterScale, DiameterafterScale, DiameterafterScale);
+                    g2.FillEllipse(brushpen, xPositionafterScale-EllipseWidth/2, yPositionafterScale-EllipseHeight/2, EllipseWidth, EllipseHeight);
+                }
             }
-
-
-            return bmap1;
+            return bmap;
         }
+
+        public System.Drawing.Color GetRandomColor()
+        { 
+            Random RandomNum_First = new Random((int)DateTime.Now.Ticks); // 对于C#的随机数，没什么好说的 
+            System.Threading.Thread.Sleep(RandomNum_First.Next(50));
+            Random RandomNum_Sencond = new Random((int)DateTime.Now.Ticks); // 为了在白色背景上显示，尽量生成深色 
+            int int_Red = RandomNum_First.Next(256); 
+            int int_Green = RandomNum_Sencond.Next(256); 
+            int int_Blue = (int_Red + int_Green > 400) ? 0 : 400 - int_Red - int_Green; 
+            int_Blue = (int_Blue > 255) ? 255 : int_Blue; 
+            return System.Drawing.Color.FromArgb(int_Red, int_Green, int_Blue);
+        } 
 
         private void btnFindMinMax_Click(object sender, EventArgs e)
         {
@@ -319,16 +325,25 @@ namespace DrilTapeTest1
          
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.picBox1.Image = drawReImage();
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DrillTAPE drill1 = new DrillTAPE(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
+            drill1 = new DrillTAPE(@"E:\aoi4-p\02a0450186b1\test2.drl");
             lbTotalNumofHole.Text += drill1.TotalNumofhole;
             lbKindofTools.Text += drill1.KindofTools;
+            lbMinCoordXY.Text += " X:" + drill1.MinPointF.X + " Y:" + drill1.MinPointF.Y;
+            lbMaxCoordXY.Text += " X:" + drill1.MaxPointF.X + " Y:" + drill1.MaxPointF.Y;
+
+        }
+
+        private void picBox1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void numUDbox_ValueChanged(object sender, EventArgs e)
+        {
+            this.picBox1.Image = DrawDrillBitmap(Convert.ToSingle(numUDbox.Value));
         }
 
  
