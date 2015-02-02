@@ -1,34 +1,26 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
-using System.Net.Security;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
-using Microsoft.SqlServer.Server;
-
 
 namespace DrilTapeTest1
 {
     public partial class Form1 : Form
     {
-        private string m_Data;
-        public List<string> str3;
-
-        private PointF[] minMaxPoint = new PointF[2];
+        private readonly Color[] colorList = new Color[32];
+        private readonly PointF[] minMaxPoint = new PointF[2];
 
         private PointF[] XYCoordinate;
-        public  DrillTAPE drill1;
-
-        private Color[] colorList=new Color[32];
-
+        public DrillTAPE drill1;
+        private string m_Data;
+        public List<string> str3;
 
 
         public Form1()
@@ -49,39 +41,33 @@ namespace DrilTapeTest1
         {
             try
             {
-                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
+                var m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
 
                 m_Data = m_SW.ReadToEnd();
-                this.tb_MiscOP.Text = m_Data;
+                tb_MiscOP.Text = m_Data;
 
                 //string pData = m_SW.ReadLine();
-
-
-
-
             }
             catch (IOException ex)
             {
-
                 MessageBox.Show("This is a IO Exception :" + ex.Message);
             }
-
         }
 
         private List<string> ConverttxtBx()
         {
-            List<string> list1 = new List<string>();
+            var list1 = new List<string>();
 
-            Regex rg = new Regex(@"([xyXY]\d+)");
-            Regex rg2 = new Regex(@"([xyXY]\d{6})0*");
-            Regex rg3 = new Regex(@"([xyXY]\d{3})(\d{3})");
+            var rg = new Regex(@"([xyXY]\d+)");
+            var rg2 = new Regex(@"([xyXY]\d{6})0*");
+            var rg3 = new Regex(@"([xyXY]\d{3})(\d{3})");
 
             string tempstr1, tempstr2;
 
 
             try
             {
-                StreamReader m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
+                var m_SW = new StreamReader(@"E:\aoi4-p\02a0450186b1\02a0450186b1-newtest.drl");
 
                 do
                 {
@@ -90,8 +76,6 @@ namespace DrilTapeTest1
                     {
                         if (rg.IsMatch(tempstr1))
                         {
-
-
                             tempstr2 = rg.Replace(tempstr1, @"${1}00000");
                             tempstr2 = rg2.Replace(tempstr2, @"${1}");
                             tempstr2 = rg3.Replace(tempstr2, @"${1}.${2}");
@@ -100,17 +84,12 @@ namespace DrilTapeTest1
                             {
                                 list1.Add(tempstr2);
                             }
-
                         }
                     }
-
                 } while (tempstr1 != null);
-
-
             }
             catch (IOException ex)
             {
-
                 MessageBox.Show("This is a IO Exception :" + ex.Message);
             }
 
@@ -119,20 +98,17 @@ namespace DrilTapeTest1
 
         private void SearchMinMaxPoint(List<string> Instr)
         {
-           
+            var rgx = new Regex(@"([X](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
+            var rgy = new Regex(@"([Y](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
 
-            Regex rgx = new Regex(@"([X](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-            Regex rgy = new Regex(@"([Y](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-
-            List<Single> xFloats = new List<Single>();
-            List<Single> yFloats = new List<Single>();
+            var xFloats = new List<Single>();
+            var yFloats = new List<Single>();
 
             foreach (string str in Instr)
             {
                 Match mmMatch = rgx.Match(str);
                 if (mmMatch.Success)
                 {
-
                     xFloats.Add(Convert.ToSingle(mmMatch.Groups[2].ToString()));
                 }
 
@@ -141,7 +117,6 @@ namespace DrilTapeTest1
                 {
                     yFloats.Add(Convert.ToSingle(mmMatch.Groups[2].ToString()));
                 }
-
             }
 
             xFloats.Sort();
@@ -154,19 +129,17 @@ namespace DrilTapeTest1
 
             minMaxPoint[1].X = xFloats.Last();
             minMaxPoint[1].Y = yFloats.Last();
-
-           
         }
 
         private PointF[] GetCoordinatesArray(List<string> Instr)
         {
-            PointF[] pointArrayFs = new PointF[Instr.Count];
+            var pointArrayFs = new PointF[Instr.Count];
 
-            Regex rgx = new Regex(@"([X](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-            Regex rgy = new Regex(@"([Y](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
+            var rgx = new Regex(@"([X](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
+            var rgy = new Regex(@"([Y](\d{3}\.\d{3}))", RegexOptions.IgnoreCase | RegexOptions.Singleline);
 
-            List<Single> xFloats = new List<Single>();
-            List<Single> yFloats = new List<Single>();
+            var xFloats = new List<Single>();
+            var yFloats = new List<Single>();
 
             string test1;
             for (int i = 0; i < Instr.Count; i++)
@@ -175,7 +148,6 @@ namespace DrilTapeTest1
                 Match mmMatch = rgx.Match(test1);
                 if (mmMatch.Success)
                 {
-
                     xFloats.Add(Convert.ToSingle(mmMatch.Groups[2].ToString()));
                 }
 
@@ -193,13 +165,11 @@ namespace DrilTapeTest1
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-
-
             filltxtBx();
 
             str3 = ConverttxtBx();
 
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
 
             foreach (string str in str3)
             {
@@ -211,97 +181,93 @@ namespace DrilTapeTest1
 
             SearchMinMaxPoint(str3);
             XYCoordinate = GetCoordinatesArray(str3);
-
-
         }
 
         private void btnDrawDrl_Click(object sender, EventArgs e)
         {
-            float DriltapeWidth =  drill1.MaxPointF.X - drill1.MinPointF.X;
+            float DriltapeWidth = drill1.MaxPointF.X - drill1.MinPointF.X;
             float DriltapeHeight = drill1.MaxPointF.Y - drill1.MinPointF.Y;
 
-            float xscale = (picBox1.Width - 20) / DriltapeWidth;
-            numUDbox.Text=xscale.ToString();
+            float xscale = (picBox1.Width - 20)/DriltapeWidth;
+            numUDbox.Text = xscale.ToString();
 
-            RectangleF  drilltapeRectangleF=new RectangleF(0,0,DriltapeWidth,DriltapeHeight);
+            var drilltapeRectangleF = new RectangleF(0, 0, DriltapeWidth, DriltapeHeight);
 
             float DrilTapeDiagonalSize =
                 Convert.ToSingle(Math.Sqrt(Convert.ToDouble(DriltapeWidth*DriltapeWidth + DriltapeHeight*DriltapeHeight)));
 
 
-            this.picBox1.Image = DrawDrillBitmap(xscale);
-
+            picBox1.Image = DrawDrillBitmap(xscale);
         }
 
         private Bitmap DrawDrillBitmap(float xscale)
         {
-            Bitmap bmap = new Bitmap(this.picBox1.Width, this.picBox1.Height, PixelFormat.Format16bppRgb555);
+            var bmap = new Bitmap(picBox1.Width, picBox1.Height, PixelFormat.Format16bppRgb555);
             Graphics g2 = Graphics.FromImage(bmap);
-            
-            Pen p = new Pen(Color.Gold, 1);
-            
+
+            var p = new Pen(Color.Gold, 1);
+
             Brush brushpen;
 
             int colorindex = 0;
             foreach (DrillTAPE.HoleShape holeShape in drill1.HoleList)
             {
-                
-                float xPositionafterScale, yPositionafterScale,
-                DiameterafterScale;
+                float xPositionafterScale,
+                    yPositionafterScale,
+                    DiameterafterScale;
                 float EllipseWidth, EllipseHeight;
 
-                DiameterafterScale = holeShape.HoleSize * xscale;
+                DiameterafterScale = holeShape.HoleSize*xscale;
 
                 EllipseWidth = DiameterafterScale;
                 EllipseHeight = DiameterafterScale;
 
                 //Random rand1 = new Random(32);
                 //Color Colorset = GetRandomColor();
-               // p = new Pen(Colorset, 1);
+                // p = new Pen(Colorset, 1);
                 brushpen = new SolidBrush(colorList[colorindex++]);
                 for (int i = 0; i < holeShape.XYCoordinateGroup.GetCoordinateCount(); i++)
                 {
-                    
-                    xPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].X * xscale;
-                    yPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].Y * xscale;
+                    xPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].X*xscale;
+                    yPositionafterScale = holeShape.XYCoordinateGroup.Pointfs[i].Y*xscale;
 
                     // g2.DrawEllipse(p, xPositionafterScale, yPositionafterScale, DiameterafterScale, DiameterafterScale);
-                    g2.FillEllipse(brushpen, xPositionafterScale-EllipseWidth/2, yPositionafterScale-EllipseHeight/2, EllipseWidth, EllipseHeight);
+                    g2.FillEllipse(brushpen, xPositionafterScale - EllipseWidth/2, yPositionafterScale - EllipseHeight/2,
+                        EllipseWidth, EllipseHeight);
                 }
             }
             return bmap;
         }
 
-        public System.Drawing.Color GetRandomColor()
-        { 
-            Random RandomNum_First = new Random((int)DateTime.Now.Ticks); // 对于C#的随机数，没什么好说的 
-            System.Threading.Thread.Sleep(RandomNum_First.Next(50));
-            Random RandomNum_Sencond = new Random((int)DateTime.Now.Ticks); // 为了在白色背景上显示，尽量生成深色 
-            int int_Red = RandomNum_First.Next(256); 
-            int int_Green = RandomNum_Sencond.Next(256); 
-            int int_Blue = (int_Red + int_Green > 400) ? 0 : 400 - int_Red - int_Green; 
-            int_Blue = (int_Blue > 255) ? 255 : int_Blue; 
-            return System.Drawing.Color.FromArgb(int_Red, int_Green, int_Blue);
-        } 
+        public Color GetRandomColor()
+        {
+            var RandomNum_First = new Random((int) DateTime.Now.Ticks); // 对于C#的随机数，没什么好说的 
+            Thread.Sleep(RandomNum_First.Next(50));
+            var RandomNum_Sencond = new Random((int) DateTime.Now.Ticks); // 为了在白色背景上显示，尽量生成深色 
+            int int_Red = RandomNum_First.Next(256);
+            int int_Green = RandomNum_Sencond.Next(256);
+            int int_Blue = (int_Red + int_Green > 400) ? 0 : 400 - int_Red - int_Green;
+            int_Blue = (int_Blue > 255) ? 255 : int_Blue;
+            return Color.FromArgb(int_Red, int_Green, int_Blue);
+        }
 
         private void btnFindMinMax_Click(object sender, EventArgs e)
         {
-
-             string msg = "Min Coordinate is : X" + minMaxPoint[0].X + "  Y " + minMaxPoint[0].Y + " \r\nMax Coordinate is : X" +
+            string msg = "Min Coordinate is : X" + minMaxPoint[0].X + "  Y " + minMaxPoint[0].Y +
+                         " \r\nMax Coordinate is : X" +
                          minMaxPoint[1].X + "  Y" + minMaxPoint[1].Y;
 
             MessageBox.Show(msg);
-
         }
 
         private void btnFillDataGR1_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Line", typeof(int));
+            var dt = new DataTable();
+            dt.Columns.Add("Line", typeof (int));
             dt.Columns.Add("X", typeof (float));
             dt.Columns.Add("Y", typeof (float));
-            
-           for (int i = 0; i < XYCoordinate.Count(); i++)
+
+            for (int i = 0; i < XYCoordinate.Count(); i++)
             {
                 DataRow dr = dt.NewRow();
                 dr[0] = i;
@@ -310,19 +276,18 @@ namespace DrilTapeTest1
                 dt.Rows.Add(dr);
             }
 
-            this.dataGR1.DataSource = dt;
+            dataGR1.DataSource = dt;
             //this.dataGR1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
             //this.dataGR1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
             //this.dataGR1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.dataGR1.Columns[0].Width = 50;
-            this.dataGR1.Columns[1].Width = 60;
-            this.dataGR1.Columns[2].Width = 60;
+            dataGR1.Columns[0].Width = 50;
+            dataGR1.Columns[1].Width = 60;
+            dataGR1.Columns[2].Width = 60;
             //this.dataGR1.AutoResizeColumn(0);
             //this.dataGR1.AutoResizeColumn(1);
             //this.dataGR1.AutoResizeColumn(2);
             //this.dataGR1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.Fill);
             //this.dataGR1.AutoResizeRows(DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
-         
         }
 
 
@@ -333,19 +298,15 @@ namespace DrilTapeTest1
             lbKindofTools.Text += drill1.KindofTools;
             lbMinCoordXY.Text += " X:" + drill1.MinPointF.X + " Y:" + drill1.MinPointF.Y;
             lbMaxCoordXY.Text += " X:" + drill1.MaxPointF.X + " Y:" + drill1.MaxPointF.Y;
-
         }
 
         private void picBox1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
         }
 
         private void numUDbox_ValueChanged(object sender, EventArgs e)
         {
-            this.picBox1.Image = DrawDrillBitmap(Convert.ToSingle(numUDbox.Value));
+            picBox1.Image = DrawDrillBitmap(Convert.ToSingle(numUDbox.Value));
         }
-
- 
     }
 }

@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrilTapeTest1", "DrilTapeTest1\DrilTapeTest1.csproj", "{183B513A-9CFA-4F7C-9CCE-32540A925130}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA086A85-F887-4E45-9BFB-B61EE2553AEA}"
+	ProjectSection(SolutionItems) = preProject
+		DrilTapeTest1\DMC2610.cs = DrilTapeTest1\DMC2610.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
