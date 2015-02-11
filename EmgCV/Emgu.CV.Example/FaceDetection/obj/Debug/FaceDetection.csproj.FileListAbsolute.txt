@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\haarcascade_eye.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\haarcascade_frontalface_default.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\lena.jpg
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.FaceDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.FaceDetection.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetection\obj\Debug\FaceDetection.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetection\obj\Debug\Example.FaceDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetection\obj\Debug\Example.FaceDetection.pdb

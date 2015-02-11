@@ -1,0 +1,10 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\imL.png
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\imR.png
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.Simlpe3DReconstruction.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.Simlpe3DReconstruction.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Simple3DReconstruction\obj\Debug\Simple3DReconstruction.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Simple3DReconstruction\obj\Debug\Simlpe3DReconstruction.Simple3DReconstruction.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Simple3DReconstruction\obj\Debug\Simple3DReconstruction.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Simple3DReconstruction\obj\Debug\Example.Simlpe3DReconstruction.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Simple3DReconstruction\obj\Debug\Example.Simlpe3DReconstruction.pdb

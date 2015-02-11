@@ -1,0 +1,13 @@
+Z:\DrilTapeTest1\DrilTapeTest1\bin\x64\Release\DrilTapeTest1.exe.config
+Z:\DrilTapeTest1\DrilTapeTest1\bin\x64\Release\DrilTapeTest1.exe
+Z:\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.Form1.resources
+Z:\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.Properties.Resources.resources
+Z:\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.csproj.GenerateResource.Cache
+Z:\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\bin\x64\Release\DrilTapeTest1.exe.config
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\bin\x64\Release\DrilTapeTest1.exe
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.csprojResolveAssemblyReference.cache
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.Form1.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.Properties.Resources.resources
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\DrilTapeTest1\DrilTapeTest1\obj\x64\Release\DrilTapeTest1.csproj.GenerateResource.Cache

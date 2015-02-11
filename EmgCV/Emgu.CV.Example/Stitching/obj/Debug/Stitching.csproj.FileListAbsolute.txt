@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Stitching.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Stitching.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Stitching\obj\Debug\Stitching.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Stitching\obj\Debug\Stitching.StitchingMainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Stitching\obj\Debug\Stitching.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Stitching\obj\Debug\Stitching.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\Stitching\obj\Debug\Stitching.pdb

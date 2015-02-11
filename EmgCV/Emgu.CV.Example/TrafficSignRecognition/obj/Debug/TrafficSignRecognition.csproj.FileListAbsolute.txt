@@ -1,0 +1,10 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\stop-sign-model.png
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\stop-sign.jpg
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.TrafficSignRecognition.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.TrafficSignRecognition.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\TrafficSignRecognition\obj\Debug\TrafficSignRecognition.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\TrafficSignRecognition\obj\Debug\TrafficSignRecognition.TrafficSignRecognitionForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\TrafficSignRecognition\obj\Debug\TrafficSignRecognition.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\TrafficSignRecognition\obj\Debug\Example.TrafficSignRecognition.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\TrafficSignRecognition\obj\Debug\Example.TrafficSignRecognition.pdb

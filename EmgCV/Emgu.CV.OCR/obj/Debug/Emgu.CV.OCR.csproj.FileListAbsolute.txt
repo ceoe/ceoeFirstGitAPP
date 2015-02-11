@@ -1,0 +1,16 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.bigrams
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.fold
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.lm
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.nn
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.params
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.size
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.cube.word-freq
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.tesseract_cube.nn
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\tessdata\eng.traineddata
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.OCR.XML
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.OCR.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.OCR.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.OCR\obj\Debug\Emgu.CV.OCR.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.OCR\obj\Debug\Emgu.CV.OCR.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.OCR\obj\Debug\Emgu.CV.OCR.pdb

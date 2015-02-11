@@ -1,0 +1,7 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.GPU.XML
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.GPU.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.GPU.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.GPU\obj\Debug\Emgu.CV.GPU.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.GPU\obj\Debug\Emgu.CV.GPU.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.GPU\obj\Debug\Emgu.CV.GPU.pdb

@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.VideoSurveilance.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.VideoSurveilance.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.VideoSurveilance.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\VideoSurveilance.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\VideoSurveilance\obj\Debug\Example.VideoSurveilance.pdb

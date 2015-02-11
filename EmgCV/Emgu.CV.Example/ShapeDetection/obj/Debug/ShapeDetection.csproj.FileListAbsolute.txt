@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\pic3.png
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.ShapeDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.ShapeDetection.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ShapeDetection\obj\Debug\ShapeDetection.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ShapeDetection\obj\Debug\ShapeDetection.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ShapeDetection\obj\Debug\Example.ShapeDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ShapeDetection\obj\Debug\Example.ShapeDetection.pdb

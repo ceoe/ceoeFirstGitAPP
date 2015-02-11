@@ -43,3 +43,11 @@ E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+Z:\DMC2610-CSharp\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.exe
+Z:\DMC2610-CSharp\bin\Debug\雷泰DMC2610运动控制卡CSharp2010程序.pdb
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csprojResolveAssemblyReference.cache
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.DMC2610操作画面.resources
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.Properties.Resources.resources
+Z:\DMC2610-CSharp\obj\x86\Debug\雷泰DMC2610运动控制卡CSharp2010程序.csproj.GenerateResource.Cache

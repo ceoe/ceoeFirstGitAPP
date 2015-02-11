@@ -1,0 +1,6 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.Util.XML
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.Util.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.Util.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.Util\obj\Debug\Emgu.Util.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.Util\obj\Debug\Emgu.Util.dll
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.Util\obj\Debug\Emgu.Util.pdb

@@ -1,0 +1,8 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\cat.jpg
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\cat.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\LatentSvmDetector.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\LatentSvmDetector.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\LatentSvmDetector\obj\Debug\LatentSvmDetector.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\LatentSvmDetector\obj\Debug\LatentSvmDetector.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\LatentSvmDetector\obj\Debug\LatentSvmDetector.pdb

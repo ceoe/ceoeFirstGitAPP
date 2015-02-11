@@ -1,0 +1,12 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\haarcascade_frontalface_default.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\lena.jpg
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.FaceDetectionVB.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.FaceDetectionVB.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.FaceDetectionVB.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\FaceDetectionVB.vbprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\FaceDetectionVB.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\FaceDetectionVB.vbproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\Example.FaceDetectionVB.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\Example.FaceDetectionVB.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\FaceDetectionVB\obj\Debug\Example.FaceDetectionVB.pdb

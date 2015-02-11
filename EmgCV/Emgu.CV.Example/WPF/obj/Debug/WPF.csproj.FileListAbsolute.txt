@@ -1,0 +1,10 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\WPF.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Window1.baml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Window1.g.cs
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\App.g.cs
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF_MarkupCompile.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.g.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\WPF.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.pdb

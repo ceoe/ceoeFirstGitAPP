@@ -1,0 +1,10 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\SqliteDB.xml
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.ImageDatabase.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.ImageDatabase.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.ImageDatabase.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ImageDatabase\obj\Debug\ImageDatabase.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ImageDatabase\obj\Debug\ImageDatabase.MainForm.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ImageDatabase\obj\Debug\ImageDatabase.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ImageDatabase\obj\Debug\Example.ImageDatabase.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\ImageDatabase\obj\Debug\Example.ImageDatabase.pdb

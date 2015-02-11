@@ -1,0 +1,7 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.License.txt
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\pedestrian.png
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.PedestrianDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.PedestrianDetection.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\PedestrianDetection\obj\Debug\PedestrianDetection.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\PedestrianDetection\obj\Debug\Example.PedestrianDetection.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\PedestrianDetection\obj\Debug\Example.PedestrianDetection.pdb
