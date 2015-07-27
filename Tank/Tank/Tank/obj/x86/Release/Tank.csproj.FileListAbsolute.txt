@@ -1,0 +1,24 @@
+E:\Tank\Tank\bin\Release\Tank.exe
+E:\Tank\Tank\bin\Release\Tank.pdb
+E:\Tank\Tank\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Tank\Tank\obj\x86\Release\Tank.EditForm.resources
+E:\Tank\Tank\obj\x86\Release\Tank.MailForm.resources
+E:\Tank\Tank\obj\x86\Release\Tank.MainForm.resources
+E:\Tank\Tank\obj\x86\Release\Tank.Properties.Resources.resources
+E:\Tank\Tank\obj\x86\Release\Tank.StartForm.resources
+E:\Tank\Tank\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+E:\Tank\Tank\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+E:\Tank\Tank\obj\x86\Release\Tank.exe
+E:\Tank\Tank\obj\x86\Release\Tank.pdb
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.exe
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.pdb
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\bin\Release\Tank.exe
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\bin\Release\Tank.pdb
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.EditForm.resources
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.MailForm.resources
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.MainForm.resources
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.Properties.Resources.resources
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\Tank.StartForm.resources
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\ffg\Documents\Visual Studio 2010\Projects\Tank\Tank\obj\x86\Release\GenerateResource-ResGen.write.1.tlog

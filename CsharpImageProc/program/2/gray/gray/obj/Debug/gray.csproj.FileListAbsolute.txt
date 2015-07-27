@@ -1,0 +1,9 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\bin\Debug\gray.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\bin\Debug\gray.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\obj\Debug\gray.csproj.GenerateResource.Cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\2\gray\gray\bin\Debug\gray.exe.config

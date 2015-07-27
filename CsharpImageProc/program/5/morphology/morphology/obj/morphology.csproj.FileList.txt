@@ -1,0 +1,10 @@
+bin\Debug\morphology.exe
+bin\Debug\morphology.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\morphology.Form1.resources
+obj\Debug\morphology.Properties.Resources.resources
+obj\Debug\morphology.csproj.GenerateResource.Cache
+obj\Debug\morphology.exe
+obj\Debug\morphology.pdb
+obj\Debug\morphology.struction.resources
+obj\Debug\morphology.hitmiss.resources

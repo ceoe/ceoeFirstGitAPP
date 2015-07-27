@@ -23,10 +23,16 @@ namespace DrilTapeTest1
         private string m_Data;
         protected bool RunedorRunAbort = false;
         public List<string> str3;
+        UInt16 nCard = 0;
 
         public delegate void Updatebtn();
         public Updatebtn updateBtn;
         public Thread objThread;
+
+        public  bool [] InputiskeyDown=new bool[2];
+        public bool[] InputinitStatus = new bool[2];
+        public DateTime [] inputstartTime=new DateTime[2];
+        public DateTime[] InputEndTime=new DateTime[2];
 
         public Image OrigImage;
 
@@ -34,10 +40,15 @@ namespace DrilTapeTest1
         public List<Axis> AxisGroup;
         // public  Axis[] AxisGroup=new Axis[4];
         public Motion2610Control motion = new Motion2610Control();
+
+
+        
+
         public Form1()
         {
             InitializeComponent();
             GeneratorColorList();
+            myTimer=new HiPerfTimer();
         }
 
         private void GeneratorColorList()
@@ -213,7 +224,9 @@ namespace DrilTapeTest1
             Brush brushpen;
 
             int colorindex = 0;
-            foreach (DrillTAPE.HoleShape holeShape in drill1.HoleList)
+
+            #region 绘制所有的Hole
+            foreach (DrillTAPE.HoleShapeCollections holeShape in drill1.HoleList)
             {
                 float xPositionafterScale,
                     yPositionafterScale,
@@ -239,7 +252,48 @@ namespace DrilTapeTest1
                         EllipseWidth, EllipseHeight);
                 }
             }
-          return bmap;
+            #endregion
+
+            #region 绘制所有的Slot
+            // foreach (DrillTAPE.SlotShapeCollections slotShape in drill1.SlotList)
+            //{
+            //    float xPositionafterScale,
+            //        yPositionafterScale,
+            //        DiameterafterScale;
+            //    float EllipseWidth, EllipseHeight;
+
+            //    DiameterafterScale = slotShape.DriBitDia * xscale;
+
+            //    EllipseWidth = DiameterafterScale;
+            //    EllipseHeight = DiameterafterScale;
+
+            //     //PointF [] StartPF= new PointF[];  
+            //     //PointF [] EndPF=new PointF[];
+
+            //    //Random rand1 = new Random(32);
+            //    //Color Colorset = GetRandomColor();
+            //    // p = new Pen(Colorset, 1);
+
+            //    var startPf = slotShape.StartCoordinateGroup;
+                 
+
+
+            //    brushpen = new SolidBrush(colorList[colorindex++]);
+            //    for (int i = 0; i < slotShape.Count; i++)
+            //    {
+                    
+            //        slotShape.GetSingleSlotDriSequenceList(slotShape.StartCoordinateGroup[i],
+            //            slotShape.EndCoordinateGroup[i]);
+                   
+
+            //        // g2.DrawEllipse(p, xPositionafterScale, yPositionafterScale, DiameterafterScale, DiameterafterScale);
+            //        g2.FillEllipse(brushpen, xPositionafterScale - EllipseWidth / 2, yPositionafterScale - EllipseHeight / 2,
+            //            EllipseWidth, EllipseHeight);
+            //    }
+            //}
+            #endregion
+
+            return bmap;
         }
 
         public Color GetRandomColor()
@@ -316,7 +370,7 @@ namespace DrilTapeTest1
         private void btnLoadAxisPara_Click(object sender, EventArgs e)
         {
             // DMC2610卡的函数调用                       
-            UInt16 nCard = 0;
+           
             nCard = Dmc2610.d2610_board_init();//'为控制卡分配系统资源，并初始化控制卡。
             if (nCard <= 0)//DMC1000控制卡初始化
             {
@@ -425,6 +479,13 @@ namespace DrilTapeTest1
                 connection.Close();
                 this.btnLoadAxisPara.Enabled = false;
             }
+
+            for (int i = 0; i < 2; i++)
+            {
+                InputinitStatus[i] = Motion2610Control.ReadInputKey((ushort)(i + 1));
+                InputiskeyDown[i] = InputinitStatus[i];
+            }
+
         }
 
         private void btnInitialization_Click(object sender, EventArgs e)
@@ -438,13 +499,19 @@ namespace DrilTapeTest1
             //  );
             //objThread.Start();
 
-            foreach (Axis axis in AxisGroup)
+            if ( nCard != 0)
+            {
+                  foreach (Axis axis in AxisGroup)
             {
 
                 objThread = new Thread(new ThreadStart(delegate { AxiseHomeUseThread(axis); }));
 
                 objThread.Start();
             }
+
+            }
+
+          
             this.btnInitialization.Enabled = false;
 
         }
@@ -475,6 +542,7 @@ namespace DrilTapeTest1
             if (RunedorRunAbort)
             {
                 this.btnRun.Enabled = true;
+                this.btnInitialization.Enabled = true;
             }
         }
 
@@ -491,7 +559,9 @@ namespace DrilTapeTest1
             uint count = 0;
             bool isCompleted = true;
             float xCoordinate, yCoordinate;
-            foreach (DrillTAPE.HoleShape holeShape in drill1.HoleList)
+
+            #region 循环所有孔类型的操作
+            foreach (DrillTAPE.HoleShapeCollections holeShape in drill1.HoleList)
             {
                 if (isCompleted)
                 {
@@ -520,11 +590,55 @@ namespace DrilTapeTest1
                 else
                 {
                     MessageBox.Show("Some wrong has Happend!!!");
-                    RunedorRunAbort= true;
+                    RunedorRunAbort = true;
                     BeginInvoke(updateBtn);
                     return;
                 }
             }
+            #endregion
+
+            #region 循环所有Slot类型的操作
+            //foreach (DrillTAPE.SlotShapeCollections slotShape in drill1.SlotList)
+            //{
+            //    if (isCompleted)
+            //    {
+            //        Stack<PointF> singleSlotSequenceStack;
+
+            //        for (int i = 0; i < slotShape.Count; i++)
+            //        {
+                        
+                        
+                        
+            //            xCoordinate = slotShape.XYCoordinateGroup.Pointfs[i].X;
+            //            yCoordinate = slotShape.XYCoordinateGroup.Pointfs[i].Y;
+
+            //            picBox1.Image = DrawCurrentHitHole1(xCoordinate, yCoordinate);
+
+            //            if (!Motion2610Control.XYPMoveAbsolutUseTMode(XAxis, YAxis, xCoordinate, yCoordinate))
+            //            {
+            //                isCompleted = false;
+            //                break;
+            //            }
+            //            else
+            //            {
+            //                Thread.Sleep(50);
+            //                count++;
+            //            }
+            //            while ((!Motion2610Control.GetAxisIsDoWell(XAxis)) && (!Motion2610Control.GetAxisIsDoWell(YAxis)))
+            //            {
+            //            }
+            //        }
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Some wrong has Happend!!!");
+            //        RunedorRunAbort = true;
+            //        BeginInvoke(updateBtn);
+            //        return;
+            //    }
+            //}
+            #endregion
+
             RunedorRunAbort = true;
             BeginInvoke(updateBtn);
         }
@@ -587,6 +701,34 @@ namespace DrilTapeTest1
             {
                 lbAxisStatus.Text = "Axis Status : \n" + axisStautsDetail;
             }
+
+            StringBuilder sb2=new StringBuilder();
+
+            for (int i = 0; i < 2; i++)
+            {
+                if (Motion2610Control.ReadInputKey((ushort)(i+1))!= InputiskeyDown[i])
+                {
+                    InputiskeyDown[i] = Motion2610Control.ReadInputKey((ushort) (i + 1));
+                    if (InputiskeyDown[i] !=InputinitStatus[i])
+                    {
+                        inputstartTime[i] = DateTime.Now;
+                        string str1="input  "+ i.ToString() + ": StartTime= " + inputstartTime[i].ToString();
+                        sb2.AppendLine(str1);
+                    }
+                    else
+                    {
+                       InputEndTime[i] = DateTime.Now;
+
+                        string str1 = "input  " + i.ToString() + ": EndTime = " + InputEndTime[i].ToString();
+
+
+                        sb2.AppendLine(str1);
+                    }
+                }
+            }
+
+            this.tbinputsig.Text+=  sb2.ToString();
+
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
@@ -620,15 +762,19 @@ namespace DrilTapeTest1
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-            objThread = new Thread(new ThreadStart(delegate { XYMotion(); }));
+            this.btnInitialization.Enabled = false;
 
-            objThread.Start();
+// ReSharper disable once ConvertClosureToMethodGroup
+            
+            //objThread = new Thread(new ThreadStart(delegate { XYMotion(); }));
+
+            //objThread.Start();
 
             this.btnRun.Enabled = false;
 
-            //objThread = new Thread(new ThreadStart(delegate { XYDrawingaCorssHatch(); }));
+            objThread = new Thread(new ThreadStart(delegate { XYDrawingaCorssHatch(); }));
 
-            //objThread.Start();
+            objThread.Start();
 
             //this.btnRun.Enabled = false;
 
@@ -639,7 +785,7 @@ namespace DrilTapeTest1
             uint count = 0;
             bool isCompleted = true;
             float xCoordinate, yCoordinate;
-            foreach (DrillTAPE.HoleShape holeShape in drill1.HoleList)
+            foreach (DrillTAPE.HoleShapeCollections holeShape in drill1.HoleList)
             {
                 if (isCompleted)
                 {

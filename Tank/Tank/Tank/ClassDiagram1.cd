@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tank.Module" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAQAQAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Blast" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIgAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Blast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Born" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Born.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Element" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Enemy" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAIAEAgAAAAAAkBAAAAAFAQAAAQAAAAQAEBA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.EnemyMissile" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Tank.Missile" FixedToPoint="true">
+      <Path>
+        <Point X="14.75" Y="3.441" />
+        <Point X="14.75" Y="5.566" />
+        <Point X="15.938" Y="5.566" />
+        <Point X="15.938" Y="5.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>EnemyMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Equipment" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAAAACAAAAAAAACAAAAABAAAAA=</HashCode>
+      <FileName>Equipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Grass" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Grass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Member" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAJKAAAAQAQAAAAEABAAAAAQAAAAAAAAABAAA=</HashCode>
+      <FileName>Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Missile" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.myMissile" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.OverLogo" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>OverLogo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.P2Tank" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAEAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>P2Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.P1Tank" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAiAAAAAgAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>P1Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Player" Collapsed="true">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAKCAYAAEgAAQAAAMEAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Roles" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAIAAAAAIAAAACAAAAAAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Singleton" Collapsed="true">
+    <Position X="18.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICIAQCAAAgBAgAABAAACAAAAAFCAIAgYEQEIBAECAI=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Sound" Collapsed="true">
+    <Position X="16.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAEA=</HashCode>
+      <FileName>Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Steel" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Steel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Symbol" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAgAAgCAAAAAAAAABAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>Symbol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Wall" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank.Water" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Tank.directions" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQCAQA=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

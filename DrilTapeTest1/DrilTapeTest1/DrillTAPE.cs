@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -23,21 +25,25 @@ namespace DrilTapeTest1
 
     public class DrillTAPE
     {
-        public List<CircleShape> CircleList = new List<CircleShape>();
-        public List<HoleShape> HoleList = new List<HoleShape>();
-        public List<SlotShape> SlotList = new List<SlotShape>();
+        public List<CircleShapeCollections> CircleList = new List<CircleShapeCollections>();
+        public List<HoleShapeCollections> HoleList = new List<HoleShapeCollections>();
+        public List<SlotShapeCollections> SlotList = new List<SlotShapeCollections>();
         private float[] _toolslist;
         private int _totalNumofhole;
-        public CircleShape[] circleShapes;
+        public CircleShapeCollections[] CircleShapesCollections;
         private short decimalDiatal;
         private DrlUnit drlUnit;
 
-        public HoleShape[] holeshape;
+        public HoleShapeCollections[] holeshape;
         private short integerField;
         private PointF maxPointF;
         private PointF minPointF;
-        public SlotShape[] slotshape;
+        public SlotShapeCollections[] slotshape;
         private ZeroCompress zeroCompress;
+
+        //粗糙度定义
+        private static double _roughnessTol = 0.002;
+
 
 
         public DrillTAPE(string readTapepath)
@@ -78,18 +84,24 @@ namespace DrilTapeTest1
             get { return maxPointF; }
         }
 
+        public double RoughnessTol
+        {
+            get { return _roughnessTol; }
+            set { _roughnessTol = value; }
+        }
+
         public void totalhit()
         {
             int _totalhit = 0;
-            foreach (HoleShape holeShape in HoleList)
+            foreach (HoleShapeCollections holeShape in HoleList)
             {
                 _totalhit += holeShape.Count;
             }
-            foreach (CircleShape circleShape in CircleList)
+            foreach (CircleShapeCollections circleShape in CircleList)
             {
                 _totalhit += circleShape.Count;
             }
-            foreach (SlotShape slotShape in SlotList)
+            foreach (SlotShapeCollections slotShape in SlotList)
             {
                 _totalhit += slotShape.Count;
             }
@@ -103,7 +115,7 @@ namespace DrilTapeTest1
                 minPointF = HoleList[0].XYCoordinateGroup.Pointfs[0];
                 maxPointF = HoleList[0].XYCoordinateGroup.Pointfs[0];
             }
-            foreach (HoleShape holeShape in HoleList)
+            foreach (HoleShapeCollections holeShape in HoleList)
             {
                 if (maxPointF.X < holeShape.XYCoordinateGroup.MaxCoordPointF.X)
                 {
@@ -123,7 +135,7 @@ namespace DrilTapeTest1
                     minPointF.Y = holeShape.XYCoordinateGroup.MinCoordPointF.Y;
                 }
             }
-            foreach (CircleShape circleShape in CircleList)
+            foreach (CircleShapeCollections circleShape in CircleList)
             {
                 if (maxPointF.X < circleShape.CircleCoordinateGroup.MaxCoordPointF.X)
                 {
@@ -143,7 +155,7 @@ namespace DrilTapeTest1
                     minPointF.Y = circleShape.CircleCoordinateGroup.MinCoordPointF.Y;
                 }
             }
-            foreach (SlotShape slotShape in SlotList)
+            foreach (SlotShapeCollections slotShape in SlotList)
             {
                 if (maxPointF.X < slotShape.StartCoordinateGroup.MaxCoordPointF.X)
                 {
@@ -327,6 +339,7 @@ namespace DrilTapeTest1
                             }
                             // 再将当前新T序值和T直径改写。
                             tOrder = Convert.ToInt32(toolsOrdermatchs.Result("${Torder}"));
+
                             size = _toolslist[tOrder];
                         }
                     }
@@ -433,7 +446,7 @@ namespace DrilTapeTest1
                 endP[i] = endPointFs.Pop();
             }
 
-            var SlotShape = new SlotShape(size, tOrder, new CoordinateGroup(startP), new CoordinateGroup(endP));
+            var SlotShape = new SlotShapeCollections(size, tOrder, new CoordinateGroup(startP), new CoordinateGroup(endP));
             SlotList.Add(SlotShape);
         }
 
@@ -441,7 +454,7 @@ namespace DrilTapeTest1
         {
             PointF[] temPointFs = pointFArray.ToArray();
             var xyCoordgp = new CoordinateGroup(temPointFs);
-            var hs = new HoleShape(size, tOrder, xyCoordgp);
+            var hs = new HoleShapeCollections(size, tOrder, xyCoordgp);
             HoleList.Add(hs);
             pointFArray.Clear();
         }
@@ -458,7 +471,7 @@ namespace DrilTapeTest1
                 tempCircleDia[i] = circleDiaStack.Pop();
             }
 
-            var circleShape = new CircleShape(size, tOrder, new CircleCoordinateGroup(temp, tempCircleDia));
+            var circleShape = new CircleShapeCollections(size, tOrder, new CircleCoordinateGroup(temp, tempCircleDia));
             CircleList.Add(circleShape);
         }
 
@@ -562,37 +575,6 @@ namespace DrilTapeTest1
                 return Pointfs.Count();
             }
         }
-
-        public class CircleShape
-        {
-            private readonly int count;
-
-            private CircleCoordinateGroup _circleCoordinateGroup;
-
-            public CircleShape(float Dia, int Torder, CircleCoordinateGroup circleCooodgp)
-            {
-                DriBitDia = Dia;
-                TOrder = Torder;
-                _circleCoordinateGroup = circleCooodgp;
-                count = _circleCoordinateGroup.Count;
-            }
-
-            public int TOrder { get; set; }
-
-            public int Count
-            {
-                get { return count; }
-            }
-
-            public float DriBitDia { get; set; }
-
-            public CircleCoordinateGroup CircleCoordinateGroup
-            {
-                get { return _circleCoordinateGroup; }
-                set { _circleCoordinateGroup = value; }
-            }
-        }
-
         public class CoordinateGroup
         {
             private PointF[] pointfs;
@@ -667,13 +649,42 @@ namespace DrilTapeTest1
                 return pointfs.Count();
             }
         }
+        public class CircleShapeCollections
+        {
+            private readonly int count;
 
-        public class HoleShape
+            private CircleCoordinateGroup _circleCoordinateGroup;
+
+            public CircleShapeCollections(float Dia, int Torder, CircleCoordinateGroup circleCooodgp)
+            {
+                DriBitDia = Dia;
+                TOrder = Torder;
+                _circleCoordinateGroup = circleCooodgp;
+                count = _circleCoordinateGroup.Count;
+            }
+
+            public int TOrder { get; set; }
+
+            public int Count
+            {
+                get { return count; }
+            }
+
+            public float DriBitDia { get; set; }
+
+            public CircleCoordinateGroup CircleCoordinateGroup
+            {
+                get { return _circleCoordinateGroup; }
+                set { _circleCoordinateGroup = value; }
+            }
+        }
+
+        public class HoleShapeCollections
         {
             private int count;
             private CoordinateGroup xyCoordinateGroup;
 
-            public HoleShape(float dia, int tOrder, CoordinateGroup coordgp)
+            public HoleShapeCollections(float dia, int tOrder, CoordinateGroup coordgp)
             {
                 HoleSize = dia;
                 this.TOrder = tOrder;
@@ -701,18 +712,207 @@ namespace DrilTapeTest1
             }
         }
 
-        public class SlotShape
+        public class SignelSlotCoordinatesGroup
+        {
+           
+            private List<PointF> SequenceyListPointF;
+
+            private SlotDriTree slotDriTree;
+
+            private class Node
+            {
+                private PointF _data;
+                private Node _left;
+                private Node _right;
+
+                public PointF Data
+                {
+                    get { return _data; }
+                }
+
+                public Node Left
+                {
+                    get { return _left; }
+                    set { _left = value; }
+                }
+
+                public Node Right
+                {
+                    get { return _right; }
+                    set { _right = value; }
+                }
+
+                public Node(PointF pointf)
+                {
+                    this._data = pointf;
+                }
+            }
+
+            private class SlotDriTree
+            {
+               
+                private List<PointF> orgList;
+                private Node _head;
+
+                private List<PointF> _pointFListByOrder = new List<PointF>();
+
+                public Node Head
+                {
+                    get { return _head; }
+                }
+
+                public List<PointF> PointFListByOrder
+                {
+                    get { return _pointFListByOrder; }
+                }
+
+                public SlotDriTree(List<PointF> pointfList)
+                {
+                    orgList = pointfList;
+                    _head=new Node(pointfList[0]);
+                }
+                private void AddNode(Node parent, int index)
+                {
+                    int leftindex = 2*index + 1;
+                    if (leftindex<orgList.Count)
+                    {
+                       parent.Left=new Node(orgList[leftindex]);
+                        AddNode(parent.Left,leftindex);
+                    }
+
+                    int rightindex = 2*index + 2;
+                    if (rightindex<orgList.Count)
+                    {
+                        parent.Right=new Node(orgList[rightindex]);
+                        AddNode(parent.Right,rightindex);
+                    }
+                }
+
+                public void PreOrder(Node node)
+                {
+                    if (node!=null)
+                    {
+                        PointFListByOrder.Add(node.Data);
+
+                        PreOrder(node.Left);
+                        PreOrder(node.Right);
+                       
+                    }
+                }
+
+                public void MidOrder(Node node)
+                {
+                    if (node != null)
+                    {
+                        MidOrder(node.Left);
+
+                        PointFListByOrder.Add(node.Data);
+                        MidOrder(node.Right);
+
+                    }
+                }
+                public void AfterOrder(Node node)
+                {
+                    if (node != null)
+                    {
+                       AfterOrder(node.Left);
+                        AfterOrder(node.Right);
+                        PointFListByOrder.Add(node.Data);
+
+
+                    }
+                }
+            }
+
+
+            //构造函数 给予起点和终点  自行生成一个原始list，一个二叉树，之后实现这个二叉树的先，中，后序遍历，遍历的结果存储在
+            //另外一个list中。
+          
+            public SignelSlotCoordinatesGroup(PointF startPointF, PointF endPointF)
+            {
+               #region  处理孔位重在一起的slot（特殊情况）
+                if ((startPointF.X.Equals(endPointF.X)) && (startPointF.Y.Equals(endPointF.Y)))
+                {
+                    SequenceyListPointF[0] = startPointF;
+                    SequenceyListPointF[1] = endPointF;
+                }
+                #endregion
+
+                #region 处理在X轴不变上的Slot
+
+                if ((startPointF.X.Equals(endPointF.X)) && (!(startPointF.Y.Equals(endPointF.Y))))
+                {
+
+                    double eventimes = (startPointF.Y - endPointF.Y) / _roughnessTol;
+                    int divby = (int)Math.Ceiling(eventimes);
+
+                    divby = (Convert.ToBoolean(divby % 2) )? (divby + 1) : divby;
+                    double optRoughnessStep = (startPointF.Y - endPointF.Y) / divby;
+                    PointF p = new PointF();
+
+                    for (int i = 0; i < divby; i++)
+                    {
+                        p.X = startPointF.X;
+                        p.Y = startPointF.Y + Convert.ToSingle(optRoughnessStep * i);
+                        SequenceyListPointF.Add(p);
+                    }
+                }
+
+                #endregion
+
+                #region 处理在Y轴不变上的Slot
+
+                if ((startPointF.Y.Equals(endPointF.Y)) && (!(startPointF.X.Equals(endPointF.X))))
+                {
+
+                    double eventimes = (startPointF.X - endPointF.X) / _roughnessTol;
+                    int divby =(int) Math.Ceiling(eventimes);
+                    divby = Convert.ToBoolean(divby % 2) ? (divby + 1) : divby;
+                    double optRoughnessStep = (startPointF.X - endPointF.X) / divby;
+                    PointF p = new PointF();
+
+                    for (int i = 0; i < divby; i++)
+                    {
+                        p.Y = startPointF.Y;
+                        p.X = startPointF.X + Convert.ToSingle(optRoughnessStep * i);
+                        SequenceyListPointF.Add(p);
+                    }
+                }
+
+                #endregion
+
+                slotDriTree = new SlotDriTree(SequenceyListPointF);
+                slotDriTree.PreOrder(slotDriTree.Head);
+            }
+
+            public List<PointF> GetTreebyOrder()
+            {
+                if (slotDriTree!=null)
+                {
+                    slotDriTree.PreOrder(slotDriTree.Head);
+                    return slotDriTree.PointFListByOrder;
+                }
+                return null;
+
+            }
+
+
+        }
+
+        public class SlotShapeCollections
         {
             private CoordinateGroup _startCoordinateGroup;
             private int count;
-
-            public SlotShape(float Dia, int Torder, CoordinateGroup startpointGP, CoordinateGroup endpointGP)
+            
+          
+            public SlotShapeCollections(float Dia, int Torder, CoordinateGroup startpointGP, CoordinateGroup endpointGP)
             {
                 DriBitDia = Dia;
                 TOrder = Torder;
                 _startCoordinateGroup = startpointGP;
                 EndCoordinateGroup = endpointGP;
             }
+
 
             public int TOrder { get; set; }
 
@@ -735,5 +935,215 @@ namespace DrilTapeTest1
 
             public CoordinateGroup EndCoordinateGroup { get; set; }
         }
+
+
+        public class Testemgu
+        {
+            public unsafe Bitmap ToThinner(Bitmap srcImg)
+            {
+                int iw = srcImg.Width;
+                int ih = srcImg.Height;
+                bool bModified;    //二值图像修改标志 
+                bool bCondition1;   //细化条件1标志
+                bool bCondition2;   //细化条件2标志
+                bool bCondition3;   //细化条件3标志
+                bool bCondition4;   //细化条件4标志
+                int nCount;
+
+                //5X5像素块
+                byte[,] neighbour = new byte[5, 5];
+                //新建临时存储图像
+                Bitmap NImg = new Bitmap(iw, ih, srcImg.PixelFormat);
+
+                bModified = true; //细化修改标志, 用作循环条件
+                BitmapData dstData = srcImg.LockBits(new Rectangle(0, 0, iw, ih), ImageLockMode.ReadWrite,
+                    srcImg.PixelFormat);
+                var data = (byte*)(dstData.Scan0);
+                //将图像转换为0,1二值得图像;            
+                int step = dstData.Stride;
+                for (int i = 0; i < dstData.Height; i++)
+                {
+                    for (int j = 0; j < dstData.Width; j++)
+                    {
+                        if (data[i * step + j] > 128)
+                            data[i * step + j] = 0;
+                        else
+                            data[i * step + j] = 1;
+                    }
+                }
+
+                BitmapData dstData1 = NImg.LockBits(new Rectangle(0, 0, iw, ih), ImageLockMode.ReadWrite, NImg.PixelFormat);
+
+                var data1 = (byte*)(dstData1.Scan0);
+
+                int step1 = dstData1.Stride;
+                //细化循环开始
+                while (bModified)
+                {
+                    bModified = false;
+                    //初始化临时二值图像NImg
+                    for (int i = 0; i < dstData1.Height; i++)
+                    {
+                        for (int j = 0; j < dstData1.Width; j++)
+                        {
+                            data1[i * step1 + j] = 0;
+                        }
+                    }
+                    for (int i = 2; i < ih - 2; i++)
+                    {
+                        for (int j = 2; j < iw - 2; j++)
+                        {
+                            bCondition1 = false;
+                            bCondition2 = false;
+                            bCondition3 = false;
+                            bCondition4 = false;
+                            if (data[i * step + j] == 0)
+                                //若图像的当前点为白色，则跳过
+                                continue;
+                            for (int k = 0; k < 5; k++)
+                            {
+                                //取以当前点为中心的5X5块
+                                for (int l = 0; l < 5; l++)
+                                {
+                                    //1代表黑色, 0代表白色
+                                    //neighbour[k, l] = bw[i + k - 2, j + l - 2];
+                                    neighbour[k, l] = data[(i + k - 2) * step + (j + l - 2)];
+                                }
+                            }
+
+                            //(1)判断条件2<=n(p)<=6
+                            nCount = neighbour[1, 1] + neighbour[1, 2] + neighbour[1, 3] + neighbour[2, 1] + neighbour[2, 3] + neighbour[3, 1] + neighbour[3, 2] + neighbour[3, 3];
+                            
+                            if (nCount >= 2 && nCount <= 6)
+                                bCondition1 = true;
+                            else
+                            {
+                                data1[i * step1 + j] = 1;
+                                continue;
+                                //跳过, 加快速度
+                            }
+
+                            //(2)判断s(p)=1 
+                            nCount = 0;
+                            if (neighbour[2, 3] == 0 && neighbour[1, 3] == 1)
+                                nCount++;
+                            if (neighbour[1, 3] == 0 && neighbour[1, 2] == 1)
+                                nCount++;
+                            if (neighbour[1, 2] == 0 && neighbour[1, 1] == 1)
+                                nCount++;
+                            if (neighbour[1, 1] == 0 && neighbour[2, 1] == 1)
+                                nCount++;
+                            if (neighbour[2, 1] == 0 && neighbour[3, 1] == 1)
+                                nCount++;
+                            if (neighbour[3, 1] == 0 && neighbour[3, 2] == 1)
+                                nCount++;
+                            if (neighbour[3, 2] == 0 && neighbour[3, 3] == 1)
+                                nCount++;
+                            if (neighbour[3, 3] == 0 && neighbour[2, 3] == 1)
+                                nCount++;
+                            if (nCount == 1)
+                                bCondition2 = true;
+                            else
+                            {
+                                data1[i * step1 + j] = 1;
+                                continue;
+                            }
+
+                            //(3)判断p0*p2*p4=0 or s(p2)!=1
+
+                            if (neighbour[2, 3] * neighbour[1, 2] * neighbour[2, 1] == 0)
+                                bCondition3 = true;
+                            else
+                            {
+                                nCount = 0;
+                                if (neighbour[0, 2] == 0 && neighbour[0, 1] == 1)
+                                    nCount++;
+                                if (neighbour[0, 1] == 0 && neighbour[1, 1] == 1)
+                                    nCount++;
+                                if (neighbour[1, 1] == 0 && neighbour[2, 1] == 1)
+                                    nCount++;
+                                if (neighbour[2, 1] == 0 && neighbour[2, 2] == 1)
+                                    nCount++;
+                                if (neighbour[2, 2] == 0 && neighbour[2, 3] == 1)
+                                    nCount++;
+                                if (neighbour[2, 3] == 0 && neighbour[1, 3] == 1)
+                                    nCount++;
+                                if (neighbour[1, 3] == 0 && neighbour[0, 3] == 1)
+                                    nCount++;
+                                if (neighbour[0, 3] == 0 && neighbour[0, 2] == 1)
+                                    nCount++;
+                                if (nCount != 1)
+
+                                    //s(p2)!=1
+                                    bCondition3 = true;
+                                else
+                                {
+                                    data1[i * step1 + j] = 1;
+                                    continue;
+                                }
+                            }
+                            //(4)判断p2*p4*p6=0 or s(p4)!=1
+                            if (neighbour[1, 2] * neighbour[2, 1] * neighbour[3, 2] == 0)
+                                bCondition4 = true;
+                            else
+                            {
+                                nCount = 0;
+                                if (neighbour[1, 1] == 0 && neighbour[1, 0] == 1)
+                                    nCount++;
+                                if (neighbour[1, 0] == 0 && neighbour[2, 0] == 1)
+                                    nCount++;
+                                if (neighbour[2, 0] == 0 && neighbour[3, 0] == 1)
+                                    nCount++;
+                                if (neighbour[3, 0] == 0 && neighbour[3, 1] == 1)
+                                    nCount++;
+                                if (neighbour[3, 1] == 0 && neighbour[3, 2] == 1)
+                                    nCount++;
+                                if (neighbour[3, 2] == 0 && neighbour[2, 2] == 1)
+                                    nCount++;
+                                if (neighbour[2, 2] == 0 && neighbour[1, 2] == 1)
+                                    nCount++;
+                                if (neighbour[1, 2] == 0 && neighbour[1, 1] == 1)
+                                    nCount++;
+                                if (nCount != 1)
+                                    //s(p4)!=1
+                                    bCondition4 = true;
+                            }
+                            if (bCondition1 && bCondition2 && bCondition3 && bCondition4)
+                            {
+                                data1[i * step1 + j] = 0;
+                                bModified = true;
+                            }
+                            else
+                            {
+                                data1[i * step1 + j] = 1;
+                            }
+                        }
+                    }
+
+                    //将细化了的临时图像bw_tem[w,h]copy到bw[w,h],完成一次细化
+
+                    for (int i = 2; i < ih - 2; i++)
+                        for (int j = 2; j < iw - 2; j++)
+                            data[i * step + j] = data1[i * step1 + j];
+                }
+
+                for (int i = 2; i < ih - 2; i++)
+                {
+                    for (int j = 2; j < iw - 2; j++)
+                    {
+                        if (data[i * step + j] == 1)
+                            data[i * step + j] = 0;
+                        else
+                            data[i * step + j] = 255;
+                    }
+                }
+                srcImg.UnlockBits(dstData);
+                NImg.UnlockBits(dstData1);
+                return (srcImg);
+            }
+
+
+        }
+
     }
 }

@@ -1,0 +1,65 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DataTemplateDemo1"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="DataTemplateDemo1.MainWindow"
+        Title="DataTemplateDemo" Height="680" Width="1167">
+    <Window.Resources>
+        <!--Convert List -->
+        <local:AutoMakerTologoPathConvert x:Key="A2L"/>
+        <local:NameToPhotoPathConvert x:Key="N2P"/>
+        <local:SelectedItemToPhotoPathConvert x:Key="SII2P"/>
+        
+            <!--DataTemplate for Detail View -->
+        <DataTemplate x:Key="CarDetailViewTemplate">
+            <Border BorderBrush="Black" BorderThickness="1"  CornerRadius="15" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                <StackPanel Margin="5">
+                    <Image Height="560" Width="920"  x:Name="imagePhoto"  Source="{Binding Name, Converter={StaticResource N2P}}" Stretch="UniformToFill" StretchDirection="Both"  Margin="10">
+                       </Image>
+
+                    <StackPanel Orientation="Horizontal" Margin="5,0">
+                        <TextBlock Text="Name:" FontWeight="Bold" FontSize="20"/>
+                        <TextBlock Text="{Binding Name}" FontSize="20" Margin="5,0"/>
+
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5,0">
+                        <TextBlock Text="AutoMaker:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding AutoMaker}"  Margin="5,0"/>
+                        <TextBlock Text="Year:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding Year}"  Margin="5,0"/>
+                        <TextBlock Text="Top Speed:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding TopSpeed}"  Margin="5,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+        <!--DataTemplate for Item View -->
+        <DataTemplate x:Key="CarListViewTemplate">
+
+            <Grid Margin="2">
+                <StackPanel Orientation="Horizontal">
+                    <Image x:Name="imglogo" Grid.RowSpan="3"  Width="50" Height="50" Stretch="UniformToFill" Source="{Binding AutoMaker, Converter={StaticResource A2L}}"/>
+
+                    <StackPanel Margin="5,0">
+                        <TextBlock  Text="{Binding Name}" FontSize="16" FontWeight="Bold"/>
+                        <TextBlock  Text="{Binding Year}" FontSize="14" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+
+    <!-- WPF Window Froms content-->
+    <Canvas x:Name="AllCanvas" Opacity="0.9">
+        <Canvas.Background>
+            <ImageBrush  x:Name="testImageBrush" ImageSource="{Binding SelectedItem,ElementName=listBoxCars, Converter={StaticResource SII2P}}" />
+        </Canvas.Background>
+
+        <StackPanel  x:Name="StackPanel1" Orientation="Horizontal">
+            <UserControl x:Name="userControl" ContentTemplate="{StaticResource CarDetailViewTemplate}" Content="{Binding SelectedItem, ElementName=listBoxCars}"/>
+            <ListBox x:Name="listBoxCars" Width="180" Margin="10" ItemTemplate="{StaticResource CarListViewTemplate}" Height="500" VerticalAlignment="Top"/>
+
+        </StackPanel>
+    </Canvas>
+</Window>

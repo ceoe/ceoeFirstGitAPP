@@ -8,3 +8,6 @@ E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\WPF.csproj.GenerateResource.Cache
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.exe
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\WPF\obj\Debug\Emgu.CV.WPF.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.WPF.exe.config
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.WPF.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Emgu.CV.WPF.pdb

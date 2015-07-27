@@ -1,0 +1,316 @@
+﻿  fabmap_sample.cpp
+opencv_contrib2410d.lib(openfabmap.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_contrib2410d.lib(chowliutree.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_contrib2410d.lib(opencv_contrib_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(system.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(alloc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(matrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(matop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(persistence.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(mathfuncs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(copy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(stat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(opencv_core_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(convert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(rand.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(parallel.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(array.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(datastructs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(gpumat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(opengl_interop_deprecated.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(opengl_interop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(matmul.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(arithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(lapack.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(detectors.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(dynamic.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(matchers.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(draw.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(bagofwords.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(opencv_features2d_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(keypoint.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(features2d_init.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(stardetector.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(fast.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(descriptors.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(brisk.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(orb.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(freak.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(mser.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(blobdetector.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(brief.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_features2d2410d.lib(fast_score.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_flann2410d.lib(miniflann.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_flann2410d.lib(opencv_flann_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(window.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(loadsave.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(window_w32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_bmp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_sunras.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_pxm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(bitstrm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_highgui2410d.lib(grfmt_base.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(imgwarp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(featureselect.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(morph.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(pyramids.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(color.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(sumpixels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(smooth.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(thresh.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(histogram.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(contours.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(shapedescr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(moments.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(filter.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(imgwarp_avx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(imgwarp_avx2.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(corner.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(approx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(rotcalipers.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(matchcontours.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(convhull.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(geometry.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(linefit.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(templmatch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_imgproc2410d.lib(deriv.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(surf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(opencv_nonfree_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(nonfree_init.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(sift.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(surf_ocl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_nonfree2410d.lib(opencl_kernels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(matrix_operations.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(cl_operations.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(color.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(imgproc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(mcwutil.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(cl_runtime.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(opencv_ocl_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(error.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(cl_context.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(arithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(opencl_kernels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(cl_programcache.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(filtering.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(fft.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(gemm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(clamdfft_runtime.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_ocl2410d.lib(clamdblas_runtime.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __cdecl std::_Container_base12::_Container_base12(void)" (??0_Container_base12@std@@QEAA@XZ) 已经在 opencv_contrib2410d.lib(openfabmap.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __cdecl std::_Container_base12::~_Container_base12(void)" (??1_Container_base12@std@@QEAA@XZ) 已经在 opencv_contrib2410d.lib(openfabmap.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: struct std::_Iterator_base12 * * __cdecl std::_Container_base12::_Getpfirst(void)const " (?_Getpfirst@_Container_base12@std@@QEBAPEAPEAU_Iterator_base12@2@XZ) 已经在 opencv_contrib2410d.lib(openfabmap.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: void __cdecl std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QEAAXXZ) 已经在 opencv_contrib2410d.lib(openfabmap.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __cdecl std::locale::id::id(unsigned __int64)" (??0id@locale@std@@QEAA@_K@Z) 已经在 opencv_contrib2410d.lib(opencv_contrib_pch.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: bool __cdecl std::ios_base::good(void)const " (?good@ios_base@std@@QEBA_NXZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z) 已经在 opencv_features2d2410d.lib(freak.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z) 已经在 opencv_features2d2410d.lib(freak.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z) 已经在 opencv_features2d2410d.lib(freak.obj) 中定义
+msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ) 已经在 opencv_core2410d.lib(gpumat.obj) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z) 已经在 msvcprtd.lib(locale0_implib.obj) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPEAV12@PEBD@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(cerr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(cout.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QEAA@H@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QEAA@XZ) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+libcpmtd.lib(xwctomb.obj) : error LNK2005: _Getcvt 已经在 msvcprtd.lib(MSVCP120D.dll) 中定义
+LIBCMTD.lib(dbgheap.obj) : error LNK2005: _CrtSetCheckCount 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(dbgheap.obj) : error LNK2005: _calloc_dbg 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(dbgheap.obj) : error LNK2005: _free_dbg 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winapisupp.obj) : error LNK2005: __crtCaptureCurrentContext 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winapisupp.obj) : error LNK2005: __crtCapturePreviousContext 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winapisupp.obj) : error LNK2005: __crtSetUnhandledExceptionFilter 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winapisupp.obj) : error LNK2005: __crtTerminateProcess 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winapisupp.obj) : error LNK2005: __crtUnhandledException 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(invarg.obj) : error LNK2005: _invalid_parameter 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(mbstowcs.obj) : error LNK2005: mbstowcs 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(lconv.obj) : error LNK2005: localeconv 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0dat.obj) : error LNK2005: _amsg_exit 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0dat.obj) : error LNK2005: _cexit 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0dat.obj) : error LNK2005: _exit 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0dat.obj) : error LNK2005: _initterm_e 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0dat.obj) : error LNK2005: exit 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(wsetloca.obj) : error LNK2005: _configthreadlocale 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(mlock.obj) : error LNK2005: _lock 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(mlock.obj) : error LNK2005: _unlock 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(winxfltr.obj) : error LNK2005: _XcptFilter 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(errmode.obj) : error LNK2005: __set_app_type 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(atox.obj) : error LNK2005: atoi 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(getenv.obj) : error LNK2005: getenv 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xi_a 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xi_z 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xc_a 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(crt0init.obj) : error LNK2005: __xc_z 已经在 MSVCRTD.lib(cinitexe.obj) 中定义
+LIBCMTD.lib(wcstombs.obj) : error LNK2005: wcstombs 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(sprintf.obj) : error LNK2005: sprintf 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(sprintf.obj) : error LNK2005: sprintf_s 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(dbgrptw.obj) : error LNK2005: _CrtDbgReportW 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(strtol.obj) : error LNK2005: strtol 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(fflush.obj) : error LNK2005: fflush 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(_file.obj) : error LNK2005: __iob_func 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(_file.obj) : error LNK2005: _lock_file 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(_file.obj) : error LNK2005: _unlock_file 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(printf.obj) : error LNK2005: printf 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(vsprintf.obj) : error LNK2005: vsprintf 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(strtod.obj) : error LNK2005: strtod 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+LIBCMTD.lib(tolower.obj) : error LNK2005: tolower 已经在 MSVCRTD.lib(MSVCR120D.dll) 中定义
+opencv_core2410d.lib(algorithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(drawing.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+opencv_core2410d.lib(dxt.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(fabmap_sample.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzputs，该符号在函数 "void __cdecl icvPuts(struct CvFileStorage *,char const *)" (?icvPuts@@YAXPEAUCvFileStorage@@PEBD@Z) 中被引用
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzgets，该符号在函数 "char * __cdecl icvGets(struct CvFileStorage *,char *,int)" (?icvGets@@YAPEADPEAUCvFileStorage@@PEADH@Z) 中被引用
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzrewind，该符号在函数 "void __cdecl icvRewind(struct CvFileStorage *)" (?icvRewind@@YAXPEAUCvFileStorage@@@Z) 中被引用
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzeof，该符号在函数 "int __cdecl icvEof(struct CvFileStorage *)" (?icvEof@@YAHPEAUCvFileStorage@@@Z) 中被引用
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzclose，该符号在函数 "void __cdecl icvCloseFile(struct CvFileStorage *)" (?icvCloseFile@@YAXPEAUCvFileStorage@@@Z) 中被引用
+opencv_core2410d.lib(persistence.obj) : error LNK2019: 无法解析的外部符号 gzopen，该符号在函数 cvOpenFileStorage 中被引用
+opencv_highgui2410d.lib(window_w32.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateToolbarEx，该符号在函数 "int __cdecl icvCreateTrackbar(char const *,char const *,int *,int,void (__cdecl*)(int),void (__cdecl*)(int,void *),void *)" (?icvCreateTrackbar@@YAHPEBD0PEAHHP6AXH@ZP6AXHPEAX@Z3@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_std_error，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readHeader(void)" (?readHeader@JpegDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_CreateCompress，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_CreateDecompress，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readHeader(void)" (?readHeader@JpegDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_destroy_compress，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_destroy_decompress，该符号在函数 "public: void __cdecl cv::JpegDecoder::close(void)" (?close@JpegDecoder@cv@@QEAAXXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_stdio_dest，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_stdio_src，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readHeader(void)" (?readHeader@JpegDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_set_defaults，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_set_quality，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_alloc_huff_table，该符号在函数 "int __cdecl cv::my_jpeg_load_dht(struct jpeg_decompress_struct *,unsigned char *,struct JHUFF_TBL * * const,struct JHUFF_TBL * * const)" (?my_jpeg_load_dht@cv@@YAHPEAUjpeg_decompress_struct@@PEAEQEAPEAUJHUFF_TBL@@2@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_start_compress，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_write_scanlines，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_finish_compress，该符号在函数 "public: virtual bool __cdecl cv::JpegEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@JpegEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_read_header，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readHeader(void)" (?readHeader@JpegDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_start_decompress，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readData(class cv::Mat &)" (?readData@JpegDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_read_scanlines，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readData(class cv::Mat &)" (?readData@JpegDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_finish_decompress，该符号在函数 "public: virtual bool __cdecl cv::JpegDecoder::readData(class cv::Mat &)" (?readData@JpegDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg.obj) : error LNK2019: 无法解析的外部符号 jpeg_resync_to_restart，该符号在函数 "void __cdecl cv::jpeg_buffer_src(struct jpeg_decompress_struct *,struct cv::JpegSource *)" (?jpeg_buffer_src@cv@@YAXPEAUjpeg_decompress_struct@@PEAUJpegSource@1@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFClose，该符号在函数 "public: void __cdecl cv::TiffDecoder::close(void)" (?close@TiffDecoder@cv@@QEAAXXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFGetField，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFScanlineSize，该符号在函数 "protected: bool __cdecl cv::TiffEncoder::writeLibTiff(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?writeLibTiff@TiffEncoder@cv@@IEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFIsTiled，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFSetField，该符号在函数 "protected: bool __cdecl cv::TiffEncoder::writeLibTiff(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?writeLibTiff@TiffEncoder@cv@@IEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFWriteScanline，该符号在函数 "protected: bool __cdecl cv::TiffEncoder::writeLibTiff(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?writeLibTiff@TiffEncoder@cv@@IEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFReadRGBAStrip，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFReadRGBATile，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFRGBAImageOK，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFOpen，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readHeader(void)" (?readHeader@TiffDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFSetErrorHandler，该符号在函数 "public: __cdecl cv::TiffDecoder::TiffDecoder(void)" (??0TiffDecoder@cv@@QEAA@XZ) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFSetWarningHandler，该符号在函数 "public: __cdecl cv::TiffDecoder::TiffDecoder(void)" (??0TiffDecoder@cv@@QEAA@XZ) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFReadEncodedStrip，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_tiff.obj) : error LNK2019: 无法解析的外部符号 TIFFReadEncodedTile，该符号在函数 "public: virtual bool __cdecl cv::TiffDecoder::readData(class cv::Mat &)" (?readData@TiffDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_create_read_struct，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_create_write_struct，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_longjmp_fn，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_create_info_struct，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_write_info，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_read_info，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_expand_gray_1_2_4_to_8，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_palette_to_rgb，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_bgr，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_gray_to_rgb，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_rgb_to_gray，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_strip_alpha，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_swap，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_packing，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_interlace_handling，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_strip_16，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_read_update_info，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_read_image，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_write_image，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_write_end，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_read_end，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readData(class cv::Mat &)" (?readData@PngDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_destroy_read_struct，该符号在函数 "public: void __cdecl cv::PngDecoder::close(void)" (?close@PngDecoder@cv@@QEAAXXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_destroy_write_struct，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_filter，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_compression_level，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_compression_strategy，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_init_io，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_write_fn，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_read_fn，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_get_io_ptr，该符号在函数 "protected: static void __cdecl cv::PngDecoder::readDataFromBuf(void *,unsigned char *,unsigned __int64)" (?readDataFromBuf@PngDecoder@cv@@KAXPEAXPEAE_K@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_error，该符号在函数 "protected: static void __cdecl cv::PngDecoder::readDataFromBuf(void *,unsigned char *,unsigned __int64)" (?readDataFromBuf@PngDecoder@cv@@KAXPEAXPEAE_K@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_get_IHDR，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_set_IHDR，该符号在函数 "public: virtual bool __cdecl cv::PngEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@PngEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_png.obj) : error LNK2019: 无法解析的外部符号 png_get_tRNS，该符号在函数 "public: virtual bool __cdecl cv::PngDecoder::readHeader(void)" (?readHeader@PngDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_init，该符号在函数 "public: __cdecl cv::JasperInitializer::JasperInitializer(void)" (??0JasperInitializer@cv@@QEAA@XZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_cleanup，该符号在函数 "public: __cdecl cv::JasperInitializer::~JasperInitializer(void)" (??1JasperInitializer@cv@@QEAA@XZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_stream_fopen，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readHeader(void)" (?readHeader@Jpeg2KDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_stream_close，该符号在函数 "public: void __cdecl cv::Jpeg2KDecoder::close(void)" (?close@Jpeg2KDecoder@cv@@QEAAXXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_cmprof_destroy，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_cmprof_createfromclrspc，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_matrix_create，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_matrix_destroy，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_create，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@Jpeg2KEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_destroy，该符号在函数 "public: void __cdecl cv::Jpeg2KDecoder::close(void)" (?close@Jpeg2KDecoder@cv@@QEAAXXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_decode，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readHeader(void)" (?readHeader@Jpeg2KDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_encode，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@Jpeg2KEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_readcmpt，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_writecmpt，该符号在函数 "protected: bool __cdecl cv::Jpeg2KEncoder::writeComponent16u(void *,class cv::Mat const &)" (?writeComponent16u@Jpeg2KEncoder@cv@@IEAA_NPEAXAEBVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_getcmptbytype，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_strtofmt，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@Jpeg2KEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_jpeg2000.obj) : error LNK2019: 无法解析的外部符号 jas_image_chclrspc，该符号在函数 "public: virtual bool __cdecl cv::Jpeg2KDecoder::readData(class cv::Mat &)" (?readData@Jpeg2KDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::Header::Header(int,int,float,class Imath::Vec2<float> const &,float,enum Imf::LineOrder,enum Imf::Compression)" (??0Header@Imf@@QEAA@HHMAEBV?$Vec2@M@Imath@@MW4LineOrder@1@W4Compression@1@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::Header::~Header(void)" (??1Header@Imf@@QEAA@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: class Imath::Box<class Imath::Vec2<int> > const & __cdecl Imf::Header::dataWindow(void)const " (?dataWindow@Header@Imf@@QEBAAEBV?$Box@V?$Vec2@H@Imath@@@Imath@@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: class Imf::ChannelList & __cdecl Imf::Header::channels(void)" (?channels@Header@Imf@@QEAAAEAVChannelList@2@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: class Imf::ChannelList const & __cdecl Imf::Header::channels(void)const " (?channels@Header@Imf@@QEBAAEBVChannelList@2@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::Slice::Slice(enum Imf::PixelType,char *,unsigned __int64,unsigned __int64,int,int,double,bool,bool)" (??0Slice@Imf@@QEAA@W4PixelType@1@PEAD_K2HHN_N3@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readData(class cv::Mat &)" (?readData@ExrDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::FrameBuffer::insert(char const * const,struct Imf::Slice const &)" (?insert@FrameBuffer@Imf@@QEAAXQEBDAEBUSlice@2@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readData(class cv::Mat &)" (?readData@ExrDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "int __cdecl Imf::globalThreadCount(void)" (?globalThreadCount@Imf@@YAHXZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::InputFile::InputFile(char const * const,int)" (??0InputFile@Imf@@QEAA@QEBDH@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: class Imf::Header const & __cdecl Imf::InputFile::header(void)const " (?header@InputFile@Imf@@QEBAAEBVHeader@2@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::InputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@InputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readData(class cv::Mat &)" (?readData@ExrDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::InputFile::readPixels(int,int)" (?readPixels@InputFile@Imf@@QEAAXHH@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readData(class cv::Mat &)" (?readData@ExrDecoder@cv@@UEAA_NAEAVMat@2@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::OutputFile::OutputFile(char const * const,class Imf::Header const &,int)" (??0OutputFile@Imf@@QEAA@QEBDAEBVHeader@1@H@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl Imf::OutputFile::~OutputFile(void)" (??1OutputFile@Imf@@UEAA@XZ)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::OutputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@OutputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::OutputFile::writePixels(int)" (?writePixels@OutputFile@Imf@@QEAAXH@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::Channel::Channel(enum Imf::PixelType,int,int,bool)" (??0Channel@Imf@@QEAA@W4PixelType@1@HH_N@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: void __cdecl Imf::ChannelList::insert(char const * const,struct Imf::Channel const &)" (?insert@ChannelList@Imf@@QEAAXQEBDAEBUChannel@2@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrEncoder::write(class cv::Mat const &,class std::vector<int,class std::allocator<int> > const &)" (?write@ExrEncoder@cv@@UEAA_NAEBVMat@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: struct Imf::Channel const * __cdecl Imf::ChannelList::findChannel(char const * const)const " (?findChannel@ChannelList@Imf@@QEBAPEBUChannel@2@QEBD@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "private: static short __cdecl half::convert(int)" (?convert@half@@CAFH@Z)，该符号在函数 "public: __cdecl half::half(float)" (??0half@@QEAA@M@Z) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "public: __cdecl Imf::Chromaticities::Chromaticities(class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &)" (??0Chromaticities@Imf@@QEAA@AEBV?$Vec2@M@Imath@@000@Z)，该符号在函数 "public: __cdecl cv::ExrDecoder::ExrDecoder(void)" (??0ExrDecoder@cv@@QEAA@XZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "bool __cdecl Imf::hasChromaticities(class Imf::Header const &)" (?hasChromaticities@Imf@@YA_NAEBVHeader@1@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2019: 无法解析的外部符号 "struct Imf::Chromaticities const & __cdecl Imf::chromaticities(class Imf::Header const &)" (?chromaticities@Imf@@YAAEBUChromaticities@1@AEBVHeader@1@@Z)，该符号在函数 "public: virtual bool __cdecl cv::ExrDecoder::readHeader(void)" (?readHeader@ExrDecoder@cv@@UEAA_NXZ) 中被引用
+opencv_highgui2410d.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "private: static unsigned short const * const half::_eLut" (?_eLut@half@@0QBGB)
+e:\Documents and Settings\bob\Visual Studio 2012\Projects\OpencvTestHoughConvert\x64\Debug\OpencvTestHoughConvert.exe : fatal error LNK1120: 114 个无法解析的外部命令

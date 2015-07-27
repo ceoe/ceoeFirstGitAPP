@@ -49,6 +49,7 @@
             this.lbAxisStatus = new System.Windows.Forms.Label();
             this.btnRun = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
+            this.tbinputsig = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGR1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numUDbox)).BeginInit();
@@ -234,7 +235,7 @@
             // lbAxisStatus
             // 
             this.lbAxisStatus.AutoSize = true;
-            this.lbAxisStatus.Location = new System.Drawing.Point(620, 562);
+            this.lbAxisStatus.Location = new System.Drawing.Point(621, 556);
             this.lbAxisStatus.Name = "lbAxisStatus";
             this.lbAxisStatus.Size = new System.Drawing.Size(77, 12);
             this.lbAxisStatus.TabIndex = 19;
@@ -260,11 +261,21 @@
             this.btnStop.UseVisualStyleBackColor = true;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
+            // tbinputsig
+            // 
+            this.tbinputsig.Location = new System.Drawing.Point(620, 635);
+            this.tbinputsig.Multiline = true;
+            this.tbinputsig.Name = "tbinputsig";
+            this.tbinputsig.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tbinputsig.Size = new System.Drawing.Size(319, 95);
+            this.tbinputsig.TabIndex = 22;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(951, 810);
+            this.ClientSize = new System.Drawing.Size(951, 742);
+            this.Controls.Add(this.tbinputsig);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.lbAxisStatus);
@@ -319,6 +330,10 @@
         private System.Windows.Forms.Label lbAxisStatus;
         private System.Windows.Forms.Button btnRun;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.TextBox tbinputsig;
+
+        private HiPerfTimer myTimer;
+
     }
 }
 

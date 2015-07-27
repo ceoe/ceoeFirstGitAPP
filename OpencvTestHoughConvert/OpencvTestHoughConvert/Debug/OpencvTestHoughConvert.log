@@ -1,0 +1,2 @@
+﻿  fabmap_sample.cpp
+opencv_core2410d.lib(matop.obj) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突

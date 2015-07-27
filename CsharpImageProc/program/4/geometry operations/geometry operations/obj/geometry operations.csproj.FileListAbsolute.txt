@@ -1,0 +1,14 @@
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.exe
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.pdb
+F:\书\program\4\geometry operations\geometry operations\bin\Debug\geometry operations.exe
+F:\书\program\4\geometry operations\geometry operations\bin\Debug\geometry operations.pdb
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\ResolveAssemblyReference.cache
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.Form1.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.mirror.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.Properties.Resources.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.rotation.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.translation.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.zoom.resources
+F:\书\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.csproj.GenerateResource.Cache
+F:\C#数字图像处理的算法实现——赵春江\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.exe
+F:\C#数字图像处理的算法实现——赵春江\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.pdb

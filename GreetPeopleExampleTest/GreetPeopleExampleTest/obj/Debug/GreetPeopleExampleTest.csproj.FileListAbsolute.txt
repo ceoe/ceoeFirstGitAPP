@@ -1,0 +1,6 @@
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\bin\Debug\GreetPeopleExampleTest.exe.config
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\bin\Debug\GreetPeopleExampleTest.exe
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\bin\Debug\GreetPeopleExampleTest.pdb
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\obj\Debug\GreetPeopleExampleTest.csprojResolveAssemblyReference.cache
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\obj\Debug\GreetPeopleExampleTest.exe
+e:\documents and settings\bob\Visual Studio 2012\Projects\GreetPeopleExampleTest\GreetPeopleExampleTest\obj\Debug\GreetPeopleExampleTest.pdb

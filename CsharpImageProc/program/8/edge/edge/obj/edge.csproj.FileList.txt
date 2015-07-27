@@ -1,0 +1,14 @@
+bin\Debug\edge.exe
+bin\Debug\edge.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\edge.Form1.resources
+obj\Debug\edge.Properties.Resources.resources
+obj\Debug\edge.csproj.GenerateResource.Cache
+obj\Debug\edge.exe
+obj\Debug\edge.pdb
+obj\Debug\edge.mask.resources
+obj\Debug\edge.gaussian.resources
+obj\Debug\edge.canny.resources
+obj\Debug\edge.morphologic.resources
+obj\Debug\edge.wvl.resources
+obj\Debug\edge.glp.resources

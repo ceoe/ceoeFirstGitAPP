@@ -1,0 +1,220 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" xmlns:local="clr-namespace:MotionTest" x:Name="MotionTest_Frm" x:Class="MotionTest.MainWindow"
+        Title="MotionTest v1.0" Height="725" Width="764.5" ResizeMode="NoResize">
+    <TabControl x:Name="TabViewer" HorizontalAlignment="Left" Margin="25,24,0,9" Width="720">
+        <TabItem x:Name="tabMotion" Header="AxisSignal and  Control" BorderBrush="#FF1446DA" IsSelected="True">
+            <TabItem.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="1" />
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5" />
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5" />
+                    <GradientStop Color="#FFD17676" />
+                </LinearGradientBrush>
+            </TabItem.Background>
+            <Grid Background="#FFE5E5E5" Margin="0,0,3,10">
+                <ListView x:Name="lsViewDataBase" HorizontalAlignment="Left" Height="186" Margin="10,10,0,0" VerticalAlignment="Top" Width="572"  Background="#FF0C0B0B" Foreground="#FF69F727">
+
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Axis" Width="60" DisplayMemberBinding="{Binding AXIS}" />
+                            <GridViewColumn Header="EL+" Width="40" DisplayMemberBinding="{Binding ELP}" />
+                            <GridViewColumn Header="EL-" Width="40" DisplayMemberBinding="{Binding ELN}" />
+                            <GridViewColumn Header="ORG" Width="40" DisplayMemberBinding="{Binding RESET_SPEED}" />
+                            <GridViewColumn Header="RYD" Width="40" DisplayMemberBinding="{Binding RESET_SPEED}" />
+                            <GridViewColumn Header="INP" Width="40" DisplayMemberBinding="{Binding RESET_SPEED}" />
+                            <GridViewColumn Header="ALM" Width="40" DisplayMemberBinding="{Binding RESET_SPEED}" />
+                            <GridViewColumn Header="Speed" Width="65" />
+                            <GridViewColumn Header="Position" Width="80" />
+                            <GridViewColumn Header="CMP" Width="40" DisplayMemberBinding="{Binding RESET_SPEED}" />
+                            <GridViewColumn Header="Serv ON" Width="55" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <Label Content="Position Counter" HorizontalAlignment="Left" Margin="587,15,0,0" VerticalAlignment="Top" Width="113" />
+                <ComboBox HorizontalAlignment="Left" Margin="588,46,0,0" VerticalAlignment="Top" Width="98" SelectedIndex="0">
+                    <ComboBoxItem Content="Commander" />
+                    <ComboBoxItem Content="FeedBack" />
+                </ComboBox>
+                <ComboBox x:Name="cbRunMode" HorizontalAlignment="Left" Margin="590,104,0,0" VerticalAlignment="Top" Width="110" SelectedIndex="2">
+                    <ComboBoxItem Content="Home" />
+                    <ComboBoxItem Content="KeepMotion" />
+                    <ComboBoxItem Content="OnceMove" />
+                    <ComboBoxItem Content="RoundTrip" />
+                    <ComboBoxItem Content="LinearInterpolation" />
+                    <ComboBoxItem Content="CircularInterpolation" />
+                </ComboBox>
+                <Label Content="Run Mode:" HorizontalAlignment="Left" Margin="587,73,0,0" VerticalAlignment="Top" Width="108" />
+                <Label Content="Coordinate :" HorizontalAlignment="Left" Margin="588,131,0,0" VerticalAlignment="Top" Width="110" />
+                <ComboBox HorizontalAlignment="Left" Margin="590,162,0,0" VerticalAlignment="Top" Width="110" SelectedIndex="0">
+                    <ComboBoxItem Content="Relative" />
+                    <ComboBoxItem Content="Absolute" />
+                </ComboBox>
+                <Label Content="Speed Curve" HorizontalAlignment="Left" Margin="591,183,0,0" VerticalAlignment="Top" Width="95" />
+                <ComboBox HorizontalAlignment="Left" Margin="591,214,0,0" VerticalAlignment="Top" Width="108" SelectedIndex="0">
+                    <ComboBoxItem Content="T Curve" />
+                    <ComboBoxItem Content="S Curve" />
+                </ComboBox>
+                <Button x:Name="btnTestLoad" Content="Test" HorizontalAlignment="Left" Margin="546,258,0,0" VerticalAlignment="Top" Width="75" Click="btnTestLoad_Click" />
+                <ListView x:Name="lsvMotionSet" HorizontalAlignment="Left" Height="191" Margin="10,214,0,0" VerticalAlignment="Top" Width="498">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Axis" DisplayMemberBinding="{Binding AxisName}" />
+                            <GridViewColumn Header="InitialSpeed" DisplayMemberBinding="{Binding InitialSpeed}" />
+                            <GridViewColumn Header="DriveSpeed" DisplayMemberBinding="{Binding DriveSpeed}" />
+                            <GridViewColumn Header="T_Acc/Dec" DisplayMemberBinding="{Binding Tacc}" />
+                            <GridViewColumn Header="T_S Curve" DisplayMemberBinding="{Binding TSacc}" />
+                            <GridViewColumn Header="End Position" DisplayMemberBinding="{Binding EndPosition}" />
+                            <GridViewColumn Header="Direction" DisplayMemberBinding="{Binding CCWDIR}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <DataGrid AutoGenerateColumns="False"
+					Height="173"
+					HorizontalAlignment="Left"
+					x:Name="dgAxisPara"
+					VerticalAlignment="Top"
+					Width="508" Margin="10,441,0,0" ToolTip="Axis Parameters" HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}">
+
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="White" Offset="0" />
+                                        <GradientStop Color="Yellow" Offset="0.5" />
+                                        <GradientStop Color="White" Offset="1" />
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Foreground" Value="Black" />
+                            <Setter Property="FontSize" Value="13" />
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn  Binding="{Binding AxisName}" ClipboardContentBinding="{Binding AxisName}" Header="Axis" Width="50" />
+                        <DataGridTextColumn Header="InitialSpeed"  MinWidth="30" Width="80" Binding="{Binding InitialSpeed}" ClipboardContentBinding="{Binding InitialSpeed}">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <GradientStop Color="White" Offset="0" />
+                                                <GradientStop Color="SkyBlue" Offset="0.5" />
+                                                <GradientStop Color="White" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="Black" />
+                                    <Setter Property="FontSize" Value="13" />
+                                    <Setter Property="Width" Value="80" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="ToolTip" Value="Sort by Column" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="DriveSpeed"  Binding="{Binding DriveSpeed}" MinWidth="50" Width="80">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <GradientStop Color="White" Offset="0" />
+                                                <GradientStop Color="SkyBlue" Offset="0.5" />
+                                                <GradientStop Color="White" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="Black" />
+                                    <Setter Property="FontSize" Value="13" />
+                                    <Setter Property="Width" Value="80" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="ToolTip" Value="Sort by Column" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="T_Acc/Dec"  Binding="{Binding Tacc}" MinWidth="50" Width="65">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <GradientStop Color="White" Offset="0" />
+                                                <GradientStop Color="SkyBlue" Offset="0.5" />
+                                                <GradientStop Color="White" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="Black" />
+                                    <Setter Property="FontSize" Value="13" />
+                                    <Setter Property="Width" Value="80" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="ToolTip" Value="Sort by Column" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding TSacc}" ClipboardContentBinding="{Binding TSacc}" Header="T_S Curve" Width="60" />
+                        <DataGridTextColumn Binding="{Binding EndPosition}" ClipboardContentBinding="{Binding EndPosition}" Header="End Position" Width="100" />
+                        <DataGridCheckBoxColumn Binding="{Binding CCWDIR}" ClipboardContentBinding="{Binding CCWDIR}" Header="Direction" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button x:Name="BtnStart" Content="Start" HorizontalAlignment="Left" Margin="546,298,0,0" VerticalAlignment="Top" Width="75" Click="BtnStart_Click"/>
+                <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="546,325,0,0" VerticalAlignment="Top" Width="75"/>
+            </Grid>
+        </TabItem>
+        <TabItem x:Name="tabAxisParaSet" Header="AxisParamterConfig" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="61">
+            <Grid Background="#FFE5E5E5" Margin="0,-2,0,176" DataContext="{Binding ElementName=tvAxisConfigList,Path=SelectedItem}">
+                <TreeView x:Name="tvAxisConfigList" HorizontalAlignment="Left" Height="349" Margin="10,10,0,0" VerticalAlignment="Top" Width="158">
+                    <TreeView.DataContext>
+                        <local:SingleAxisParameter />
+                    </TreeView.DataContext>
+                </TreeView>
+                <TextBlock HorizontalAlignment="Left" Margin="187,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" Height="23"><Run Text="AxisId Num" /><LineBreak /><Run /></TextBlock>
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,25,0,0" TextWrapping="Wrap" Text="{Binding Path=IDnum}" VerticalAlignment="Top" Width="106" />
+                <TextBlock HorizontalAlignment="Left" Margin="187,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" Height="23" Text="HomeMode" />
+                <TextBlock HorizontalAlignment="Left" Margin="187,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Height="23"><Run Text="Home Speed Mode" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="187,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Height="23"><Run Text="FeedBacb Pulse From" /><LineBreak /><Run /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="187,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" Height="23"><Run Text="INP Logic" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="187,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" Height="23" Text="ALM Stop Mode" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="554,25,0,0" TextWrapping="Wrap" Text="{Binding Path=PULSEOUTMODE}" VerticalAlignment="Top" Width="106" />
+                <TextBlock HorizontalAlignment="Left" Margin="440,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="PulseOutMode" /><LineBreak /><Run /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="440,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="HomeORGLogic" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="442,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="LTC Logic" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="442,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="INP Enable" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="442,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="ALM Logic" /><LineBreak /><Run /></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="442,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Height="23"><Run Text="EL Mode" /><LineBreak /><Run /></TextBlock>
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,56,0,0" TextWrapping="Wrap" Text="{Binding Path=HOMEMODE}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="554,56,0,0" TextWrapping="Wrap" Text="{Binding Path=HOMELOGIC}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,84,0,0" TextWrapping="Wrap" Text="{Binding Path=HOMESPEEDMODE}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="556,84,0,0" TextWrapping="Wrap" Text="{Binding Path=LTCLOGIC}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,112,0,0" TextWrapping="Wrap" Text="{Binding Path=PULSEINMODE}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="556,112,0,0" TextWrapping="Wrap" Text="{Binding Path=INPENABLE}" VerticalAlignment="Top" Width="106" RenderTransformOrigin="0.613,0.565" />
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,140,0,0" TextWrapping="Wrap" Text="{Binding Path=INPLOGIC}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="556,140,0,0" TextWrapping="Wrap" Text="{Binding Path=ALMLOGIC}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left"  Height="23" Margin="316,168,0,0" TextWrapping="Wrap" Text="{Binding Path=ALMSTOPMODE}" VerticalAlignment="Top" Width="106" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="556,168,0,0" TextWrapping="Wrap" Text="{Binding Path=AxiseElMode}" VerticalAlignment="Top" Width="106" />
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="72" Margin="316,287,0,0" VerticalAlignment="Top" Width="235">
+                    <Grid x:Name="grdata_GlobalMotionset">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="EMG" VerticalAlignment="Top" RenderTransformOrigin="0.556,1.708" />
+                        <TextBox HorizontalAlignment="Left" Height="24" Margin="83,2,0,0" TextWrapping="Wrap" Text="{Binding Path=EMGENABLE}" VerticalAlignment="Top" Width="120" />
+                        <TextBlock HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.556,1.708" Width="73"><Run Text="EMG" /><Run Text=" " /><Run Text="Logic" /></TextBlock>
+                        <TextBox HorizontalAlignment="Left" Height="24" Margin="83,31,0,0" TextWrapping="Wrap" Text="{Binding Path=EMGLOGIC}" VerticalAlignment="Top" Width="120" />
+                    </Grid>
+                </Border>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

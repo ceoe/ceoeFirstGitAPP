@@ -1,0 +1,14 @@
+bin\Debug\smooth.exe
+bin\Debug\smooth.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\smooth.Form1.resources
+obj\Debug\smooth.Properties.Resources.resources
+obj\Debug\smooth.csproj.GenerateResource.Cache
+obj\Debug\smooth.exe
+obj\Debug\smooth.pdb
+obj\Debug\smooth.noiseModel.resources
+obj\Debug\smooth.meanMedian.resources
+obj\Debug\smooth.morphologic.resources
+obj\Debug\smooth.wavelet.resources
+obj\Debug\smooth.gauss.resources
+obj\Debug\smooth.stati.resources

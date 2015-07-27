@@ -1,0 +1,10 @@
+bin\Debug\frequency.exe
+bin\Debug\frequency.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\frequency.Form1.resources
+obj\Debug\frequency.Properties.Resources.resources
+obj\Debug\frequency.csproj.GenerateResource.Cache
+obj\Debug\frequency.exe
+obj\Debug\frequency.pdb
+obj\Debug\frequency.granularity.resources
+obj\Debug\frequency.orientation.resources

@@ -1,0 +1,6 @@
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\bin\Debug\TestDelegateAndEventDemo.exe.config
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\bin\Debug\TestDelegateAndEventDemo.exe
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\bin\Debug\TestDelegateAndEventDemo.pdb
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\obj\Debug\TestDelegateAndEventDemo.exe
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\obj\Debug\TestDelegateAndEventDemo.pdb
+e:\documents and settings\bob\Visual Studio 2012\Projects\TestDelegateAndEventDemo\TestDelegateAndEventDemo\obj\Debug\TestDelegateAndEventDemo.csprojResolveAssemblyReference.cache

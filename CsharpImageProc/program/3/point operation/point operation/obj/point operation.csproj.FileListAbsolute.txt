@@ -1,0 +1,13 @@
+F:\书\program\3\point operation\point operation\obj\Debug\point operation.exe
+F:\书\program\3\point operation\point operation\obj\Debug\point operation.pdb
+F:\书\program\3\point operation\point operation\bin\Debug\point operation.exe
+F:\书\program\3\point operation\point operation\bin\Debug\point operation.pdb
+F:\书\program\3\point operation\point operation\obj\Debug\ResolveAssemblyReference.cache
+F:\书\program\3\point operation\point operation\obj\Debug\point_operation.Form1.resources
+F:\书\program\3\point operation\point operation\obj\Debug\point_operation.histForm.resources
+F:\书\program\3\point operation\point operation\obj\Debug\point_operation.linearPOForm.resources
+F:\书\program\3\point operation\point operation\obj\Debug\point_operation.Properties.Resources.resources
+F:\书\program\3\point operation\point operation\obj\Debug\point_operation.shapingForm.resources
+F:\书\program\3\point operation\point operation\obj\Debug\point operation.csproj.GenerateResource.Cache
+F:\C#数字图像处理的算法实现——赵春江\program\3\point operation\point operation\obj\Debug\point operation.exe
+F:\C#数字图像处理的算法实现——赵春江\program\3\point operation\point operation\obj\Debug\point operation.pdb

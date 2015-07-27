@@ -1,0 +1,14 @@
+﻿<Application 
+    x:Class="Wpftest2abc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:wpftest2="clr-namespace:Wpftest2"
+            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="TestWindwos1.xaml">
+    <Application.Resources>
+        <wpftest2:Human x:Key="human" Child="ABC"/>
+        <sys:String x:Key="welcomeString">
+            Hello WPF !
+            </sys:String>
+    </Application.Resources>
+</Application>

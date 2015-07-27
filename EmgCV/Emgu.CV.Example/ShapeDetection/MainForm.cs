@@ -17,11 +17,14 @@ namespace ShapeDetection
 {
    public partial class MainForm : Form
    {
-      public MainForm()
+       public Image<Bgr, Byte> OrginalImg;
+       public Image<Gray, Byte> CannyEdgeImage;
+       
+       public MainForm()
       {
          InitializeComponent();
 
-         fileNameTextBox.Text = "pic3.png";
+         //fileNameTextBox.Text = "pic3.png";
       }
 
       public void PerformShapeDetection()
@@ -33,19 +36,30 @@ namespace ShapeDetection
             //Load the image from file and resize it for display
             Image<Bgr, Byte> img = 
                new Image<Bgr, byte>(fileNameTextBox.Text)
-               .Resize(400, 400, Emgu.CV.CvEnum.INTER.CV_INTER_LINEAR, true);
+               .Resize(1024, 1024, Emgu.CV.CvEnum.INTER.CV_INTER_LINEAR, true);
+
+            OrginalImg = img;
 
             //Convert the image to grayscale and filter out the noise
             Image<Gray, Byte> gray = img.Convert<Gray, Byte>().PyrDown().PyrUp();
 
             #region circle detection
-            Stopwatch watch = Stopwatch.StartNew();
-            double cannyThreshold = 180.0;
-            double circleAccumulatorThreshold = 120;
+           
+
+            //double cannyThreshold = 80.0;
+            //double circleAccumulatorThreshold = 80;
+
+             double cannyThreshold = Convert.ToDouble(this.txtb_CannyThresholdValue.Text);
+             double circleAccumulatorThreshold = Convert.ToDouble(this.txtb_CircleAccumulatorThresHoldValue.Text);
+             double resolution = Convert.ToDouble(this.txtb_ResolutionValue.Text);
+
+             double cannyThresholdLinking = Convert.ToDouble(this.txtbThresholdLinking.Text);
+
+             Stopwatch watch = Stopwatch.StartNew();
             CircleF[] circles = gray.HoughCircles(
                 new Gray(cannyThreshold),
                 new Gray(circleAccumulatorThreshold),
-                2.0, //Resolution of the accumulator used to detect centers of the circles
+                resolution, //Resolution of the accumulator used to detect centers of the circles
                 20.0, //min distance 
                 5, //min radius
                 0 //max radius
@@ -56,8 +70,10 @@ namespace ShapeDetection
 
             #region Canny and edge detection
             watch.Reset(); watch.Start();
-            double cannyThresholdLinking = 120.0;
+           // double cannyThresholdLinking = 120.0;
             Image<Gray, Byte> cannyEdges = gray.Canny(cannyThreshold, cannyThresholdLinking);
+             CannyEdgeImage=cannyEdges;
+
             LineSegment2D[] lines = cannyEdges.HoughLinesBinary(
                 1, //Distance resolution in pixel-related units
                 Math.PI / 45.0, //Angle resolution measured in radians.
@@ -84,7 +100,7 @@ namespace ShapeDetection
                {
                   Contour<Point> currentContour = contours.ApproxPoly(contours.Perimeter * 0.05, storage);
 
-                  if (currentContour.Area > 250) //only consider contours with area greater than 250
+                  if (currentContour.Area > 200) //only consider contours with area greater than 250
                   {
                      if (currentContour.Total == 3) //The contour has 3 vertices, it is a triangle
                      {
@@ -106,7 +122,7 @@ namespace ShapeDetection
                         {
                            double angle = Math.Abs(
                               edges[(i + 1) % edges.Length].GetExteriorAngleDegree(edges[i]));
-                           if (angle < 80 || angle > 100)
+                           if (angle < 60 || angle > 120)
                            {
                               isRectangle = false;
                               break;
@@ -162,6 +178,47 @@ namespace ShapeDetection
          {
             fileNameTextBox.Text = openFileDialog1.FileName;
          }
+      }
+
+      private void label7_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void btn_Redo_Click(object sender, EventArgs e)
+      {
+          PerformShapeDetection();
+      }
+
+      private void MainForm_Load(object sender, EventArgs e)
+      {
+
+      }
+
+      private void chkBoxEdgeOrImage_CheckedChanged(object sender, EventArgs e)
+      {
+          double cannyThreshold = Convert.ToDouble(this.txtb_CannyThresholdValue.Text);
+          double cannyThresholdLinking = Convert.ToDouble(this.txtbThresholdLinking.Text);
+        
+          if (chkBoxEdgeOrImage.Checked)
+          {
+              chkBoxEdgeOrImage.Text = "Orignal Image";
+              if (originalImageBox.Image != null)
+              {
+                  originalImageBox.Image = OrginalImg;
+              }
+          }
+          else
+          {
+              chkBoxEdgeOrImage.Text = "Edge Image";
+              if (originalImageBox.Image != null)
+              {
+
+                  CannyEdgeImage = OrginalImg.Canny(cannyThreshold, cannyThresholdLinking);
+                  originalImageBox.Image = CannyEdgeImage;
+              }
+          }
+         
       }
    }
 }

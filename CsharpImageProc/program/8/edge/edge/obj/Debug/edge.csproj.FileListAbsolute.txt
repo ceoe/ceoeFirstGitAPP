@@ -1,0 +1,14 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\bin\Debug\edge.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\bin\Debug\edge.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.canny.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.gaussian.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.glp.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.mask.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.morphologic.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.wvl.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\8\edge\edge\obj\Debug\edge.csproj.GenerateResource.Cache

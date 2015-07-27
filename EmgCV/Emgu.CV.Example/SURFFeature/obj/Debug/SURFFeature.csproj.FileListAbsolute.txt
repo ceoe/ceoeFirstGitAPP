@@ -3,6 +3,5 @@ E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\box.png
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\box_in_scene.png
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.SURFFeature.exe
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\bin\Example.SURFFeature.pdb
-E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\SURFFeature\obj\Debug\SURFFeature.csprojResolveAssemblyReference.cache
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\SURFFeature\obj\Debug\Example.SURFFeature.exe
 E:\Documents and Settings\bob\Visual Studio 2012\Projects\EmgCV\Emgu.CV.Example\SURFFeature\obj\Debug\Example.SURFFeature.pdb

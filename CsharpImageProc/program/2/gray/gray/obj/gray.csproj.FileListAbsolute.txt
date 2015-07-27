@@ -1,0 +1,16 @@
+F:\书\program\2\gray\gray\obj\Debug\gray.exe
+F:\书\program\2\gray\gray\obj\Debug\gray.pdb
+F:\书\program\2\gray\gray\bin\Debug\gray.exe
+F:\书\program\2\gray\gray\bin\Debug\gray.pdb
+F:\书\program\2\gray\gray\obj\Debug\ResolveAssemblyReference.cache
+F:\书\program\2\gray\gray\obj\Debug\gray.Form1.resources
+F:\书\program\2\gray\gray\obj\Debug\gray.Properties.Resources.resources
+F:\书\program\2\gray\gray\obj\Debug\gray.csproj.GenerateResource.Cache
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\gray.exe
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\gray.pdb
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\bin\Debug\gray.exe
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\bin\Debug\gray.pdb
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\ResolveAssemblyReference.cache
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\gray.Form1.resources
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\gray.Properties.Resources.resources
+F:\C#数字图像处理的算法实现——赵春江\program\2\gray\gray\obj\Debug\gray.csproj.GenerateResource.Cache

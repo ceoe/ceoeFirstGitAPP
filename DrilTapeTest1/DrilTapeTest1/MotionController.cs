@@ -680,6 +680,12 @@ namespace DrilTapeTest1
             Dmc2610.d2610_emg_stop();
         }
 
+        public static bool ReadInputKey(ushort inum)
+        {
+
+            return (Dmc2610.d2610_read_inbit(0, inum) == 0 )? false : true;
+        }
+
     }
 
     }

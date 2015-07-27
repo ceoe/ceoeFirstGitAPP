@@ -2720,7 +2720,7 @@ namespace Emgu.CV
                    size.Width,
                    size.Height,
                    step,
-                   PixelFormat.Format24bppRgb,
+                   PixelFormat.Format8bppIndexed,
                    scan0);
             }
             else if (this is Image<Bgra, Byte>)

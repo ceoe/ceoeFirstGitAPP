@@ -1,0 +1,12 @@
+bin\Debug\geometry operations.exe
+bin\Debug\geometry operations.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\geometry_operations.Properties.Resources.resources
+obj\Debug\geometry operations.csproj.GenerateResource.Cache
+obj\Debug\geometry operations.exe
+obj\Debug\geometry operations.pdb
+obj\Debug\geometry_operations.Form1.resources
+obj\Debug\geometry_operations.translation.resources
+obj\Debug\geometry_operations.mirror.resources
+obj\Debug\geometry_operations.zoom.resources
+obj\Debug\geometry_operations.rotation.resources

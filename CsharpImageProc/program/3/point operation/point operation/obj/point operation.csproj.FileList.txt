@@ -1,0 +1,11 @@
+bin\Debug\point operation.exe
+bin\Debug\point operation.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\point_operation.Properties.Resources.resources
+obj\Debug\point operation.csproj.GenerateResource.Cache
+obj\Debug\point operation.exe
+obj\Debug\point operation.pdb
+obj\Debug\point_operation.Form1.resources
+obj\Debug\point_operation.histForm.resources
+obj\Debug\point_operation.linearPOForm.resources
+obj\Debug\point_operation.shapingForm.resources

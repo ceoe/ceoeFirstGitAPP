@@ -1,0 +1,10 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\bin\Debug\morphology.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\bin\Debug\morphology.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.hitmiss.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.struction.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\5\morphology\morphology\obj\Debug\morphology.csproj.GenerateResource.Cache

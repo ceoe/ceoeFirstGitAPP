@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "point operation", "point operation\point operation.csproj", "{4DE1C89C-1BFC-43F7-8EC8-10D9860D08EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DE1C89C-1BFC-43F7-8EC8-10D9860D08EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE1C89C-1BFC-43F7-8EC8-10D9860D08EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE1C89C-1BFC-43F7-8EC8-10D9860D08EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE1C89C-1BFC-43F7-8EC8-10D9860D08EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\bin\Debug\geometry operations.exe
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\bin\Debug\geometry operations.pdb
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.csprojResolveAssemblyReference.cache
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.Form1.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.mirror.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.Properties.Resources.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.rotation.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.translation.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry_operations.zoom.resources
+E:\Documents and Settings\bob\Visual Studio 2012\Projects\CsharpImageProc\program\4\geometry operations\geometry operations\obj\Debug\geometry operations.csproj.GenerateResource.Cache
